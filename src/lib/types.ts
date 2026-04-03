@@ -46,3 +46,25 @@ export interface SuggestedQuestion {
   text: string
   category: string
 }
+
+export interface SalesforceTicket {
+  id: string
+  caseNumber: string
+  subject: string
+  description: string
+  category: 'academic-advising' | 'financial-aid' | 'career-services' | 'counseling' | 'general'
+  priority: 'low' | 'medium' | 'high'
+  status: 'new' | 'open' | 'in-progress' | 'resolved'
+  studentName: string
+  createdAt: string
+  assignedTo?: string
+}
+
+export interface MenteeConnection {
+  id: string
+  student: Student
+  status: 'pending' | 'active' | 'completed'
+  lastContact: string
+  messages: number
+  topic: string
+}
