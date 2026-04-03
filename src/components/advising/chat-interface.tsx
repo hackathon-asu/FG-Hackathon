@@ -182,8 +182,7 @@ export const ChatInterface = forwardRef<ChatInterfaceHandle, ChatInterfaceProps>
                   How can I help you today?
                 </h3>
                 <p className="mt-2 max-w-sm text-sm text-muted-foreground">
-                  Ask me anything about your academics, campus resources, or
-                  college life. No question is too basic.
+                  No question is too basic. We are here to help you launch your career.
                 </p>
               </div>
             )}

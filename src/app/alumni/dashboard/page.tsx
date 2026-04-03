@@ -412,6 +412,29 @@ export default function AlumniDashboardPage() {
           </Card>
         </div>
 
+        {/* Referral Encouragement */}
+        <Card className="border border-secondary/30 bg-secondary/5">
+          <CardContent className="flex flex-col items-center gap-4 py-6 text-center sm:flex-row sm:text-left">
+            <div className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-secondary/15">
+              <TrendingUp className="size-7 text-secondary" />
+            </div>
+            <div className="flex-1">
+              <h3 className="text-lg font-semibold text-foreground">
+                Did you know? Companies pay referral bonuses.
+              </h3>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Many companies offer $1,000–$10,000+ when you refer someone who gets hired.
+                Our students are bright, motivated, and ready to work. Refer a first-gen student
+                from our talent pool — you help them land a career <em>and</em> earn a bonus.
+                Everyone wins.
+              </p>
+              <p className="mt-2 text-xs font-medium text-secondary">
+                Use the Find Students tab above to browse talent and connect.
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+
         <div className="text-center text-sm text-muted-foreground">
           Every conversation you have with a student can change their trajectory. Thank you for being here.
         </div>

@@ -6,7 +6,7 @@ import { Home, Users, Calendar, Award, BookOpen } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const tabs = [
-  { href: "/", label: "Home", icon: Home },
+  { href: "/", label: "Dashboard", icon: Home },
   { href: "/social", label: "Social", icon: Users },
   { href: "/events", label: "Events", icon: Calendar },
   { href: "/alumni", label: "Alumni", icon: Award },

@@ -43,10 +43,6 @@ export default function AdvisingPage() {
               <h1 className="text-2xl font-bold tracking-tight">
                 AI Academic Advisor
               </h1>
-              <Badge variant="secondary" className="gap-1">
-                <Sparkles className="size-3" />
-                Powered by AI
-              </Badge>
             </div>
             <p className="mt-1 text-sm text-muted-foreground">
               Get personalized guidance for your academic journey

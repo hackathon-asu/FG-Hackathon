@@ -195,24 +195,25 @@ export default function AlumniPage() {
         )}
 
         {/* Become a Mentor CTA */}
-        <Card className="mt-4 border-0 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent">
+        <Card className="border-0 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent">
           <CardContent className="flex flex-col items-center gap-4 py-8 text-center sm:flex-row sm:text-left">
             <div className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-primary/15">
               <Heart className="size-7 text-primary" />
             </div>
             <div className="flex-1">
               <h3 className="text-lg font-semibold text-foreground">
-                Were you a first-gen student?
+                Are you an alumni? Join as a mentor.
               </h3>
               <p className="mt-1 text-sm text-muted-foreground">
-                Your story can change someone&apos;s life. Join our alumni mentor network and help
-                the next generation navigate their journey. It only takes 30 minutes a month.
+                Your story can change someone&apos;s life. It only takes 30 minutes a month.
               </p>
             </div>
-            <Button className="shrink-0 bg-primary text-primary-foreground hover:bg-primary/90">
-              <GraduationCap className="size-4" />
-              Become a Mentor
-            </Button>
+            <a href="/alumni/signup">
+              <Button className="shrink-0 bg-primary text-primary-foreground hover:bg-primary/90">
+                <GraduationCap className="size-4" />
+                Sign Up as Alumni
+              </Button>
+            </a>
           </CardContent>
         </Card>
       </div>
