@@ -12,6 +12,8 @@ import {
   Compass,
   LayoutDashboard,
   Menu,
+  UserCog,
+  Shield,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -31,6 +33,8 @@ const navItems = [
   { href: "/advising", label: "AI Advisor", icon: BookOpen },
   { href: "/decisions", label: "Life Guide", icon: Compass },
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
+  { href: "/alumni/dashboard", label: "Alumni Portal", icon: UserCog },
+  { href: "/admin", label: "Admin", icon: Shield },
 ];
 
 function SidebarContent({ pathname }: { pathname: string }) {
