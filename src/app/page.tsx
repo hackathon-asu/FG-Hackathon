@@ -8,8 +8,8 @@ import {
   Compass,
   ArrowRight,
   Star,
-  Github,
-  Twitter,
+  Globe,
+  Heart,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -330,16 +330,16 @@ export default function LandingPage() {
               <a
                 href="#"
                 className="hover:text-foreground transition-colors"
-                aria-label="Twitter"
+                aria-label="Website"
               >
-                <Twitter className="size-4" />
+                <Globe className="size-4" />
               </a>
               <a
                 href="#"
                 className="hover:text-foreground transition-colors"
-                aria-label="GitHub"
+                aria-label="Support"
               >
-                <Github className="size-4" />
+                <Heart className="size-4" />
               </a>
             </div>
           </div>
