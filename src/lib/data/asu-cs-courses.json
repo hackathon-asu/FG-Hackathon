@@ -1,0 +1,434 @@
+[
+  {
+    "title": "CSE 100 - Principles of Programming with C++",
+    "content": "Introduction to programming using C++. Covers concepts of problem solving, algorithm design, structured programming, fundamental algorithms and techniques, and computer systems concepts. Topics include variables, data types, control structures, functions, arrays, pointers, and file I/O. No prior programming experience required. Credits: 3. Prerequisites: None. Note: Students may receive credit for only CSE 100 or CSE 110.",
+    "sourceUrl": "https://courses.ea.asu.edu/principles-of-programming-cse-110/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 110 - Principles of Programming",
+    "content": "Introductory course to programming using Java. Explores how computers and algorithms impact daily life. Covers problem solving techniques, algorithm design, variables, data types, collections, sequence/selection/iteration structures, functions with parameters and return values, object-oriented programming approaches, and computing's relevance in careers and society. No prior programming experience needed. Credits: 3. Prerequisites: None. MAT 117 College Algebra recommended. Grading: readings/activities 20%, individual assignments 20%, lab work 20%, midterm 20%, final exam 20%. Note: Students may receive credit for only CSE 100 or CSE 110.",
+    "sourceUrl": "https://courses.ea.asu.edu/principles-of-programming-cse-110/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 120 - Digital Design Fundamentals",
+    "content": "Introduction to digital logic design. Covers number systems, Boolean algebra, combinational logic design, sequential logic design, registers, counters, and memory. Provides foundation for computer organization and architecture courses. Credits: 3. Prerequisites: None for CS majors.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 180 - Computer Literacy",
+    "content": "Introduction to computing, data, and AI literacy. Covers fundamental concepts in computing and technology for non-majors and early-stage students. Credits: 3. Prerequisites: None.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 194 - Special Topics",
+    "content": "Special topics course in computer science and engineering. Topics vary by section and semester. Credits: 1. Prerequisites: Vary by topic.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 205 - Object-Oriented Programming and Data Structures",
+    "content": "Problem-solving through programming in an object-oriented language (Java), introducing data structures, and covering essential computer science topics. Topics include object-oriented design and UML, data structures (ArrayLists/Vectors, linked lists, queues, stacks), recursive algorithms, and ethical and social issues in computing. Uses the CSE205 zyBook interactive textbook. Credits: 3. Prerequisites: CSE 100 or CSE 110 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-205-Syllabus-SP25.pdf",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 220 - Programming for Computer Engineering",
+    "content": "Programming course designed for computer engineering majors. Covers programming fundamentals with emphasis on engineering applications. Credits: 3. Prerequisites: CSE 100 or CSE 110 with C or better.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 230 - Computer Organization and Assembly Language Programming",
+    "content": "Register-level computer organization, instruction set architecture, assembly language programming, and exception/interrupt handling. Covers the internal representation of data, CPU architecture, memory hierarchy, and I/O systems. Provides essential foundation for understanding how software interacts with hardware. Credits: 3. Prerequisites: CSE 120 or EEE 120 with C or better; CSE 100, 110, or 200 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-230-Syllabus-SP25.pdf",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 240 - Introduction to Programming Languages",
+    "content": "Introduces different programming paradigms including procedural (C/C++), functional (Scheme/Lisp), and logic (Prolog) programming. Covers syntax, semantics, and implementation of programming languages. Students learn to compare and contrast programming paradigms and understand language design principles. Credits: 3. Prerequisites: CSE 100 or CSE 110 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-240-Syllabus-SP25.pdf",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 259 - Logic in Computer Science",
+    "content": "Covers propositional logic, predicate logic, formal proofs, and their applications in computer science. Recommended for CS majors in place of MAT 267 (Calculus III) to better support upper-level programming courses. Provides logical foundations needed for theoretical computer science and programming language theory. Credits: 3. Prerequisites: MAT 243 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 301 - Computing Ethics",
+    "content": "Explores ethical and social issues in computing. Covers professional responsibility, privacy, intellectual property, software engineering ethics, AI ethics, and the societal impact of computing technology. Credits: 1. Prerequisites: FSE 100.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 310 - Data Structures and Algorithms",
+    "content": "Advanced data structures and algorithms course. Covers stacks, queues, trees (Red-Black trees, B-trees, B+ trees, AVL trees), graphs, searching, hashing, and sorting. Algorithms include merge sort, topological sort, single-source shortest paths (Bellman-Ford, Dijkstra's), Prim's and Kruskal's algorithms. Techniques include dynamic programming and greedy algorithms. Students must enroll in one recitation session. Credits: 3. Prerequisites: CSE 220 or CSE 240 with C or better; MAT 243 with D or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-310-Syllabus-SP25.pdf",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 320 - Design and Synthesis of Digital Hardware",
+    "content": "Advanced digital hardware design covering VHDL/Verilog hardware description languages, FPGA design, advanced combinational and sequential circuit design, finite state machines, and hardware synthesis techniques. Credits: 3. Prerequisites: CSE 120 or EEE 120 with C or better.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 325 - Embedded Microprocessor Systems",
+    "content": "Design and programming of embedded microprocessor systems. Covers microcontroller architecture, interfacing, real-time programming, and embedded system design techniques. Credits: 3. Prerequisites: CSE 230 with C or better.",
+    "sourceUrl": "https://labs.engineering.asu.edu/advent/cen-cse-courses-at-asu/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 330 - Operating Systems",
+    "content": "Operating system structure and services, processor scheduling, concurrent processes, synchronization techniques, memory management, virtual memory, input/output, storage management, and file systems. Students should be proficient in C programming and have knowledge of pointers. Credits: 3. Prerequisites: CSE 310 with C or better; CSE 230 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-330-Sylllabus-SP25.pdf",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 340 - Principles of Programming Languages",
+    "content": "Formal syntactic and semantic descriptions, compilation and implementation issues, and theoretical foundations for several programming paradigms. Topics include Syntax Analysis, Lambda Calculus, Basic Semantics, Type Systems, Abstract Data Types and Modules, Expressions and Statements, and Procedures and the Runtime Environment. Credits: 3. Prerequisites: CSE 310 with C or better; CSE 230 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-340-Syllabus-SP25.pdf",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 355 - Introduction to Theoretical Computer Science",
+    "content": "First introduction to the theoretical concepts of Computer Science. Covers formal language theory and automata (DFA, NFA, regular expressions, context-free grammars, pushdown automata), Turing machines, decidability/undecidability, recursive function theory, and introduction to complexity theory (P, NP, NP-completeness). Does not target a specific programming language or computing platform. Credits: 3. Prerequisites: CSE 310 with C or better; MAT 243 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-355-Syllabus-SP25.pdf",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 360 - Introduction to Software Engineering",
+    "content": "Software life cycle models; project management, team development environments and methodologies; software architectures; requirements engineering; software design; implementation and testing strategies; quality assurance and standards; legal and ethical issues in software development. Credits: 3. Prerequisites: CSE 205 with C or better; CSE 310 with C or better.",
+    "sourceUrl": "http://www.javiergs.com/teaching/cse360/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 365 - Information Assurance",
+    "content": "Concepts of information assurance (IA); basic IA techniques including cryptography, authentication, access control; security policies, risk management, security administration; legal and ethics issues in information security. Credits: 3. Prerequisites: CSE 310 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 408 - Multimedia Information Systems",
+    "content": "Multimedia data representation, compression, storage, retrieval, and presentation. Covers image, audio, and video processing fundamentals, multimedia databases, and content-based retrieval systems. Credits: 3. Prerequisites: CSE 310 with C or better.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 412 - Database Management",
+    "content": "Introduction to DBMS concepts, data models and languages, relational database theory, database design using ER modeling and normalization, SQL, transaction management, database security, integrity, and concurrency control. Credits: 3. Prerequisites: CSE 310 with C or better.",
+    "sourceUrl": "https://webapp4.asu.edu/bookstore/viewsyllabus/2227/87216/1000",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 420 - Computer Architecture I",
+    "content": "Fundamentals of computer architecture including pipelining, memory hierarchy design, instruction-level parallelism, multiprocessors, and performance evaluation. Covers modern processor design concepts and tradeoffs. Credits: 3. Prerequisites: CSE 230 with C or better; CSE 310 with C or better.",
+    "sourceUrl": "https://labs.engineering.asu.edu/advent/cen-cse-courses-at-asu/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 423 - Systems Capstone Project I",
+    "content": "First part of the two-semester capstone experience for Computer Systems Engineering students. Students work in teams on a significant engineering project. Covers project planning, requirements analysis, system design, and initial implementation. Credits: 3. Prerequisites: Senior standing in CSE program.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 430 - Operating Systems (Advanced)",
+    "content": "Advanced operating systems topics including distributed systems, advanced scheduling, advanced memory management, security in operating systems, and modern OS design. Credits: 3. Prerequisites: CSE 330 with C or better.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 434 - Computer Networks",
+    "content": "Computer network protocols, hardware elements, and software algorithms. Topics include error handling, routing, flow control, host-to-host communication, local area networks, network architecture (OSI model, TCP/IP), and network applications. Credits: 3. Prerequisites: CSE 330 with C or better; CSE 230 with C or better.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 438 - Embedded Systems Programming",
+    "content": "Programming techniques for embedded systems including real-time operating systems, device drivers, interrupt handling, and hardware/software co-design. Credits: 3. Prerequisites: CSE 230 with C or better; CSE 325 recommended.",
+    "sourceUrl": "https://labs.engineering.asu.edu/advent/cen-cse-courses-at-asu/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 440 - Compiler Construction I",
+    "content": "Design and implementation of compilers. Covers lexical analysis, parsing, semantic analysis, intermediate code generation, and code optimization. Students build components of a working compiler. Credits: 3. Prerequisites: CSE 340 with C or better.",
+    "sourceUrl": "https://labs.engineering.asu.edu/advent/cen-cse-courses-at-asu/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 445 - Distributed Software Development",
+    "content": "Principles and practices of distributed software development including web services, service-oriented architecture (SOA), RESTful APIs, cloud computing, microservices, and distributed system design patterns. Credits: 3. Prerequisites: CSE 310 with C or better; CSE 360 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 446 - Software Integration and Engineering",
+    "content": "Advanced software engineering covering software integration techniques, continuous integration/deployment, component-based development, and large-scale software system construction. Credits: 3. Prerequisites: CSE 360 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 450 - Design and Analysis of Algorithms",
+    "content": "Design and analysis of computer algorithms using analytical and empirical methods. Covers complexity measures, algorithm design methodologies (divide and conquer, dynamic programming, greedy, backtracking), graph algorithms, NP-completeness, and approximation algorithms. Credits: 3. Prerequisites: CSE 310 with C or better; CSE 355 with C or better.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 460 - Software Analysis and Design",
+    "content": "Advanced software design covering design patterns, software architecture, component-based design, and advanced object-oriented analysis. Emphasizes practical application of design principles to real-world software systems. Credits: 3. Prerequisites: CSE 360 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 463 - Introduction to Human Computer Interaction",
+    "content": "Principles and methods of human-computer interaction (HCI). Covers user-centered design, usability evaluation, interface design, accessibility, cognitive aspects of interaction, and prototyping techniques. Credits: 3. Prerequisites: CSE 310 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 464 - Software Quality Assurance and Testing",
+    "content": "Software testing methodologies, quality assurance processes, test planning and design, unit testing, integration testing, system testing, test automation, and software metrics. Credits: 3. Prerequisites: CSE 360 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 466 - Computer Systems Security",
+    "content": "Security of computer systems including operating system security, access control mechanisms, security models, trusted computing, intrusion detection, and system hardening techniques. Credits: 3. Prerequisites: CSE 365 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 467 - Data and Information Security",
+    "content": "Data security fundamentals including encryption, data protection mechanisms, database security, privacy-preserving techniques, and secure data management. Credits: 3. Prerequisites: CSE 365 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 468 - Computer Network Security",
+    "content": "Network security principles and practices including firewalls, VPNs, intrusion detection systems, network authentication, wireless security, and security protocols. Credits: 3. Prerequisites: CSE 365 with C or better.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 469 - Computer and Network Forensics",
+    "content": "Digital forensics principles including evidence collection, preservation, analysis, and presentation. Covers file system forensics, network forensics, mobile device forensics, and legal considerations in digital investigations. Credits: 3. Prerequisites: CSE 365 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 471 - Introduction to Artificial Intelligence",
+    "content": "Introduction to Artificial Intelligence covering basic ideas and methods in AI. Topics include informed and uninformed search, probabilistic inference, Markov decision processes, reinforcement learning, statistical learning, constraint satisfaction problems, game playing, and modeling and representation of problems. Credits: 3. Prerequisites: CSE 310 with C or better.",
+    "sourceUrl": "https://rakaposhi.eas.asu.edu/cse471/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 475 - Foundations of Machine Learning",
+    "content": "Machine learning techniques including data preparation, model evaluation, supervised learning, feature-based learning, deep neural networks, other machine learning techniques, machine learning operations (MLOps), and ethical concerns. Credits: 3. Prerequisites: CSE 310 with C or better; DAT 300 or IEE 380; MAT 342 or MAT 343 with C or better. Restricted to CS BS, CSE BSE, Data Science BS, or Informatics BS majors.",
+    "sourceUrl": "https://www.coursicle.com/asu/courses/CSE/475/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 476 - Introduction to Natural Language Processing",
+    "content": "Introduction to natural language processing covering morphology, syntax, semantics, and pragmatics. Includes fundamental tasks, algorithms, and techniques in these areas. Introduces knowledge-based, statistical, and neural approaches to NLP. Students conduct experiments with existing NLP resources and tools. Credits: 3. Prerequisites: CSE 310 with C or better. Restricted to CS BS, CSE BSE, or Data Science BS majors.",
+    "sourceUrl": "https://nlp.asu.edu/teaching/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 485 - Computer Science Capstone Project I",
+    "content": "First semester of the two-semester capstone experience for Computer Science students. Students work in teams on a significant software project from conception through design. Covers project planning, requirements analysis, system design, and team collaboration. Credits: 3. Prerequisites: Senior standing; CSE 360 with C or better.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 486 - Computer Science Capstone Project II",
+    "content": "Second semester of the capstone experience for Computer Science students. Continuation of the project started in CSE 485. Focuses on implementation, testing, deployment, and final presentation of the capstone project. Credits: 3. Prerequisites: CSE 485 with C or better.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 494 - Special Topics",
+    "content": "Special topics course in computer science and engineering at the 400-level. Topics vary by section and semester. Recent offerings have included: Artificial Intelligence for Cybersecurity, Machine Learning Acceleration, and other emerging CS topics. Credits: 1-3 (varies). Prerequisites: Vary by topic.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CSE 302 - Circuits for Computer Engineers",
+    "content": "Circuit analysis fundamentals for computer engineers including DC and AC circuits, operational amplifiers, and circuit simulation. Credits: 3. Prerequisites: PHY 131 or equivalent.",
+    "sourceUrl": "https://labs.engineering.asu.edu/advent/cen-cse-courses-at-asu/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "Computer Science BS - Degree Requirements Overview",
+    "content": "The Computer Science BS focuses on the design of computers, computational processes for problem solving, and information transfer and transformation with emphasis on improving software and system quality, security, performance, and usability. Total credits: approximately 120 semester hours. The program is ABET accredited by the Computing Accreditation Commission. Students may choose concentrations in Software Engineering or Cybersecurity. The degree requires: CSE core courses, math sequence, lab sciences, general studies, and technical electives.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/",
+    "category": "degree-requirements"
+  },
+  {
+    "title": "CS BS - Required Math Courses",
+    "content": "The CS program is mathematically intensive. Required math courses: MAT 265 (Calculus I), MAT 266 (Calculus II), MAT 243 (Discrete Mathematical Structures), MAT 343 (Applied Linear Algebra), IEE 380 (Probability and Statistics for Engineering). Additionally, students must take either MAT 267 (Calculus III) OR CSE 259 (Logic for Computer Science). Students are encouraged to take CSE 259 instead of MAT 267 to better support upper-level programming courses.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+    "category": "degree-requirements"
+  },
+  {
+    "title": "CS BS - Lab Science Requirements",
+    "content": "For 2024+ catalog years: 11 semester hours total. 8 hours (SCIT) from the same subject area and 3 hours (SCIT) from a different subject area. Lab Science Sequence Courses must include two classes from one subject area: Biology (BIO 181 and BIO 182), Chemistry (CHM 113 and CHM 116), Geology (GLG 101/103 and GLG 102/104), or Physics (PHY 121/122 or PHY 131/132). For 2022-2023 catalog years: 12 semester hours total.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+    "category": "degree-requirements"
+  },
+  {
+    "title": "CS BS - General Studies Gold Requirements (2024-2025+)",
+    "content": "Minimum 21 semester hours across six categories: Humanities, Arts and Design (HUAD) - 6 hours minimum; Social and Behavioral Sciences (SOBE) - 3 hours minimum; American Institutions - 3 hours minimum; Governance and Civic Engagement - 3 hours minimum; Global Communities, Societies and Individuals - 3 hours minimum; Sustainability - 3 hours minimum. First-year composition (ENG 101/102) is also required.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+    "category": "degree-requirements"
+  },
+  {
+    "title": "CS BS - Technical Electives",
+    "content": "Students must complete 6 hours of upper-division technical electives with a grade of C or better. Approved departments include: CSE, CIS, CPI, AME, BCH, BME, BIO, CHE, CEE, DAT, EEE, FSE, IEE, MSE, MAE, MAT, PHY, SER, and STP courses. Technical electives allow students to specialize in areas of interest within or adjacent to computer science.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+    "category": "degree-requirements"
+  },
+  {
+    "title": "CS BS - Core CSE Course Sequence",
+    "content": "Required CSE courses for the BS in Computer Science: CSE 110 (Principles of Programming), CSE 205 (Object-Oriented Programming & Data Structures), CSE 230 (Computer Organization and Assembly Language), CSE 240 (Introduction to Programming Languages), CSE 301 (Computing Ethics), CSE 310 (Data Structures and Algorithms), CSE 330 (Operating Systems), CSE 340 (Principles of Programming Languages), CSE 355 (Introduction to Theoretical Computer Science), CSE 360 (Introduction to Software Engineering), CSE 365 (Information Assurance), CSE 485 (Capstone I), CSE 486 (Capstone II). Plus FSE 100 (Introduction to Engineering) and CSE 450 (Design and Analysis of Algorithms). Additionally, students choose upper-division CSE electives (CSE 4XX courses).",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+    "category": "degree-requirements"
+  },
+  {
+    "title": "CS BS - Semester-by-Semester Plan (Typical 8-Semester Track)",
+    "content": "Year 1 Fall: ENG 101 (3), MAT 265 (3), CSE 110 (3), FSE 100 (2), Gen Studies (3) = ~14 credits. Year 1 Spring: ENG 102 (3), MAT 266 (3), CSE 205 (3), Lab Science (4), Gen Studies (3) = ~16 credits. Year 2 Fall: MAT 243 (3), CSE 230 (3), CSE 240 (3), Lab Science (4), Gen Studies (3) = ~16 credits. Year 2 Spring: MAT 343 (3), CSE 310 (3), CSE 259 or MAT 267 (3), Lab Science (3), Gen Studies (3) = ~15 credits. Year 3 Fall: IEE 380 (3), CSE 330 (3), CSE 340 (3), CSE 355 (3), CSE 301 (1) = ~13 credits. Year 3 Spring: CSE 360 (3), CSE 365 (3), CSE 450 (3), CSE 4XX elective (3), Gen Studies (3) = ~15 credits. Year 4 Fall: CSE 485 (3), CSE 4XX elective (3), CSE 4XX elective (3), Tech Elective (3), Gen Studies (3) = ~15 credits. Year 4 Spring: CSE 486 (3), CSE 4XX elective (3), Tech Elective (3), Gen Studies (3), Free Elective (3) = ~15 credits. Total: approximately 120 credits.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/04/Corrected-2025-26-Computer-Science-BS_Flowchart.pdf",
+    "category": "degree-requirements"
+  },
+  {
+    "title": "CS BS - Software Engineering Concentration",
+    "content": "Minimum 15 credits with C or higher. Required courses (12 credits): CSE 445 (Distributed Software Development), CSE 460 (Software Analysis and Design), CSE 446 (Software Integration and Engineering), CSE 464 (Software Quality Assurance and Testing). Elective (3 credits, choose one): CSE 463 (Intro to HCI), CSE 466 (Computer Systems Security), CSE 467 (Data and Information Security), CSE 468 (Computer Network Security). Available exclusively to ground campus students, typically beginning junior year.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+    "category": "degree-requirements"
+  },
+  {
+    "title": "CS BS - Cybersecurity Concentration",
+    "content": "Minimum 15 credits with C or higher. Required (3 credits): CSE 365 (Information Assurance). Cybersecurity Focus (6 credits, choose two): CSE 466 (Computer Systems Security), CSE 468 (Computer Network Security), CSE 469 (Computer and Network Forensics), CSE 494 (AI for Cybersecurity). Cybersecurity Electives (6 credits, choose two different): CSE 445, CSE 460, CSE 463, CSE 464, CSE 467, CSE 471. Available exclusively to ground campus students.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+    "category": "degree-requirements"
+  },
+  {
+    "title": "CS BS - 8-Semester Academic Tracking",
+    "content": "ASU uses an 8-semester tracking model monitoring completion of critical lower-division and necessary upper-division courses as predictors of academic success. Lower-division critical courses are tracked in the first four semesters. Upper-division necessary courses are tracked in semesters 5-8. Students falling behind on critical tracking courses should meet with their advisor immediately. University policy allows students to retake a course one time; students not successful after a second attempt will be asked to identify a new major.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+    "category": "degree-requirements"
+  },
+  {
+    "title": "Fulton Engineering - Academic Standards and GPA Requirements",
+    "content": "Good Standing: maintain acceptable GPAs and complete applicable courses each semester. Minimum to Graduate: cumulative GPA of 2.00 and major GPA of 2.00. Dean's List: 12+ graded credits in a semester with 3.50+ GPA. Probation triggered by: two consecutive semesters with GPA below 2.00, or cumulative ASU GPA below 2.00. Continuing Probation requires minimum 2.25 semester GPA. Disqualification results from probation with semester GPA below 2.25 AND cumulative GPA below 2.00. Maximum registration: 19 credit hours (13 for probation students). Graduation honors: Cum Laude (3.40-3.59), Magna Cum Laude (3.60-3.79), Summa Cum Laude (3.80-4.00) with minimum 56 resident credit hours.",
+    "sourceUrl": "https://catalog.asu.edu/policies/engineering",
+    "category": "academic-policies"
+  },
+  {
+    "title": "Fulton Engineering - Probation and Disqualification Policies",
+    "content": "University Academic Warning: undergraduate with cumulative GPA lower than 2.00 at end of first semester receives warning status and must self-enroll in Fulton Academic Success Strategies and meet with advisors. Probation Standards: must achieve minimum semester GPA of 2.25 and earn minimum cumulative ASU GPA of 2.00 by semester end. For single-course enrollment, C+ (2.33) or higher is required. Ineligibility: occurs when continuing probation students fail semester GPA thresholds, complete two consecutive probation semesters, or skip applicable courses. Ineligible students cannot register for 300/400-level Fulton courses unless degree-required. Disqualification: disqualified students cannot register for fall/spring semesters and face one-year readmission waiting period.",
+    "sourceUrl": "https://catalog.asu.edu/policies/engineering",
+    "category": "academic-policies"
+  },
+  {
+    "title": "Fulton Engineering - Transfer Credit and Course Policies",
+    "content": "Transfer Credits: only grades of C (2.00) or higher accepted for transfer credit. Courses exceeding five-year age may be declined for degree credit, though university elective credit is possible. Course Prerequisites: students lacking designated prerequisites may be withdrawn without consent at any time before the final examination. First-Year Composition: required for graduation. Grade Point Scale: A+ = 4.333, A = 4.000, A- = 3.667, B+ = 3.333, B = 3.000, B- = 2.667, C+ = 2.333, C = 2.000, D = 1.000, E = 0.000. Grades X, W, Y do not calculate toward GPA.",
+    "sourceUrl": "https://catalog.asu.edu/policies/engineering",
+    "category": "academic-policies"
+  },
+  {
+    "title": "SCAI Undergraduate Advising - Contact and Procedures",
+    "content": "Tempe Campus (Ground Program): Email scai.advising@asu.edu, Phone 480-965-3199, Location Centerpoint Suite 105, 660 S. Mill Ave., Tempe AZ 85281, Hours 8am-noon and 1-5pm Monday-Friday. Mesa Campus (Online Program): Email scaionline@asu.edu, Phone 480-965-3199, Location Picacho Hall Suite 245, 7151 E. Sonoran Arroyo Mall, Mesa AZ 85212. Two advising tracks: NEST (for new first-year SCAI students) and SOAR (for continuing students). Students MUST meet with an advisor during their first two semesters to be eligible to register. Annual check-ins recommended afterward. Common topics: degree requirements, four-year planning, course sequencing, campus resources, petitions/appeals.",
+    "sourceUrl": "https://scai.engineering.asu.edu/undergraduate-advising/",
+    "category": "academic-policies"
+  },
+  {
+    "title": "CSE 340 - Spring 2025 Syllabus Details",
+    "content": "CSE 340 Principles of Programming Languages, Spring 2025. Topics: Syntax Analysis (lexical analysis, parsing, context-free grammars), Lambda Calculus, Basic Semantics (operational and denotational), Type Systems (type checking, type inference), Abstract Data Types and Modules, Expressions and Statements, Procedures and the Runtime Environment. The course covers formal syntactic and semantic descriptions, compilation and implementation issues, and theoretical foundations for multiple programming paradigms. Credits: 3.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-340-Syllabus-SP25.pdf",
+    "category": "syllabi"
+  },
+  {
+    "title": "CSE 230 - Spring 2025 Syllabus Details",
+    "content": "CSE 230 Computer Organization and Assembly Language, Spring 2025. Topics: Register-level computer organization, Instruction set architecture, Assembly language programming, Exception/interrupt handling, Memory hierarchy, CPU datapath and control, I/O systems, Performance evaluation. Credits: 3. Prerequisites: CSE 120 or EEE 120 with C or better; CSE 100, 110 or 200 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-230-Syllabus-SP25.pdf",
+    "category": "syllabi"
+  },
+  {
+    "title": "CSE 240 - Spring 2025 Syllabus Details",
+    "content": "CSE 240 Introduction to Programming Languages, Spring 2025. Covers multiple programming paradigms: procedural programming (C/C++), functional programming (Scheme/Lisp), and logic programming (Prolog). Students compare and contrast paradigms and understand language design principles. Credits: 3. Prerequisites: CSE 100 or CSE 110 with C or better.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-240-Syllabus-SP25.pdf",
+    "category": "syllabi"
+  },
+  {
+    "title": "CSE 355 - Spring 2025 Syllabus Details",
+    "content": "CSE 355 Introduction to Theoretical Computer Science, Spring 2025. Provides first introduction to theoretical CS concepts. Topics: Deterministic Finite Automata (DFA), Nondeterministic Finite Automata (NFA), Regular Expressions, Context-Free Grammars, Pushdown Automata, Turing Machines, Decidability and Undecidability, Recursive Function Theory, Complexity Theory (P, NP, NP-completeness). Does not target a specific programming language. Credits: 3.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-355-Syllabus-SP25.pdf",
+    "category": "syllabi"
+  },
+  {
+    "title": "CSE 330 - Spring 2025 Syllabus Details",
+    "content": "CSE 330 Operating Systems, Spring 2025. Instructor: Adil Ahmad. Topics: Operating system structure and services, Process management and scheduling, Concurrent processes and synchronization (mutexes, semaphores, monitors), Memory management and virtual memory, Input/output and storage management, File systems, Security fundamentals. Students must be proficient in C programming. Credits: 3.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-330-Sylllabus-SP25.pdf",
+    "category": "syllabi"
+  },
+  {
+    "title": "CSE 110 - Spring 2025 Syllabus Details",
+    "content": "CSE 110 Principles of Programming, Spring 2025. Instructors: Ryan Meuth. Introduction to programming using Java. Topics: Problem solving techniques, Algorithm design, Variables and data types, Control structures (sequence, selection, iteration), Functions with parameters and return values, Arrays and collections, Object-oriented programming fundamentals, Debugging techniques. Grading: readings/activities 20%, assignments 20%, labs 20%, midterm 20%, final 20%. Credits: 3. No prior programming experience required.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-110-Syllabus-SP25.pdf",
+    "category": "syllabi"
+  },
+  {
+    "title": "CSE 310 - Spring 2025 Syllabus Details",
+    "content": "CSE 310 Data Structures and Algorithms, Spring 2025. Topics: Advanced data structures (stacks, queues, Red-Black trees, B-trees, B+ trees, AVL trees, graphs, hash tables), Sorting algorithms (merge sort, quicksort, heapsort), Graph algorithms (BFS, DFS, topological sort, shortest paths), Single-source shortest paths (Bellman-Ford, Dijkstra's), Minimum spanning trees (Prim's, Kruskal's), Dynamic programming, Greedy algorithms. Prerequisites: CSE 220 or 240 with C or better; MAT 243 with D or better. Includes mandatory recitation session. Credits: 3.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-310-Syllabus-SP25.pdf",
+    "category": "syllabi"
+  },
+  {
+    "title": "CSE 205 - Syllabus Details",
+    "content": "CSE 205 Object-Oriented Programming and Data Structures. Topics: Object-oriented design and UML, Java programming, Data structures (ArrayLists, Vectors, linked lists, queues, stacks), Recursive algorithms, File I/O, Exception handling, GUI programming basics, Ethical and social issues in computing. Uses zyBook interactive textbook. Prerequisites: CSE 100 or 110 with C or better. Credits: 3.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/05/cse205_s15_syllabus.pdf",
+    "category": "syllabi"
+  },
+  {
+    "title": "CSE 471 - Course Details from Faculty Page",
+    "content": "CSE 471 Introduction to Artificial Intelligence. Topics include: Intelligent agents, Problem solving by search (uninformed and informed), Constraint satisfaction problems, Game playing (adversarial search), Probabilistic reasoning, Markov decision processes, Reinforcement learning, Statistical learning and classification, Knowledge representation. Credits: 3. Prerequisites: CSE 310 with C or better.",
+    "sourceUrl": "https://rakaposhi.eas.asu.edu/cse471/",
+    "category": "syllabi"
+  },
+  {
+    "title": "Graduate-Level CSE Courses at ASU",
+    "content": "ASU also offers graduate-level CSE courses including: CSE 520 (Parallel Computer Architecture), CSE 522 (Real-Time Embedded Systems), CSE 524 (Machine Learning Acceleration), CSE 536 (Advanced Operating Systems), CSE 571 (Artificial Intelligence - graduate level), CSE 574 (Planning & Learning Methods in AI), CSE 591 (Cyber Physical Systems), CSE 598 (Various advanced topics including Embedded Machine Learning, Advanced Digital Design, Reconfigurable Computing, Intelligent and Safe Cyber-Physical Systems). A new 'Compilers for ML' course is forthcoming.",
+    "sourceUrl": "https://labs.engineering.asu.edu/advent/cen-cse-courses-at-asu/",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CS MS/MCS Area Course Categories",
+    "content": "Graduate CS courses are organized into areas: Foundations (theoretical CS, algorithms, programming languages), Systems (operating systems, networks, architecture, embedded systems, compilers), Applications (AI, machine learning, NLP, databases, HCI, multimedia, security). This categorization also helps undergraduates understand how elective choices align with graduate specialization areas.",
+    "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2023/04/List-of-CS-Area-Courses-Matrix.pdf",
+    "category": "cs-courses"
+  },
+  {
+    "title": "CS BS - Accelerated Master's Program",
+    "content": "Qualifying CS BS undergraduates can pursue an accelerated pathway to a Master's degree. This allows students to count certain graduate-level courses toward both their undergraduate and graduate degrees, reducing the total time to complete both degrees. Students should consult with SCAI advising for eligibility requirements.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/",
+    "category": "degree-requirements"
+  },
+  {
+    "title": "SCAI (School of Computing and Augmented Intelligence) - Overview",
+    "content": "The School of Computing and Augmented Intelligence (SCAI), formerly CIDSE (School of Computing, Informatics, and Decision Systems Engineering), is part of the Ira A. Fulton Schools of Engineering at ASU. SCAI administers the Computer Science BS, Computer Systems Engineering BSE, Computer Science (Software Engineering) BS, Informatics BS, and Data Science BS programs, among others. Located on the Tempe campus.",
+    "sourceUrl": "https://scai.engineering.asu.edu/",
+    "category": "academic-policies"
+  },
+  {
+    "title": "Required Support Courses for CS BS",
+    "content": "In addition to CSE courses, the CS BS requires: FSE 100 (Introduction to Engineering, 2 credits) - an introductory engineering course covering engineering problem solving, teamwork, and professional skills; ENG 101 (First-Year Composition, 3 credits); ENG 102 (First-Year Composition, 3 credits). These are typically completed in the first year.",
+    "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+    "category": "degree-requirements"
+  }
+]

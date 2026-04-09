@@ -1,0 +1,1484 @@
+{
+  "chunks": [
+    {
+      "id": "ai-policy-overview",
+      "title": "ASU Academic Integrity Policy - Overview and Definitions",
+      "text": "The ASU Student Academic Integrity Policy establishes procedures to resolve academic dishonesty allegations fairly, designed for students and faculty. It does not address grade disputes. Academic Deceit is any deceptive or fraudulent act that creates or attempts to create an advantage or disadvantage for any member of the academic community. The Academic Integrity Officer is a College/School official managing investigations and adjudication, guiding both parties through processes. An Advisor is an individual selected by a student to assist during proceedings (may be faculty, staff, student, or representative) but cannot speak directly for the student. A College/School Board is a faculty committee with at least one student member, appointed by the Dean to review dishonesty allegations. The University Academic Integrity Hearing Board is a Provost-appointed board reviewing student appeals from College/School decisions. A 'Day' means a university business day (excludes weekends, holidays, closure days).",
+      "source": "ASU Provost - Academic Integrity Policy",
+      "sourceUrl": "https://provost.asu.edu/academic-integrity/policy",
+      "category": "academic-integrity"
+    },
+    {
+      "id": "ai-policy-obligations",
+      "title": "ASU Academic Integrity - Student Obligations and Types of Dishonesty",
+      "text": "All ASU students must maintain honesty and integrity. Academic dishonesty encompasses: (1) Academic deceit - any deceptive or fraudulent act. (2) Using or attempting to use unauthorized materials, sources, technologies, devices, or persons in connection with a course or Academic Evaluation. (3) Providing or attempting to provide inappropriate aid to another person, including signing an attendance sheet for another student. (4) Using words, ideas, materials, or work without properly acknowledging and documenting the source (plagiarism), or using one's own work produced for another purpose (self-plagiarism). (5) Falsifying internship/externship/clinical hours or activities. (6) Attempting to influence or change evaluations or records. Reports of violations may be submitted to the Instructor or Academic Integrity Officer. Upon sufficient basis, the Officer notifies the student and initiates investigation. The student receives a summary and 5 business days to respond to the allegation.",
+      "source": "ASU Provost - Academic Integrity Policy",
+      "sourceUrl": "https://provost.asu.edu/academic-integrity/policy",
+      "category": "academic-integrity"
+    },
+    {
+      "id": "ai-policy-sanctions",
+      "title": "ASU Academic Integrity - Sanctions and Appeals Process",
+      "text": "Possible sanctions for academic dishonesty at ASU include: reduced or failing grade for assignment, reduced or failing grade for course, XE grade (failure due to academic dishonesty), credit withdrawal for previously accepted course, suspension from the University for a specific period, expulsion from the University without expectation of readmission, and other sanctions per Student Code of Conduct. Student and Instructor may agree on sanctions, subject to Dean approval. The Dean may reject proposed resolution. Students may appeal to the Dean within 10 business days after the notification date. Appeals require written submission including: factual narrative with dates/times, witness names, and evidence description. If timely appealed, sanctions are not imposed until resolution. If filed during final semester, grades/degrees may be withheld pending resolution.",
+      "source": "ASU Provost - Academic Integrity Policy",
+      "sourceUrl": "https://provost.asu.edu/academic-integrity/policy",
+      "category": "academic-integrity"
+    },
+    {
+      "id": "ai-policy-hearing",
+      "title": "ASU Academic Integrity - College/School Board Hearing Process",
+      "text": "When a student appeals an academic dishonesty finding, the Academic Integrity Officer forwards the appeal to the Instructor. Pre-Hearing notice includes hearing time/place, policy copy, and witness list requirements (at least 5 business days before hearing). Hearings are closed to preserve confidentiality. The Board Chair presides on procedural matters. Formal evidence rules don't apply. The Instructor has the burden of showing it is more likely than not that the student engaged in Academic Dishonesty. Prior violations may indicate pattern but don't prove current violations. Students failing to appear abandon appeals unless extraordinary circumstances prevented attendance. Students and Instructors may have Advisors (non-speaking, unless Chair permits). Hearings are recorded. Witnesses are excluded except during testimony. The presentation order is: Instructor proceeds first, opening statements, witness testimony under oath with cross-examination, Board questions, then closing statements.",
+      "source": "ASU Provost - Academic Integrity Policy",
+      "sourceUrl": "https://provost.asu.edu/academic-integrity/policy",
+      "category": "academic-integrity"
+    },
+    {
+      "id": "ai-policy-xe-grade",
+      "title": "ASU Academic Integrity - XE Grade and Post-Decision Rules",
+      "text": "The XE grade appears on transcripts as failure due to academic dishonesty, treated as an E for GPA and academic standing purposes. No student with an XE grade on their transcript shall be permitted to represent the University in any extracurricular activity or to run for or hold office in any recognized student organization. The XE grade is generally permanent. After 12 months have elapsed since the XE grade was imposed, students may petition the Dean for removal and E replacement (this is discretionary). Before replacement, the Dean may require attestation that the student has not engaged in further dishonesty at ASU or elsewhere. False representations result in XE reinstatement and suspension/expulsion recommendation. Student work affected by dishonesty findings may be removed from libraries or withdrawn from third parties. One year after suspension completion, students may petition the Provost for notation removal. Expulsion and degree revocation notations are permanent.",
+      "source": "ASU Provost - Academic Integrity Policy",
+      "sourceUrl": "https://provost.asu.edu/academic-integrity/policy",
+      "category": "academic-integrity"
+    },
+    {
+      "id": "standing-overview",
+      "title": "ASU Academic Standing Requirements",
+      "text": "Undergraduate students must maintain an ASU cumulative GPA of 2.00 or higher at the end of each fall or spring semester to remain in Academic Good Standing. Students meeting this standard may enroll without restrictions. First-semester students failing to achieve a 2.00 GPA receive an academic warning with no enrollment restrictions but must make meaningful improvements. Students receive probation if they remain below 2.00 GPA after one semester on warning, or fall below minimum in non-first semesters. Probation lasts at least one additional semester. Students on probation who achieve a 2.00 semester GPA but remain below 2.00 cumulatively transition to continuing probation. Students on probation who fail to meet their college's standards face disqualification, which restricts enrollment and results in automatic course cancellation. Readmission requires approval. ASU may require students below 2.00 GPA to complete UNI 220: Mindset Connections Program (1 credit).",
+      "source": "ASU Registrar - Academic Standing",
+      "sourceUrl": "https://registrar.asu.edu/academic-standing-explained",
+      "category": "academic-standing"
+    },
+    {
+      "id": "retention-standards",
+      "title": "ASU Retention Standards, Class Standing, and Disqualification",
+      "text": "ASU class standing is based on credit hours earned: Freshman (0-24 hours), Sophomore (25-55 hours), Junior (56-86 hours), Senior (87+ hours). The minimum requirement for academic good standing is a cumulative GPA of 2.00 for all degree-seeking students. First-term students failing to meet the 2.0 GPA threshold receive a warning and must meet with an academic success advisor. Students whose GPA drops below 2.0 after their initial term enter probation. Individual colleges may establish higher GPA standards. Disqualified students are prevented from fall/spring enrollment but may: attempt reinstatement, participate in co-enrolled continuing probation (taking UNI 220 plus one ASU course with community college co-enrollment, requiring 2.50+ combined GPA), or attend summer sessions to improve their cumulative GPA. Readmission requires reapplying and paying applicable fees. Students lacking academic good standing undergo college review before reinstatement.",
+      "source": "ASU Academic Catalog - Retention and Standing",
+      "sourceUrl": "https://catalog.asu.edu/retention_standing",
+      "category": "academic-standing"
+    },
+    {
+      "id": "grading-scale",
+      "title": "ASU Grading Scale and GPA Calculation",
+      "text": "ASU Grading Scale (Fall 2004 and After): A+ (4.33), A (4.00), A- (3.67), B+ (3.33), B (3.00), B- (2.67), C+ (2.33), C (2.00), D (1.00), E (0.00). The cumulative GPA is capped at 4.00 despite the A+ value. Special designations: I (Incomplete), NR (No Report), P (Pass), W (Withdrawal), X (Audit), Y (Satisfactory), Z (Course in Progress), EN (Never Participated), EU (Did Not Complete), XE (Academic Dishonesty). GPA Calculation: Multiply grade point value by semester hours to get honor points. Divide total honor points by net hours to get GPA. One semester hour requires one 50-minute class per week. Students must be properly registered and pay fees to receive credit. Grading options cannot be changed after the add period closes.",
+      "source": "ASU Registrar - Grades",
+      "sourceUrl": "https://registrar.asu.edu/grades",
+      "category": "grading"
+    },
+    {
+      "id": "grading-special",
+      "title": "ASU Incomplete Grades, Withdrawal, Pass/Fail, and Course Repetition",
+      "text": "Incomplete Grades (I): Students receive an incomplete when otherwise doing acceptable work but unable to complete the course due to illness or circumstances beyond control. Completion must occur within one calendar year from the date the I is recorded. Undergraduate incomplete grades automatically convert to E if not finished within one year. Withdrawal (W): Students withdrawing after the first week receive a W mark, earning no credit or grade. The W does not affect GPA. Pass/Fail Grading: The P option requires permission from both the class instructor and the student's college or school. Pass grades earn credit hours but don't factor into GPA calculations. Course Repetition: Undergraduates may repeat courses earning D, E, W, or X grades. Courses with C or higher generally cannot be repeated for credit. Federal regulations limit financial aid eligibility to repeat the same course twice with passing grades.",
+      "source": "ASU Registrar - Grades",
+      "sourceUrl": "https://registrar.asu.edu/grades",
+      "category": "grading"
+    },
+    {
+      "id": "grade-appeals",
+      "title": "ASU Grade Appeal Process",
+      "text": "ASU requires students to follow specific procedures when appealing grades. The process must be completed by commencement for the fall or spring following grade issuance. Step A - Instructor Conference: Students must initially meet with the instructor to discuss grade concerns. The instructor must review the matter and explain how the grade was determined. If the instructor is a graduate assistant, students may escalate to the faculty member overseeing the course. Step B - Department Chair Review: Available only in departmentalized colleges, students may appeal to the department chair if Step A doesn't resolve the dispute. Step C - Dean Review: If unresolved, students may consult the college or school dean, who may refer it to the grievance committee. Step D - Grievance Committee Hearing: Each college maintains procedures for its academic grievance hearing committee, which meets with both student and instructor. Step E - Dean's Final Decision: The dean takes final action, may authorize grade changes, and must notify all parties. University policy protects students from retaliation for filing grievances.",
+      "source": "ASU Academic Catalog - Grade Appeals",
+      "sourceUrl": "https://catalog.asu.edu/appeal",
+      "category": "grading"
+    },
+    {
+      "id": "transfer-credits",
+      "title": "ASU Transfer Credit Policies",
+      "text": "ASU accepts transfer credits from regionally accredited institutions. Minimum Grade Requirement: ASU accepts college-level (not remedial) courses with a grade of C- or higher. Community College Limits: A maximum of 64 credit hours can be transferred from community or two-year colleges, with exceptions for some specialized programs. GPA Handling: Transfer grades aid admission decisions, but ASU cumulative GPA reflects only ASU coursework. Non-Accepted Credits: ASU does not accept courses graded below C-, credits from unaccredited institutions, life experience credits, coursework from non-collegiate entities, or continuing education units. Students may appeal denied transfer credits through Admission Services or Academic Transfer Credit Solutions. Some ASU colleges decline credit for courses using nontraditional grading (such as pass/fail systems). Credits based on different unit systems require conversion before transfer. Individual ASU departments determine how transfer coursework applies to specific degree requirements.",
+      "source": "ASU Academic Catalog - Transfer Credits",
+      "sourceUrl": "https://catalog.asu.edu/transfer",
+      "category": "transfer-credits"
+    },
+    {
+      "id": "graduation-requirements",
+      "title": "ASU Undergraduate Graduation Requirements",
+      "text": "Students pursuing a baccalaureate degree must complete a minimum of 120 credit hours, with at least 45 in upper-division courses. No more than 60 credit hours from independent learning or comprehensive examinations (AP, CLEP, DANTES, Cambridge, IB) count toward the degree. A cumulative GPA of at least 2.00 across all ASU coursework is required for graduation (some programs mandate higher minimums). All students must satisfy the General Studies requirement. Students entering fall 2024 follow General Studies Gold; earlier students follow General Studies Maroon. Math Requirement: Students must fulfill math by accumulating 30 credit hours; those exceeding 30 hours without meeting it must enroll in math every semester. First-Year Composition: Completion of ENG 101 and ENG 102, or ENG 105 (grade C or higher). Non-native English speakers may use ENG 107 and 108. Residency: Minimum 30 credit hours in resident courses at ASU. Graduation honors: cum laude (3.40-3.59 GPA), magna cum laude (3.60-3.79), summa cum laude (3.80-4.00).",
+      "source": "ASU Academic Catalog - Undergraduate Requirements",
+      "sourceUrl": "https://catalog.asu.edu/undergraduatereq",
+      "category": "graduation-requirements"
+    },
+    {
+      "id": "sap-overview",
+      "title": "ASU Satisfactory Academic Progress (SAP) for Financial Aid",
+      "text": "To maintain federal financial aid eligibility at ASU, students must demonstrate adequate academic progress through three annual measurements conducted after the spring semester. (1) GPA Standard: Undergraduate minimum 2.00 cumulative GPA, Graduate minimum 3.00. Students on academic disqualification lose aid eligibility. (2) Pace Rate Standard: Students must pass at least 67% of total attempted ASU credit hours. Passed courses exclude grades of E, EU, or W. Retaken courses count as passed only once but attempted twice. Audited, ungraded, remedial, and Z-graded courses are excluded. (3) Maximum Credit Hour Standard: Students cannot exceed maximum attempted credit hours for their degree program, including transfer credits.",
+      "source": "ASU Tuition - SAP",
+      "sourceUrl": "https://tuition.asu.edu/satisfactory-academic-progress",
+      "category": "financial-aid"
+    },
+    {
+      "id": "sap-appeals",
+      "title": "ASU SAP Appeals Process and Probation",
+      "text": "Students not meeting SAP standards may submit an appeal with documentation of extenuating circumstances, including: death of family member, student or family illness/injury, family difficulties (divorce), interpersonal problems, natural disasters, disability-related academic hardship, excess transfer credits or major changes. Approved appeals result in one probationary term of financial aid eligibility. All SAP decisions are final and cannot be reviewed further. Not all scholarships or private loans require SAP compliance. Students may still register without meeting SAP but cannot receive federal or state financial aid. SAP is reviewed annually after the spring semester. Students who lose eligibility must either appeal successfully or pay out of pocket until they meet the standards again.",
+      "source": "ASU Tuition - SAP",
+      "sourceUrl": "https://tuition.asu.edu/satisfactory-academic-progress",
+      "category": "financial-aid"
+    },
+    {
+      "id": "calendar-spring-2026",
+      "title": "ASU Academic Calendar - Spring 2026",
+      "text": "Spring 2026 Academic Calendar: Session A runs January 12 to March 3, 2026. Session B runs March 16 to May 1, 2026. Session C (full semester) runs January 12 to May 1, 2026 with Finals May 4-9. Registration begins September 22, 2025. Classes begin January 12 (Session A and C) and March 16 (Session B). Martin Luther King Jr. Holiday is January 19. Spring Break is March 8-15. Commencement is May 11, 2026. Sessions A and B are 7.5-week accelerated sessions. Session C is the traditional 15-week full semester plus finals week.",
+      "source": "ASU Registrar - Academic Calendar",
+      "sourceUrl": "https://registrar.asu.edu/academic-calendar",
+      "category": "academic-calendar"
+    },
+    {
+      "id": "calendar-summer-fall-2026",
+      "title": "ASU Academic Calendar - Summer and Fall 2026",
+      "text": "Summer 2026: Session A runs May 18 to June 26. Session B runs July 1 to August 11. Session C runs May 18 to July 10. Registration opens February 5. Memorial Day observed May 25. Independence Day observed July 3. Degree conferral August 11. Fall 2026: Session A runs August 20 to October 9. Session B runs October 14 to December 4. Session C runs August 20 to December 4 with Finals December 7-12. Registration begins February 23. Labor Day September 7. Fall Break October 10-13. Veterans Day November 11. Thanksgiving November 26-27. Commencement December 14, 2026.",
+      "source": "ASU Registrar - Academic Calendar",
+      "sourceUrl": "https://registrar.asu.edu/academic-calendar",
+      "category": "academic-calendar"
+    },
+    {
+      "id": "calendar-spring-2027",
+      "title": "ASU Academic Calendar - Spring and Summer 2027",
+      "text": "Spring 2027: Session A runs January 11 to March 2, 2027. Session B runs March 15 to April 30, 2027. Session C runs January 11 to April 30, 2027 with Finals May 3-8. Registration begins September 21, 2026. Commencement May 10, 2027. Summer 2027 and Fall 2027 calendars follow comparable session structures with standard holiday observances. ASU uses Sessions A and B (7.5 weeks each) and Session C (15 weeks) for fall and spring. Summer uses Sessions A and B (6 weeks each) and Session C (8 weeks). Drop/add deadlines, tuition payment dates, and withdrawal windows are specified for each session.",
+      "source": "ASU Registrar - Academic Calendar",
+      "sourceUrl": "https://registrar.asu.edu/academic-calendar",
+      "category": "academic-calendar"
+    },
+    {
+      "id": "asu-online",
+      "title": "ASU Online Policies and Information",
+      "text": "ASU Online international students are those not currently citizens, permanent residents, or refugees in the U.S. attending ASU through the online modality. Online international students are not issued an F-1 visa or I-20 to travel to the U.S. Students currently residing in the U.S. under an F-1 student visa may not enroll in online programs. Professional Licensure: ASU programs are generally designed to prepare students for licensure in Arizona. Completing an ASU program may not meet educational requirements for licensure in other states. Relocating may impact program eligibility, licensure requirements, and financial aid. Credit Transfers: ASU does not guarantee credits will transfer to other institutions. ASU awards transfer credit for college-level coursework from regionally accredited institutions with a grade of C or higher. ASU is accredited by the Higher Learning Commission (HLC). ASU Online students earn the same degree as on-campus students with no distinction on diploma or transcript. Contact: (480) 884-1525 or asuonline@asu.edu.",
+      "source": "ASU Online - Policies",
+      "sourceUrl": "https://asuonline.asu.edu/about-us/policies",
+      "category": "asu-online"
+    },
+    {
+      "id": "syllabus-guidelines",
+      "title": "ASU Syllabus Requirements and Guidelines",
+      "text": "All ASU course syllabi must adhere to policy ACD 304-10. Required elements include: Course Description (content, goals, methodology, special requirements), Enrollment Requirements (prerequisites, corequisites, antirequisites), Course Overview (expanded catalog description), Course Objectives (what faculty will cover), Expected Learning Outcomes (measurable competencies students will gain, formatted as 'Students completing this course will be able to...'). Assignment sections must describe types, frequency, weight percentages or point values, due dates, makeup policies, late policies, and grading criteria. Required Materials must list all textbooks, online platforms, calculators, software, and lab supplies with costs. Course Structure must include pacing/timeline, weekly schedule or module breakdown, reading dates, assignment due dates, and exam schedules. Grading must provide clear accounting of all graded activities with assigned weights.",
+      "source": "ASU Provost - Syllabus Guidelines",
+      "sourceUrl": "https://provost.asu.edu/curriculum-development/curriculum-management/syllabus-guidelines",
+      "category": "academic-policies"
+    },
+    {
+      "id": "policies-hub-records",
+      "title": "ASU Academic Records, FERPA, and Grade Change Policies",
+      "text": "ASU maintains university-wide academic policies subject to change. FERPA protects student educational records privacy (SSM 107-01 on student information release, SSM 203-04 on self-imposed holds). Grade policies: SSM 203-01 covers grade changes, SSM 203-02 covers academic record modifications, SSM 203-03 covers official transcript ordering, SSM 203-05 covers undergraduate credit duplication, SSM 203-06 covers deletion of D or E grades by undergraduates, SSM 203-09 covers incomplete grade procedures. Students can request official and unofficial transcripts through the Registrar.",
+      "source": "ASU Academic Catalog - Policies Hub",
+      "sourceUrl": "https://catalog.asu.edu/acad_pol_procedures",
+      "category": "academic-policies"
+    },
+    {
+      "id": "policies-hub-registration",
+      "title": "ASU Registration Policies (SSM 201 Series)",
+      "text": "ASU registration policies: SSM 201-01 covers general registration procedures. SSM 201-02 covers instructor-initiated drops for nonattendance. SSM 201-03 covers drop/add/swap processes. SSM 201-04 covers course overrides and overloads. SSM 201-05 covers registration after published deadlines (late registration). SSM 201-07 covers administrative enrollment holds. SSM 201-08 covers class withdrawals. SSM 201-09 covers medical/compassionate withdrawals. SSM 201-10 covers disruptive behavior removal. SSM 201-11 covers degree/major/campus changes. SSM 201-12 covers class cancellation procedures. SSM 201-13 covers third-time course petitions. SSM 201-14 covers late withdrawals. SSM 201-18 covers military activation accommodations.",
+      "source": "ASU Academic Catalog - Policies Hub",
+      "sourceUrl": "https://catalog.asu.edu/acad_pol_procedures",
+      "category": "registration-policies"
+    },
+    {
+      "id": "policies-hub-eadvisor",
+      "title": "ASU eAdvisor Academic Progress Tracking",
+      "text": "ASU uses eAdvisor to track student academic progress. The system monitors: Critical requirements essential for progression, Milestones representing completion benchmarks, and Necessary requirements supporting degree completion. Students are classified as On Track, Off Track, or Twice Off Track based on their progress. Students who fall off track may face advising holds and additional requirements. The eAdvisor system helps students follow curriculum checksheets, track graduation progress, and plan course sequences.",
+      "source": "ASU Academic Catalog - Policies Hub",
+      "sourceUrl": "https://catalog.asu.edu/acad_pol_procedures",
+      "category": "advising"
+    },
+    {
+      "id": "policies-hub-graduation",
+      "title": "ASU Graduation Application and Degree Types",
+      "text": "Graduation policies: SSM 204-03 covers application for Bachelor's and Associate graduation. SSM 204-02 covers Master's and Doctoral Programs of Study. SSM 204-04 covers Master's/Doctoral graduation application. SSM 204-07 covers posthumous degree procedures. Special degree types available: Accelerated Master's programs, Concurrent Degrees, Dual Degrees, Joint Degrees, and Multiple Concentrations. Students must meet General Studies Requirements (GSR) as foundational coursework. Dean's List recognizes outstanding undergraduate performance. Class standing is determined by completed credit hours.",
+      "source": "ASU Academic Catalog - Policies Hub",
+      "sourceUrl": "https://catalog.asu.edu/acad_pol_procedures",
+      "category": "graduation-requirements"
+    },
+    {
+      "id": "engineering-integrity",
+      "title": "Fulton Schools of Engineering - Academic Integrity",
+      "text": "The Engineering Academic Integrity Office (AIO) at the Ira A. Fulton Schools of Engineering promotes academic honesty. Common violation areas in engineering: Group Projects (unclear contribution boundaries), Examinations (unauthorized assistance or materials), Programming/Code Writing (copying code without attribution), Written Work (plagiarism and improper citation), and Procrastination-Related Issues (rushed work leading to shortcuts). To maintain honesty: develop strong study habits, follow proper collaboration practices, use correct citation methods, understand assignment instructions clearly, leverage learning communities. Students can report violations anonymously through an online form. The Fulton Academic Integrity Matters (FAIM) program promotes academic honesty. Contact: Chuck Barbee, Director of Academic Integrity.",
+      "source": "Fulton Schools - Academic Integrity",
+      "sourceUrl": "https://students.engineering.asu.edu/policies/academic-integrity/",
+      "category": "academic-integrity"
+    },
+    {
+      "id": "engineering-standards",
+      "title": "Fulton Schools of Engineering - Academic Standards and GPA Requirements",
+      "text": "Engineering Good Standing: Students must maintain acceptable GPAs, enroll in critical tracking courses, and complete degree-applicable coursework each semester. Academic Warning: Undergraduates with cumulative GPA below 2.00 after first semester receive a warning and must self-enroll in the Fulton Academic Success Strategies Canvas course and meet with an advisor. Probation triggers: Two consecutive semesters with GPAs below 2.00, or cumulative ASU GPA below 2.00. Borderline review: Single semester GPA of 2.00 or below, or major GPA below 2.00. To exit probation: achieve 2.25 semester GPA AND maintain 2.00 cumulative GPA. Ineligibility: Continuing probation students who fail to achieve 2.25 semester GPA, complete two consecutive probation semesters, or fail to complete degree-applicable courses become ineligible. Ineligible students cannot register for Fulton courses and may reapply after one calendar year. Disqualification occurs when probation students don't achieve 2.25 semester GPA AND fall below 2.00 cumulative GPA.",
+      "source": "Fulton Schools - Academic Standards",
+      "sourceUrl": "https://students.engineering.asu.edu/policies/academic-standards/",
+      "category": "academic-standing"
+    },
+    {
+      "id": "engineering-petitions",
+      "title": "Fulton Schools of Engineering - Undergraduate Petitions and Special Requests",
+      "text": "Engineering students can use the Undergraduate Standards Petition Form for: enrolling in more than 19 credits during spring/fall semesters, taking graduate-level courses for undergraduate credit, and enrolling in a course for the third time. Engineering grade appeal procedures follow the university process. Medical or compassionate withdrawal requests have specific procedures. The Fulton Schools policies hub links to advising resources, noting academic policies often involve communication with your advisor. Engineering Latin Honors require 56+ resident credit hours: Cum laude (3.40-3.59), Magna cum laude (3.60-3.79), Summa cum laude (3.80-4.00).",
+      "source": "Fulton Schools - Student Policies",
+      "sourceUrl": "https://students.engineering.asu.edu/policies/",
+      "category": "engineering-policies"
+    },
+    {
+      "id": "wpcarey-policies",
+      "title": "W.P. Carey School of Business - Academic Policies",
+      "text": "W.P. Carey Academic Standards: Minimum 2.00 cumulative GPA required. Probation requires students to raise GPA to 2.00+ or earn 2.50 semester GPA with no grades below C. Disqualified students cannot register for fall/spring, may attend summer only immediately after disqualification, and must wait one year to reapply. Readmission for BS requires minimum C in ACC 231, ACC 241, CIS 105, ECN 211, ECN 212, ECN 221, MAT 210, MAT 211. Pass/Fail: Business majors cannot use pass/fail for required courses. Transfer Credit: Lower-division (100-299) acceptable from two-year colleges; upper-division business courses must be from AACSB-accredited institutions; minimum grade C (2.00). Major Proficiency: C or higher in upper-division courses; a second grade below C disqualifies further upper-division study. Graduate policies require minimum 3.00 cumulative GPA (grade of B). Advising required before first enrollment, second semester, and for seniors (87+ hours).",
+      "source": "ASU Catalog - W.P. Carey Policies",
+      "sourceUrl": "https://catalog.asu.edu/policies/business",
+      "category": "college-policies"
+    },
+    {
+      "id": "clas-policies",
+      "title": "The College of Liberal Arts and Sciences (CLAS) - Academic Policies",
+      "text": "CLAS Academic Standards: Minimum cumulative 2.00 GPA required. Probation students must complete a Canvas Academic Success Planner; on-campus students must take UNI 220. Disqualified students must sit out at least one semester then reapply. Credit Load: Minimum full-time 12 credit hours, maximum standard 18 (with 9-hour session caps). Overloads require GPA criteria; first-year/transfer students ineligible first semester. Pass/Fail available with 60+ hours, limited to 12 credit hours toward graduation, cannot apply to language requirements or major requirements. BA Language Requirement: Satisfy via intermediate-level (202) coursework, 300+ level in target language, or secondary education in non-English school. BS/BSP requires six credit hours of science and society courses. Minors require minimum 15 credit hours with at least nine upper-division. Majors require 30-45 credit hours minimum with minimum C (2.00) grade.",
+      "source": "ASU Catalog - CLAS Policies",
+      "sourceUrl": "https://catalog.asu.edu/policies/liberal_arts",
+      "category": "college-policies"
+    },
+    {
+      "id": "clas-advising-requirements",
+      "title": "CLAS Mandatory Advising Requirements",
+      "text": "Mandatory advising at The College (CLAS) is required for: first-semester students, second-semester first-year students (unless LIA 101 completed), probation cases, readmitted students, and off-track majors. All first-time freshmen must complete a first-year success course or seminar. LIA 101 introduces students to The College and facilitates ASU transition, covering academic success, community contribution, and student involvement. Classes cap at 19 students. The eAdvisor tool helps students follow curriculum checksheets, track graduation progress, and plan course sequences. Health Professions and Prelaw advisors are in the Futures Center (ARM 162) for prerequisite planning and exam prep. Nondiscrimination: ASU prohibits discrimination under ACD 401. Title IX inquiries: titleixcoordinator@asu.edu or 480-965-0696.",
+      "source": "ASU Catalog - CLAS Policies",
+      "sourceUrl": "https://catalog.asu.edu/policies/liberal_arts",
+      "category": "advising"
+    },
+    {
+      "id": "graduate-integrity",
+      "title": "Graduate College Academic Integrity Requirements",
+      "text": "All ASU graduate students must complete an Academic Integrity Tutorial during their first semester, accessible through My ASU. Five areas of academic dishonesty: (1) Cheating on evaluations or assignments, (2) Plagiarism, (3) Academic deceit/fabricating data, (4) Aiding violations and inappropriate collaboration, (5) Falsifying academic records. Consequences: Reduced or failing grades, XE grade (usually permanent), federal grant agencies may bar applicants from grants for multiple years, expulsion or removal from programs, degree revocation years after conferral. Resources available: ASU Academic Integrity Tutorial, Citation Styles guides through ASU Libraries, Ethics@ASU resources, and college-specific Academic Integrity Officers.",
+      "source": "ASU Graduate College - Academic Integrity",
+      "sourceUrl": "https://graduate.asu.edu/current-students/policies-forms-and-deadlines/academic-integrity",
+      "category": "academic-integrity"
+    },
+    {
+      "id": "general-studies-gold",
+      "title": "ASU General Studies Gold Requirements (Fall 2024+)",
+      "text": "Students entering ASU in Fall 2024 or later follow General Studies Gold, requiring 35 credit hours across nine categories: (1) Humanities, Arts and Design - 6 credit hours/2 courses, (2) Social and Behavioral Sciences - 3 credit hours, (3) Scientific Thinking in Natural Sciences - 8 credit hours/2 courses with lab experiences, (4) Quantitative Reasoning - 3 credit hours, (5) Mathematics - 3 credit hours (college math, algebra, precalculus, or higher), (6) American Institutions - 3 credit hours (constitutional democracy, U.S. institutions), (7) Governance and Civic Engagement - 3 credit hours, (8) Global Communities, Societies and Individuals - 3 credit hours, (9) Sustainability - 3 credit hours. First-Year Composition: ENG 101 + ENG 102 (or ENG 105) with grade C or higher, or ENG 107 + 108 for non-native speakers.",
+      "source": "ASU Academic Catalog - General Studies",
+      "sourceUrl": "https://catalog.asu.edu/ug_gsr",
+      "category": "graduation-requirements"
+    },
+    {
+      "id": "general-studies-maroon",
+      "title": "ASU General Studies Maroon Requirements (Pre-Fall 2024)",
+      "text": "Students in catalog years before 2024-2025 follow General Studies Maroon requiring 29 credit hours. Five Core Areas: L (Literacy and Critical Inquiry) 3 hours, requires ENG 101/105/107 prerequisite; MA (Mathematics) 3+ hours, must complete by 30 resident hours; CS (Computer/Statistics/Quantitative) 3+ hours; HU (Humanities, Arts and Design) 6+ hours; SB (Social-Behavioral Sciences) 6+ hours (at least 6 of 12 combined HU/SB). SQ/SG (Natural Sciences) 8 hours with SQ minimum 4 hours. Three Awareness Areas: C (Cultural Diversity in the U.S.), G (Global Awareness), H (Historical Awareness). Upper-Division: 3 hours upper-division L + 3 hours upper-division HU or SB. Credit by Exam: Advanced Placement has no credit limit. CLEP permitted except for SQ/SG and L courses.",
+      "source": "ASU Academic Catalog - General Studies",
+      "sourceUrl": "https://catalog.asu.edu/ug_gsr",
+      "category": "graduation-requirements"
+    },
+    {
+      "id": "first-year-advising",
+      "title": "ASU First-Year Student Advising and Orientation",
+      "text": "First-year students must register for a live Zoom Academic Orientation Session through My ASU where an advisor helps plan the first semester. LIA 101 is mandatory for CLAS students, introducing them to The College with classes capped at 19 students. College Blocks group first-year students with similar interests into cohorts with pre-set schedules featuring critical courses and general studies. Discovery Seminars are one-credit discussion-based courses exclusively for first-year students on unique topics. Find your advisor under Academic Support Team on My ASU. Armstrong Hall advising hub (suites 102 and 162): Phone 480-965-6506, Email thecollegeadvising@asu.edu. Online students contact advisors via the Advising by Department webpage. Exploratory students should contact University College Explore.",
+      "source": "The College - First-Year Advising",
+      "sourceUrl": "https://thecollege.asu.edu/advising/first-year",
+      "category": "advising"
+    },
+    {
+      "id": "advising-faq",
+      "title": "ASU Academic Advising - Finding Your Advisor and Requirements",
+      "text": "Students can locate their academic advisor through My ASU in the Academic Support Team box for contact information and appointments. ASU provides advising through all colleges for declared majors, each with specialized knowledge of program requirements. Key advising portals: students.asu.edu/advising (main portal), thecollege.asu.edu/advising (CLAS). Advising is mandatory for: first-semester students, second-semester first-year students (unless LIA 101 completed), students on probation, readmitted students, and off-track majors. ASU colleges include W.P. Carey Business, Herberger Design/Arts, Fulton Engineering, Global Futures, Health Solutions, Barrett Honors, CISA, New College, Cronkite Journalism, Law, CLAS, Nursing, Watts Public Service, Teachers College, Thunderbird, and University College.",
+      "source": "ASU Student Services - Advising",
+      "sourceUrl": "https://students.asu.edu/advising",
+      "category": "advising"
+    },
+    {
+      "id": "registration-guide",
+      "title": "ASU Registration Process - Five Steps to Enroll",
+      "text": "ASU registration for continuing students follows five steps: (1) Clear Registration Holds - check My ASU for blocks like missing transcripts, unpaid fees, advising requirements, immunization requirements. (2) Register for Classes - use My ASU, consult your major map and DARS (Degree Audit Reporting System) for undergrads, or iPOS (plan of study) for graduates. (3) Pay Tuition and Fees - use My ASU Finances tab, details at Student Business Services. (4) Purchase Textbooks - access required book list through My Classes. (5) Download Schedule - use iCal feature. Students receive enrollment appointment times determining when they can register. Newly admitted undergraduates register at New Student Orientation. Graduate students connect with their department. Returning students must visit the re-entry page first.",
+      "source": "ASU Registrar - Registration Guide",
+      "sourceUrl": "https://registrar.asu.edu/register-for-classes",
+      "category": "registration"
+    },
+    {
+      "id": "drop-add-withdrawal",
+      "title": "ASU Drop, Add, Withdrawal, and Swap Policies",
+      "text": "Adding Classes: Through My ASU until add deadline; late adds require instructor, department, and college approval. Drop Deadline: Dropping by the deadline leaves no transcript record and may generate 100% tuition refund (since Fall 2023). Withdrawal: After the drop deadline but before the withdrawal deadline, results in W grade on transcript (no GPA impact). Swapping: Simultaneously add and drop classes by the add deadline. Complete Session Withdrawal: Before the complete session withdrawal deadline; undergraduates contact their college, graduates use My ASU. Medical/Compassionate Withdrawal: For serious illness or death of family members, may generate refunds within two years. Military Activation: Members unable to complete classes may request withdrawal, incompletes, or grades. Instructor-Initiated Drops: For students absent through second week of fall/spring or first four days of summer. Find specific deadlines on My ASU calendar icon next to each class. Dropping may affect financial aid eligibility.",
+      "source": "ASU Registrar - Drop/Add",
+      "sourceUrl": "https://registrar.asu.edu/drop-add",
+      "category": "registration-policies"
+    },
+    {
+      "id": "deans-list",
+      "title": "ASU Dean's List and Academic Recognition",
+      "text": "Dean's List: Undergraduate students earning 12+ graded credit hours (A+ through E) during a semester at ASU with a GPA of 3.50 or higher qualify for the Dean's List. Generated at completion of fall and spring semesters. Noted on unofficial transcripts. Class Standing by credit hours: Freshman (0-24), Sophomore (25-55), Junior (56-86), Senior (87+). Co-Enrolled Continuing Probation: Select disqualified students may take UNI 220 plus one ASU course while co-enrolling at a community college; a combined 2.50 GPA allows continued enrollment. Graduation Latin Honors: Cum laude (3.40-3.59), Magna cum laude (3.60-3.79), Summa cum laude (3.80-4.00). Requires 56+ resident credit hours for engineering; university-wide requires minimum 30 resident credits.",
+      "source": "ASU Catalog - Academic Recognition",
+      "sourceUrl": "https://catalog.asu.edu/retention_standing",
+      "category": "academic-recognition"
+    },
+    {
+      "id": "cs-cse-100-principles-of-programming-with-c-",
+      "title": "CSE 100 - Principles of Programming with C++",
+      "text": "Introduction to programming using C++. Covers concepts of problem solving, algorithm design, structured programming, fundamental algorithms and techniques, and computer systems concepts. Topics include variables, data types, control structures, functions, arrays, pointers, and file I/O. No prior programming experience required. Credits: 3. Prerequisites: None. Note: Students may receive credit for only CSE 100 or CSE 110.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://courses.ea.asu.edu/principles-of-programming-cse-110/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-110-principles-of-programming",
+      "title": "CSE 110 - Principles of Programming",
+      "text": "Introductory course to programming using Java. Explores how computers and algorithms impact daily life. Covers problem solving techniques, algorithm design, variables, data types, collections, sequence/selection/iteration structures, functions with parameters and return values, object-oriented programming approaches, and computing's relevance in careers and society. No prior programming experience needed. Credits: 3. Prerequisites: None. MAT 117 College Algebra recommended. Grading: readings/activities 20%, individual assignments 20%, lab work 20%, midterm 20%, final exam 20%. Note: Students may receive credit for only CSE 100 or CSE 110.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://courses.ea.asu.edu/principles-of-programming-cse-110/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-120-digital-design-fundamentals",
+      "title": "CSE 120 - Digital Design Fundamentals",
+      "text": "Introduction to digital logic design. Covers number systems, Boolean algebra, combinational logic design, sequential logic design, registers, counters, and memory. Provides foundation for computer organization and architecture courses. Credits: 3. Prerequisites: None for CS majors.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-180-computer-literacy",
+      "title": "CSE 180 - Computer Literacy",
+      "text": "Introduction to computing, data, and AI literacy. Covers fundamental concepts in computing and technology for non-majors and early-stage students. Credits: 3. Prerequisites: None.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-194-special-topics",
+      "title": "CSE 194 - Special Topics",
+      "text": "Special topics course in computer science and engineering. Topics vary by section and semester. Credits: 1. Prerequisites: Vary by topic.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-205-object-oriented-programming-and-data-struc",
+      "title": "CSE 205 - Object-Oriented Programming and Data Structures",
+      "text": "Problem-solving through programming in an object-oriented language (Java), introducing data structures, and covering essential computer science topics. Topics include object-oriented design and UML, data structures (ArrayLists/Vectors, linked lists, queues, stacks), recursive algorithms, and ethical and social issues in computing. Uses the CSE205 zyBook interactive textbook. Credits: 3. Prerequisites: CSE 100 or CSE 110 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-205-Syllabus-SP25.pdf",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-220-programming-for-computer-engineering",
+      "title": "CSE 220 - Programming for Computer Engineering",
+      "text": "Programming course designed for computer engineering majors. Covers programming fundamentals with emphasis on engineering applications. Credits: 3. Prerequisites: CSE 100 or CSE 110 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-230-computer-organization-and-assembly-languag",
+      "title": "CSE 230 - Computer Organization and Assembly Language Programming",
+      "text": "Register-level computer organization, instruction set architecture, assembly language programming, and exception/interrupt handling. Covers the internal representation of data, CPU architecture, memory hierarchy, and I/O systems. Provides essential foundation for understanding how software interacts with hardware. Credits: 3. Prerequisites: CSE 120 or EEE 120 with C or better; CSE 100, 110, or 200 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-230-Syllabus-SP25.pdf",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-240-introduction-to-programming-languages",
+      "title": "CSE 240 - Introduction to Programming Languages",
+      "text": "Introduces different programming paradigms including procedural (C/C++), functional (Scheme/Lisp), and logic (Prolog) programming. Covers syntax, semantics, and implementation of programming languages. Students learn to compare and contrast programming paradigms and understand language design principles. Credits: 3. Prerequisites: CSE 100 or CSE 110 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-240-Syllabus-SP25.pdf",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-259-logic-in-computer-science",
+      "title": "CSE 259 - Logic in Computer Science",
+      "text": "Covers propositional logic, predicate logic, formal proofs, and their applications in computer science. Recommended for CS majors in place of MAT 267 (Calculus III) to better support upper-level programming courses. Provides logical foundations needed for theoretical computer science and programming language theory. Credits: 3. Prerequisites: MAT 243 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-301-computing-ethics",
+      "title": "CSE 301 - Computing Ethics",
+      "text": "Explores ethical and social issues in computing. Covers professional responsibility, privacy, intellectual property, software engineering ethics, AI ethics, and the societal impact of computing technology. Credits: 1. Prerequisites: FSE 100.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-310-data-structures-and-algorithms",
+      "title": "CSE 310 - Data Structures and Algorithms",
+      "text": "Advanced data structures and algorithms course. Covers stacks, queues, trees (Red-Black trees, B-trees, B+ trees, AVL trees), graphs, searching, hashing, and sorting. Algorithms include merge sort, topological sort, single-source shortest paths (Bellman-Ford, Dijkstra's), Prim's and Kruskal's algorithms. Techniques include dynamic programming and greedy algorithms. Students must enroll in one recitation session. Credits: 3. Prerequisites: CSE 220 or CSE 240 with C or better; MAT 243 with D or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-310-Syllabus-SP25.pdf",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-320-design-and-synthesis-of-digital-hardware",
+      "title": "CSE 320 - Design and Synthesis of Digital Hardware",
+      "text": "Advanced digital hardware design covering VHDL/Verilog hardware description languages, FPGA design, advanced combinational and sequential circuit design, finite state machines, and hardware synthesis techniques. Credits: 3. Prerequisites: CSE 120 or EEE 120 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-325-embedded-microprocessor-systems",
+      "title": "CSE 325 - Embedded Microprocessor Systems",
+      "text": "Design and programming of embedded microprocessor systems. Covers microcontroller architecture, interfacing, real-time programming, and embedded system design techniques. Credits: 3. Prerequisites: CSE 230 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://labs.engineering.asu.edu/advent/cen-cse-courses-at-asu/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-330-operating-systems",
+      "title": "CSE 330 - Operating Systems",
+      "text": "Operating system structure and services, processor scheduling, concurrent processes, synchronization techniques, memory management, virtual memory, input/output, storage management, and file systems. Students should be proficient in C programming and have knowledge of pointers. Credits: 3. Prerequisites: CSE 310 with C or better; CSE 230 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-330-Sylllabus-SP25.pdf",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-340-principles-of-programming-languages",
+      "title": "CSE 340 - Principles of Programming Languages",
+      "text": "Formal syntactic and semantic descriptions, compilation and implementation issues, and theoretical foundations for several programming paradigms. Topics include Syntax Analysis, Lambda Calculus, Basic Semantics, Type Systems, Abstract Data Types and Modules, Expressions and Statements, and Procedures and the Runtime Environment. Credits: 3. Prerequisites: CSE 310 with C or better; CSE 230 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-340-Syllabus-SP25.pdf",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-355-introduction-to-theoretical-computer-scien",
+      "title": "CSE 355 - Introduction to Theoretical Computer Science",
+      "text": "First introduction to the theoretical concepts of Computer Science. Covers formal language theory and automata (DFA, NFA, regular expressions, context-free grammars, pushdown automata), Turing machines, decidability/undecidability, recursive function theory, and introduction to complexity theory (P, NP, NP-completeness). Does not target a specific programming language or computing platform. Credits: 3. Prerequisites: CSE 310 with C or better; MAT 243 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-355-Syllabus-SP25.pdf",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-360-introduction-to-software-engineering",
+      "title": "CSE 360 - Introduction to Software Engineering",
+      "text": "Software life cycle models; project management, team development environments and methodologies; software architectures; requirements engineering; software design; implementation and testing strategies; quality assurance and standards; legal and ethical issues in software development. Credits: 3. Prerequisites: CSE 205 with C or better; CSE 310 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "http://www.javiergs.com/teaching/cse360/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-365-information-assurance",
+      "title": "CSE 365 - Information Assurance",
+      "text": "Concepts of information assurance (IA); basic IA techniques including cryptography, authentication, access control; security policies, risk management, security administration; legal and ethics issues in information security. Credits: 3. Prerequisites: CSE 310 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-408-multimedia-information-systems",
+      "title": "CSE 408 - Multimedia Information Systems",
+      "text": "Multimedia data representation, compression, storage, retrieval, and presentation. Covers image, audio, and video processing fundamentals, multimedia databases, and content-based retrieval systems. Credits: 3. Prerequisites: CSE 310 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-412-database-management",
+      "title": "CSE 412 - Database Management",
+      "text": "Introduction to DBMS concepts, data models and languages, relational database theory, database design using ER modeling and normalization, SQL, transaction management, database security, integrity, and concurrency control. Credits: 3. Prerequisites: CSE 310 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://webapp4.asu.edu/bookstore/viewsyllabus/2227/87216/1000",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-420-computer-architecture-i",
+      "title": "CSE 420 - Computer Architecture I",
+      "text": "Fundamentals of computer architecture including pipelining, memory hierarchy design, instruction-level parallelism, multiprocessors, and performance evaluation. Covers modern processor design concepts and tradeoffs. Credits: 3. Prerequisites: CSE 230 with C or better; CSE 310 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://labs.engineering.asu.edu/advent/cen-cse-courses-at-asu/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-423-systems-capstone-project-i",
+      "title": "CSE 423 - Systems Capstone Project I",
+      "text": "First part of the two-semester capstone experience for Computer Systems Engineering students. Students work in teams on a significant engineering project. Covers project planning, requirements analysis, system design, and initial implementation. Credits: 3. Prerequisites: Senior standing in CSE program.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-430-operating-systems-advanced-",
+      "title": "CSE 430 - Operating Systems (Advanced)",
+      "text": "Advanced operating systems topics including distributed systems, advanced scheduling, advanced memory management, security in operating systems, and modern OS design. Credits: 3. Prerequisites: CSE 330 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-434-computer-networks",
+      "title": "CSE 434 - Computer Networks",
+      "text": "Computer network protocols, hardware elements, and software algorithms. Topics include error handling, routing, flow control, host-to-host communication, local area networks, network architecture (OSI model, TCP/IP), and network applications. Credits: 3. Prerequisites: CSE 330 with C or better; CSE 230 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-438-embedded-systems-programming",
+      "title": "CSE 438 - Embedded Systems Programming",
+      "text": "Programming techniques for embedded systems including real-time operating systems, device drivers, interrupt handling, and hardware/software co-design. Credits: 3. Prerequisites: CSE 230 with C or better; CSE 325 recommended.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://labs.engineering.asu.edu/advent/cen-cse-courses-at-asu/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-440-compiler-construction-i",
+      "title": "CSE 440 - Compiler Construction I",
+      "text": "Design and implementation of compilers. Covers lexical analysis, parsing, semantic analysis, intermediate code generation, and code optimization. Students build components of a working compiler. Credits: 3. Prerequisites: CSE 340 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://labs.engineering.asu.edu/advent/cen-cse-courses-at-asu/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-445-distributed-software-development",
+      "title": "CSE 445 - Distributed Software Development",
+      "text": "Principles and practices of distributed software development including web services, service-oriented architecture (SOA), RESTful APIs, cloud computing, microservices, and distributed system design patterns. Credits: 3. Prerequisites: CSE 310 with C or better; CSE 360 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-446-software-integration-and-engineering",
+      "title": "CSE 446 - Software Integration and Engineering",
+      "text": "Advanced software engineering covering software integration techniques, continuous integration/deployment, component-based development, and large-scale software system construction. Credits: 3. Prerequisites: CSE 360 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-450-design-and-analysis-of-algorithms",
+      "title": "CSE 450 - Design and Analysis of Algorithms",
+      "text": "Design and analysis of computer algorithms using analytical and empirical methods. Covers complexity measures, algorithm design methodologies (divide and conquer, dynamic programming, greedy, backtracking), graph algorithms, NP-completeness, and approximation algorithms. Credits: 3. Prerequisites: CSE 310 with C or better; CSE 355 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-460-software-analysis-and-design",
+      "title": "CSE 460 - Software Analysis and Design",
+      "text": "Advanced software design covering design patterns, software architecture, component-based design, and advanced object-oriented analysis. Emphasizes practical application of design principles to real-world software systems. Credits: 3. Prerequisites: CSE 360 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-463-introduction-to-human-computer-interaction",
+      "title": "CSE 463 - Introduction to Human Computer Interaction",
+      "text": "Principles and methods of human-computer interaction (HCI). Covers user-centered design, usability evaluation, interface design, accessibility, cognitive aspects of interaction, and prototyping techniques. Credits: 3. Prerequisites: CSE 310 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-464-software-quality-assurance-and-testing",
+      "title": "CSE 464 - Software Quality Assurance and Testing",
+      "text": "Software testing methodologies, quality assurance processes, test planning and design, unit testing, integration testing, system testing, test automation, and software metrics. Credits: 3. Prerequisites: CSE 360 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-466-computer-systems-security",
+      "title": "CSE 466 - Computer Systems Security",
+      "text": "Security of computer systems including operating system security, access control mechanisms, security models, trusted computing, intrusion detection, and system hardening techniques. Credits: 3. Prerequisites: CSE 365 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-467-data-and-information-security",
+      "title": "CSE 467 - Data and Information Security",
+      "text": "Data security fundamentals including encryption, data protection mechanisms, database security, privacy-preserving techniques, and secure data management. Credits: 3. Prerequisites: CSE 365 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-468-computer-network-security",
+      "title": "CSE 468 - Computer Network Security",
+      "text": "Network security principles and practices including firewalls, VPNs, intrusion detection systems, network authentication, wireless security, and security protocols. Credits: 3. Prerequisites: CSE 365 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-469-computer-and-network-forensics",
+      "title": "CSE 469 - Computer and Network Forensics",
+      "text": "Digital forensics principles including evidence collection, preservation, analysis, and presentation. Covers file system forensics, network forensics, mobile device forensics, and legal considerations in digital investigations. Credits: 3. Prerequisites: CSE 365 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-471-introduction-to-artificial-intelligence",
+      "title": "CSE 471 - Introduction to Artificial Intelligence",
+      "text": "Introduction to Artificial Intelligence covering basic ideas and methods in AI. Topics include informed and uninformed search, probabilistic inference, Markov decision processes, reinforcement learning, statistical learning, constraint satisfaction problems, game playing, and modeling and representation of problems. Credits: 3. Prerequisites: CSE 310 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://rakaposhi.eas.asu.edu/cse471/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-475-foundations-of-machine-learning",
+      "title": "CSE 475 - Foundations of Machine Learning",
+      "text": "Machine learning techniques including data preparation, model evaluation, supervised learning, feature-based learning, deep neural networks, other machine learning techniques, machine learning operations (MLOps), and ethical concerns. Credits: 3. Prerequisites: CSE 310 with C or better; DAT 300 or IEE 380; MAT 342 or MAT 343 with C or better. Restricted to CS BS, CSE BSE, Data Science BS, or Informatics BS majors.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://www.coursicle.com/asu/courses/CSE/475/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-476-introduction-to-natural-language-processin",
+      "title": "CSE 476 - Introduction to Natural Language Processing",
+      "text": "Introduction to natural language processing covering morphology, syntax, semantics, and pragmatics. Includes fundamental tasks, algorithms, and techniques in these areas. Introduces knowledge-based, statistical, and neural approaches to NLP. Students conduct experiments with existing NLP resources and tools. Credits: 3. Prerequisites: CSE 310 with C or better. Restricted to CS BS, CSE BSE, or Data Science BS majors.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://nlp.asu.edu/teaching/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-485-computer-science-capstone-project-i",
+      "title": "CSE 485 - Computer Science Capstone Project I",
+      "text": "First semester of the two-semester capstone experience for Computer Science students. Students work in teams on a significant software project from conception through design. Covers project planning, requirements analysis, system design, and team collaboration. Credits: 3. Prerequisites: Senior standing; CSE 360 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-486-computer-science-capstone-project-ii",
+      "title": "CSE 486 - Computer Science Capstone Project II",
+      "text": "Second semester of the capstone experience for Computer Science students. Continuation of the project started in CSE 485. Focuses on implementation, testing, deployment, and final presentation of the capstone project. Credits: 3. Prerequisites: CSE 485 with C or better.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-494-special-topics",
+      "title": "CSE 494 - Special Topics",
+      "text": "Special topics course in computer science and engineering at the 400-level. Topics vary by section and semester. Recent offerings have included: Artificial Intelligence for Cybersecurity, Machine Learning Acceleration, and other emerging CS topics. Credits: 1-3 (varies). Prerequisites: Vary by topic.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=CSE",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cse-302-circuits-for-computer-engineers",
+      "title": "CSE 302 - Circuits for Computer Engineers",
+      "text": "Circuit analysis fundamentals for computer engineers including DC and AC circuits, operational amplifiers, and circuit simulation. Credits: 3. Prerequisites: PHY 131 or equivalent.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://labs.engineering.asu.edu/advent/cen-cse-courses-at-asu/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-computer-science-bs-degree-requirements-overview",
+      "title": "Computer Science BS - Degree Requirements Overview",
+      "text": "The Computer Science BS focuses on the design of computers, computational processes for problem solving, and information transfer and transformation with emphasis on improving software and system quality, security, performance, and usability. Total credits: approximately 120 semester hours. The program is ABET accredited by the Computing Accreditation Commission. Students may choose concentrations in Software Engineering or Cybersecurity. The degree requires: CSE core courses, math sequence, lab sciences, general studies, and technical electives.",
+      "source": "ASU SCAI - Degree Requirements",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/",
+      "category": "degree-requirements"
+    },
+    {
+      "id": "cs-cs-bs-required-math-courses",
+      "title": "CS BS - Required Math Courses",
+      "text": "The CS program is mathematically intensive. Required math courses: MAT 265 (Calculus I), MAT 266 (Calculus II), MAT 243 (Discrete Mathematical Structures), MAT 343 (Applied Linear Algebra), IEE 380 (Probability and Statistics for Engineering). Additionally, students must take either MAT 267 (Calculus III) OR CSE 259 (Logic for Computer Science). Students are encouraged to take CSE 259 instead of MAT 267 to better support upper-level programming courses.",
+      "source": "ASU SCAI - Degree Requirements",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+      "category": "degree-requirements"
+    },
+    {
+      "id": "cs-cs-bs-lab-science-requirements",
+      "title": "CS BS - Lab Science Requirements",
+      "text": "For 2024+ catalog years: 11 semester hours total. 8 hours (SCIT) from the same subject area and 3 hours (SCIT) from a different subject area. Lab Science Sequence Courses must include two classes from one subject area: Biology (BIO 181 and BIO 182), Chemistry (CHM 113 and CHM 116), Geology (GLG 101/103 and GLG 102/104), or Physics (PHY 121/122 or PHY 131/132). For 2022-2023 catalog years: 12 semester hours total.",
+      "source": "ASU SCAI - Degree Requirements",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+      "category": "degree-requirements"
+    },
+    {
+      "id": "cs-cs-bs-general-studies-gold-requirements-2024-2025-",
+      "title": "CS BS - General Studies Gold Requirements (2024-2025+)",
+      "text": "Minimum 21 semester hours across six categories: Humanities, Arts and Design (HUAD) - 6 hours minimum; Social and Behavioral Sciences (SOBE) - 3 hours minimum; American Institutions - 3 hours minimum; Governance and Civic Engagement - 3 hours minimum; Global Communities, Societies and Individuals - 3 hours minimum; Sustainability - 3 hours minimum. First-year composition (ENG 101/102) is also required.",
+      "source": "ASU SCAI - Degree Requirements",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+      "category": "degree-requirements"
+    },
+    {
+      "id": "cs-cs-bs-technical-electives",
+      "title": "CS BS - Technical Electives",
+      "text": "Students must complete 6 hours of upper-division technical electives with a grade of C or better. Approved departments include: CSE, CIS, CPI, AME, BCH, BME, BIO, CHE, CEE, DAT, EEE, FSE, IEE, MSE, MAE, MAT, PHY, SER, and STP courses. Technical electives allow students to specialize in areas of interest within or adjacent to computer science.",
+      "source": "ASU SCAI - Degree Requirements",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+      "category": "degree-requirements"
+    },
+    {
+      "id": "cs-cs-bs-core-cse-course-sequence",
+      "title": "CS BS - Core CSE Course Sequence",
+      "text": "Required CSE courses for the BS in Computer Science: CSE 110 (Principles of Programming), CSE 205 (Object-Oriented Programming & Data Structures), CSE 230 (Computer Organization and Assembly Language), CSE 240 (Introduction to Programming Languages), CSE 301 (Computing Ethics), CSE 310 (Data Structures and Algorithms), CSE 330 (Operating Systems), CSE 340 (Principles of Programming Languages), CSE 355 (Introduction to Theoretical Computer Science), CSE 360 (Introduction to Software Engineering), CSE 365 (Information Assurance), CSE 485 (Capstone I), CSE 486 (Capstone II). Plus FSE 100 (Introduction to Engineering) and CSE 450 (Design and Analysis of Algorithms). Additionally, students choose upper-division CSE electives (CSE 4XX courses).",
+      "source": "ASU SCAI - Degree Requirements",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+      "category": "degree-requirements"
+    },
+    {
+      "id": "cs-cs-bs-semester-by-semester-plan-typical-8-semester",
+      "title": "CS BS - Semester-by-Semester Plan (Typical 8-Semester Track)",
+      "text": "Year 1 Fall: ENG 101 (3), MAT 265 (3), CSE 110 (3), FSE 100 (2), Gen Studies (3) = ~14 credits. Year 1 Spring: ENG 102 (3), MAT 266 (3), CSE 205 (3), Lab Science (4), Gen Studies (3) = ~16 credits. Year 2 Fall: MAT 243 (3), CSE 230 (3), CSE 240 (3), Lab Science (4), Gen Studies (3) = ~16 credits. Year 2 Spring: MAT 343 (3), CSE 310 (3), CSE 259 or MAT 267 (3), Lab Science (3), Gen Studies (3) = ~15 credits. Year 3 Fall: IEE 380 (3), CSE 330 (3), CSE 340 (3), CSE 355 (3), CSE 301 (1) = ~13 credits. Year 3 Spring: CSE 360 (3), CSE 365 (3), CSE 450 (3), CSE 4XX elective (3), Gen Studies (3) = ~15 credits. Year 4 Fall: CSE 485 (3), CSE 4XX elective (3), CSE 4XX elective (3), Tech Elective (3), Gen Studies (3) = ~15 credits. Year 4 Spring: CSE 486 (3), CSE 4XX elective (3), Tech Elective (3), Gen Studies (3), Free Elective (3) = ~15 credits. Total: approximately 120 credits.",
+      "source": "ASU SCAI - Degree Requirements",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/04/Corrected-2025-26-Computer-Science-BS_Flowchart.pdf",
+      "category": "degree-requirements"
+    },
+    {
+      "id": "cs-cs-bs-software-engineering-concentration",
+      "title": "CS BS - Software Engineering Concentration",
+      "text": "Minimum 15 credits with C or higher. Required courses (12 credits): CSE 445 (Distributed Software Development), CSE 460 (Software Analysis and Design), CSE 446 (Software Integration and Engineering), CSE 464 (Software Quality Assurance and Testing). Elective (3 credits, choose one): CSE 463 (Intro to HCI), CSE 466 (Computer Systems Security), CSE 467 (Data and Information Security), CSE 468 (Computer Network Security). Available exclusively to ground campus students, typically beginning junior year.",
+      "source": "ASU SCAI - Degree Requirements",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+      "category": "degree-requirements"
+    },
+    {
+      "id": "cs-cs-bs-cybersecurity-concentration",
+      "title": "CS BS - Cybersecurity Concentration",
+      "text": "Minimum 15 credits with C or higher. Required (3 credits): CSE 365 (Information Assurance). Cybersecurity Focus (6 credits, choose two): CSE 466 (Computer Systems Security), CSE 468 (Computer Network Security), CSE 469 (Computer and Network Forensics), CSE 494 (AI for Cybersecurity). Cybersecurity Electives (6 credits, choose two different): CSE 445, CSE 460, CSE 463, CSE 464, CSE 467, CSE 471. Available exclusively to ground campus students.",
+      "source": "ASU SCAI - Degree Requirements",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/concentrations/",
+      "category": "degree-requirements"
+    },
+    {
+      "id": "cs-cs-bs-8-semester-academic-tracking",
+      "title": "CS BS - 8-Semester Academic Tracking",
+      "text": "ASU uses an 8-semester tracking model monitoring completion of critical lower-division and necessary upper-division courses as predictors of academic success. Lower-division critical courses are tracked in the first four semesters. Upper-division necessary courses are tracked in semesters 5-8. Students falling behind on critical tracking courses should meet with their advisor immediately. University policy allows students to retake a course one time; students not successful after a second attempt will be asked to identify a new major.",
+      "source": "ASU SCAI - Degree Requirements",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+      "category": "degree-requirements"
+    },
+    {
+      "id": "cs-fulton-engineering-academic-standards-and-gpa-requ",
+      "title": "Fulton Engineering - Academic Standards and GPA Requirements",
+      "text": "Good Standing: maintain acceptable GPAs and complete applicable courses each semester. Minimum to Graduate: cumulative GPA of 2.00 and major GPA of 2.00. Dean's List: 12+ graded credits in a semester with 3.50+ GPA. Probation triggered by: two consecutive semesters with GPA below 2.00, or cumulative ASU GPA below 2.00. Continuing Probation requires minimum 2.25 semester GPA. Disqualification results from probation with semester GPA below 2.25 AND cumulative GPA below 2.00. Maximum registration: 19 credit hours (13 for probation students). Graduation honors: Cum Laude (3.40-3.59), Magna Cum Laude (3.60-3.79), Summa Cum Laude (3.80-4.00) with minimum 56 resident credit hours.",
+      "source": "ASU SCAI - Academic Policies",
+      "sourceUrl": "https://catalog.asu.edu/policies/engineering",
+      "category": "academic-policies"
+    },
+    {
+      "id": "cs-fulton-engineering-probation-and-disqualification-",
+      "title": "Fulton Engineering - Probation and Disqualification Policies",
+      "text": "University Academic Warning: undergraduate with cumulative GPA lower than 2.00 at end of first semester receives warning status and must self-enroll in Fulton Academic Success Strategies and meet with advisors. Probation Standards: must achieve minimum semester GPA of 2.25 and earn minimum cumulative ASU GPA of 2.00 by semester end. For single-course enrollment, C+ (2.33) or higher is required. Ineligibility: occurs when continuing probation students fail semester GPA thresholds, complete two consecutive probation semesters, or skip applicable courses. Ineligible students cannot register for 300/400-level Fulton courses unless degree-required. Disqualification: disqualified students cannot register for fall/spring semesters and face one-year readmission waiting period.",
+      "source": "ASU SCAI - Academic Policies",
+      "sourceUrl": "https://catalog.asu.edu/policies/engineering",
+      "category": "academic-policies"
+    },
+    {
+      "id": "cs-fulton-engineering-transfer-credit-and-course-poli",
+      "title": "Fulton Engineering - Transfer Credit and Course Policies",
+      "text": "Transfer Credits: only grades of C (2.00) or higher accepted for transfer credit. Courses exceeding five-year age may be declined for degree credit, though university elective credit is possible. Course Prerequisites: students lacking designated prerequisites may be withdrawn without consent at any time before the final examination. First-Year Composition: required for graduation. Grade Point Scale: A+ = 4.333, A = 4.000, A- = 3.667, B+ = 3.333, B = 3.000, B- = 2.667, C+ = 2.333, C = 2.000, D = 1.000, E = 0.000. Grades X, W, Y do not calculate toward GPA.",
+      "source": "ASU SCAI - Academic Policies",
+      "sourceUrl": "https://catalog.asu.edu/policies/engineering",
+      "category": "academic-policies"
+    },
+    {
+      "id": "cs-scai-undergraduate-advising-contact-and-procedures",
+      "title": "SCAI Undergraduate Advising - Contact and Procedures",
+      "text": "Tempe Campus (Ground Program): Email scai.advising@asu.edu, Phone 480-965-3199, Location Centerpoint Suite 105, 660 S. Mill Ave., Tempe AZ 85281, Hours 8am-noon and 1-5pm Monday-Friday. Mesa Campus (Online Program): Email scaionline@asu.edu, Phone 480-965-3199, Location Picacho Hall Suite 245, 7151 E. Sonoran Arroyo Mall, Mesa AZ 85212. Two advising tracks: NEST (for new first-year SCAI students) and SOAR (for continuing students). Students MUST meet with an advisor during their first two semesters to be eligible to register. Annual check-ins recommended afterward. Common topics: degree requirements, four-year planning, course sequencing, campus resources, petitions/appeals.",
+      "source": "ASU SCAI - Academic Policies",
+      "sourceUrl": "https://scai.engineering.asu.edu/undergraduate-advising/",
+      "category": "academic-policies"
+    },
+    {
+      "id": "cs-cse-340-spring-2025-syllabus-details",
+      "title": "CSE 340 - Spring 2025 Syllabus Details",
+      "text": "CSE 340 Principles of Programming Languages, Spring 2025. Topics: Syntax Analysis (lexical analysis, parsing, context-free grammars), Lambda Calculus, Basic Semantics (operational and denotational), Type Systems (type checking, type inference), Abstract Data Types and Modules, Expressions and Statements, Procedures and the Runtime Environment. The course covers formal syntactic and semantic descriptions, compilation and implementation issues, and theoretical foundations for multiple programming paradigms. Credits: 3.",
+      "source": "ASU SCAI - Syllabi",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-340-Syllabus-SP25.pdf",
+      "category": "syllabi"
+    },
+    {
+      "id": "cs-cse-230-spring-2025-syllabus-details",
+      "title": "CSE 230 - Spring 2025 Syllabus Details",
+      "text": "CSE 230 Computer Organization and Assembly Language, Spring 2025. Topics: Register-level computer organization, Instruction set architecture, Assembly language programming, Exception/interrupt handling, Memory hierarchy, CPU datapath and control, I/O systems, Performance evaluation. Credits: 3. Prerequisites: CSE 120 or EEE 120 with C or better; CSE 100, 110 or 200 with C or better.",
+      "source": "ASU SCAI - Syllabi",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-230-Syllabus-SP25.pdf",
+      "category": "syllabi"
+    },
+    {
+      "id": "cs-cse-240-spring-2025-syllabus-details",
+      "title": "CSE 240 - Spring 2025 Syllabus Details",
+      "text": "CSE 240 Introduction to Programming Languages, Spring 2025. Covers multiple programming paradigms: procedural programming (C/C++), functional programming (Scheme/Lisp), and logic programming (Prolog). Students compare and contrast paradigms and understand language design principles. Credits: 3. Prerequisites: CSE 100 or CSE 110 with C or better.",
+      "source": "ASU SCAI - Syllabi",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-240-Syllabus-SP25.pdf",
+      "category": "syllabi"
+    },
+    {
+      "id": "cs-cse-355-spring-2025-syllabus-details",
+      "title": "CSE 355 - Spring 2025 Syllabus Details",
+      "text": "CSE 355 Introduction to Theoretical Computer Science, Spring 2025. Provides first introduction to theoretical CS concepts. Topics: Deterministic Finite Automata (DFA), Nondeterministic Finite Automata (NFA), Regular Expressions, Context-Free Grammars, Pushdown Automata, Turing Machines, Decidability and Undecidability, Recursive Function Theory, Complexity Theory (P, NP, NP-completeness). Does not target a specific programming language. Credits: 3.",
+      "source": "ASU SCAI - Syllabi",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-355-Syllabus-SP25.pdf",
+      "category": "syllabi"
+    },
+    {
+      "id": "cs-cse-330-spring-2025-syllabus-details",
+      "title": "CSE 330 - Spring 2025 Syllabus Details",
+      "text": "CSE 330 Operating Systems, Spring 2025. Instructor: Adil Ahmad. Topics: Operating system structure and services, Process management and scheduling, Concurrent processes and synchronization (mutexes, semaphores, monitors), Memory management and virtual memory, Input/output and storage management, File systems, Security fundamentals. Students must be proficient in C programming. Credits: 3.",
+      "source": "ASU SCAI - Syllabi",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-330-Sylllabus-SP25.pdf",
+      "category": "syllabi"
+    },
+    {
+      "id": "cs-cse-110-spring-2025-syllabus-details",
+      "title": "CSE 110 - Spring 2025 Syllabus Details",
+      "text": "CSE 110 Principles of Programming, Spring 2025. Instructors: Ryan Meuth. Introduction to programming using Java. Topics: Problem solving techniques, Algorithm design, Variables and data types, Control structures (sequence, selection, iteration), Functions with parameters and return values, Arrays and collections, Object-oriented programming fundamentals, Debugging techniques. Grading: readings/activities 20%, assignments 20%, labs 20%, midterm 20%, final 20%. Credits: 3. No prior programming experience required.",
+      "source": "ASU SCAI - Syllabi",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-110-Syllabus-SP25.pdf",
+      "category": "syllabi"
+    },
+    {
+      "id": "cs-cse-310-spring-2025-syllabus-details",
+      "title": "CSE 310 - Spring 2025 Syllabus Details",
+      "text": "CSE 310 Data Structures and Algorithms, Spring 2025. Topics: Advanced data structures (stacks, queues, Red-Black trees, B-trees, B+ trees, AVL trees, graphs, hash tables), Sorting algorithms (merge sort, quicksort, heapsort), Graph algorithms (BFS, DFS, topological sort, shortest paths), Single-source shortest paths (Bellman-Ford, Dijkstra's), Minimum spanning trees (Prim's, Kruskal's), Dynamic programming, Greedy algorithms. Prerequisites: CSE 220 or 240 with C or better; MAT 243 with D or better. Includes mandatory recitation session. Credits: 3.",
+      "source": "ASU SCAI - Syllabi",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2025/03/CSE-310-Syllabus-SP25.pdf",
+      "category": "syllabi"
+    },
+    {
+      "id": "cs-cse-205-syllabus-details",
+      "title": "CSE 205 - Syllabus Details",
+      "text": "CSE 205 Object-Oriented Programming and Data Structures. Topics: Object-oriented design and UML, Java programming, Data structures (ArrayLists, Vectors, linked lists, queues, stacks), Recursive algorithms, File I/O, Exception handling, GUI programming basics, Ethical and social issues in computing. Uses zyBook interactive textbook. Prerequisites: CSE 100 or 110 with C or better. Credits: 3.",
+      "source": "ASU SCAI - Syllabi",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2020/05/cse205_s15_syllabus.pdf",
+      "category": "syllabi"
+    },
+    {
+      "id": "cs-cse-471-course-details-from-faculty-page",
+      "title": "CSE 471 - Course Details from Faculty Page",
+      "text": "CSE 471 Introduction to Artificial Intelligence. Topics include: Intelligent agents, Problem solving by search (uninformed and informed), Constraint satisfaction problems, Game playing (adversarial search), Probabilistic reasoning, Markov decision processes, Reinforcement learning, Statistical learning and classification, Knowledge representation. Credits: 3. Prerequisites: CSE 310 with C or better.",
+      "source": "ASU SCAI - Syllabi",
+      "sourceUrl": "https://rakaposhi.eas.asu.edu/cse471/",
+      "category": "syllabi"
+    },
+    {
+      "id": "cs-graduate-level-cse-courses-at-asu",
+      "title": "Graduate-Level CSE Courses at ASU",
+      "text": "ASU also offers graduate-level CSE courses including: CSE 520 (Parallel Computer Architecture), CSE 522 (Real-Time Embedded Systems), CSE 524 (Machine Learning Acceleration), CSE 536 (Advanced Operating Systems), CSE 571 (Artificial Intelligence - graduate level), CSE 574 (Planning & Learning Methods in AI), CSE 591 (Cyber Physical Systems), CSE 598 (Various advanced topics including Embedded Machine Learning, Advanced Digital Design, Reconfigurable Computing, Intelligent and Safe Cyber-Physical Systems). A new 'Compilers for ML' course is forthcoming.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://labs.engineering.asu.edu/advent/cen-cse-courses-at-asu/",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cs-ms-mcs-area-course-categories",
+      "title": "CS MS/MCS Area Course Categories",
+      "text": "Graduate CS courses are organized into areas: Foundations (theoretical CS, algorithms, programming languages), Systems (operating systems, networks, architecture, embedded systems, compilers), Applications (AI, machine learning, NLP, databases, HCI, multimedia, security). This categorization also helps undergraduates understand how elective choices align with graduate specialization areas.",
+      "source": "ASU SCAI - Cs Courses",
+      "sourceUrl": "https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2023/04/List-of-CS-Area-Courses-Matrix.pdf",
+      "category": "cs-courses"
+    },
+    {
+      "id": "cs-cs-bs-accelerated-master-s-program",
+      "title": "CS BS - Accelerated Master's Program",
+      "text": "Qualifying CS BS undergraduates can pursue an accelerated pathway to a Master's degree. This allows students to count certain graduate-level courses toward both their undergraduate and graduate degrees, reducing the total time to complete both degrees. Students should consult with SCAI advising for eligibility requirements.",
+      "source": "ASU SCAI - Degree Requirements",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/",
+      "category": "degree-requirements"
+    },
+    {
+      "id": "cs-scai-school-of-computing-and-augmented-intelligenc",
+      "title": "SCAI (School of Computing and Augmented Intelligence) - Overview",
+      "text": "The School of Computing and Augmented Intelligence (SCAI), formerly CIDSE (School of Computing, Informatics, and Decision Systems Engineering), is part of the Ira A. Fulton Schools of Engineering at ASU. SCAI administers the Computer Science BS, Computer Systems Engineering BSE, Computer Science (Software Engineering) BS, Informatics BS, and Data Science BS programs, among others. Located on the Tempe campus.",
+      "source": "ASU SCAI - Academic Policies",
+      "sourceUrl": "https://scai.engineering.asu.edu/",
+      "category": "academic-policies"
+    },
+    {
+      "id": "cs-required-support-courses-for-cs-bs",
+      "title": "Required Support Courses for CS BS",
+      "text": "In addition to CSE courses, the CS BS requires: FSE 100 (Introduction to Engineering, 2 credits) - an introductory engineering course covering engineering problem solving, teamwork, and professional skills; ENG 101 (First-Year Composition, 3 credits); ENG 102 (First-Year Composition, 3 credits). These are typically completed in the first year.",
+      "source": "ASU SCAI - Degree Requirements",
+      "sourceUrl": "https://scai.engineering.asu.edu/computer-science-bs/degree-requirements/",
+      "category": "degree-requirements"
+    },
+    {
+      "id": "mat-mat-106-intermediate-algebra",
+      "title": "MAT 106 - Intermediate Algebra",
+      "text": "Intermediate algebra course. Covers algebraic concepts as preparation for college-level mathematics. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-110-enhanced-freshman-mathematics",
+      "title": "MAT 110 - Enhanced Freshman Mathematics",
+      "text": "Enhanced freshman mathematics course designed to prepare students for college-level math courses. Completion with a Y grade satisfies prerequisites for MAT 114 and MAT 117.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/resources/math-courses",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-114-college-mathematics",
+      "title": "MAT 114 - College Mathematics",
+      "text": "Applies basic college-level mathematics to real-life problems. Appropriate for students whose major does not require MAT 117 or 170. Prerequisites: MAT 110 with a Y grade, OR Mathematics Placement Test score of 0-39.9% or higher, OR ALEKS score of 0-60 or higher. 3 credit hours. Course coordinators: Beth Schlenker, Sharmin Karim (online).",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat114",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-117-college-algebra",
+      "title": "MAT 117 - College Algebra",
+      "text": "Linear and quadratic functions, systems of linear equations, logarithmic and exponential functions, sequences, series, and combinatorics. Prerequisites: MAT 110 with a Y grade, OR Mathematics Placement Test score of 0-49.9% or higher, OR ALEKS score of 0-60 or higher. 3 credit hours. Course coordinators: Chandrani Banerjee, David Fishman; Leslie Loy and Sue McClure (online).",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat117",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-118-precalculus",
+      "title": "MAT 118 - Precalculus",
+      "text": "Precalculus course covering fundamental mathematical concepts in preparation for calculus. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-119-finite-mathematics",
+      "title": "MAT 119 - Finite Mathematics",
+      "text": "Topics from linear algebra, linear programming, combinatorics, probability, and mathematics of finance. Prerequisites: MAT 117, 170, 210, or 270 with a grade of C or higher, OR ALEKS Math Placement Test score of 61 or higher, OR Visiting University Student status. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat119",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-142-college-mathematics-math-analysis-",
+      "title": "MAT 142 - College Mathematics (Math Analysis)",
+      "text": "College-level mathematics course covering mathematical analysis topics. Also listed as Math Analysis in some catalog versions. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat142",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-170-precalculus",
+      "title": "MAT 170 - Precalculus",
+      "text": "Intensive preparation for calculus (MAT 260, 270, and 290). Topics include functions (including trigonometric), matrices, polar coordinates, vectors, complex numbers, and mathematical induction. Prerequisites: MAT 117 with a grade of C or better, OR Mathematics Placement Test score of 50% or higher, OR ALEKS score of 61 or higher. Credit is allowed for only MAT 170 or MAT 171. 3 credit hours. Course coordinators: Steve Brownstein; Michael Little Crow and Jonathan Perinetti (online).",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat170",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-171-precalculus-science-technology-engineering",
+      "title": "MAT 171 - Precalculus: Science, Technology, Engineering and Mathematics (STEM)",
+      "text": "Robust treatment of advanced algebraic skills and trigonometry that are vital in calculus. Algebra topics include functions, compositions, inverses, transformations, complex numbers, roots of polynomial functions, rational functions, exponential and logarithmic functions and their properties. Also covers trigonometry through the unit circle and right triangle approaches, including trigonometric functions, their graphs and identities, inverse trigonometry, and the laws of sine and cosine. Prerequisites: MAT 117 with a grade of C or better, OR Mathematics Placement Test score of 50% or higher, OR ALEKS score of 61 or higher. Credit is allowed for only MAT 170 or MAT 171. 4 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat171",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-191-first-year-seminar",
+      "title": "MAT 191 - First-Year Seminar",
+      "text": "First-year seminar course for mathematics students. 1 credit hour.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-194-special-topics",
+      "title": "MAT 194 - Special Topics",
+      "text": "Special topics course in mathematics. 1 credit hour.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-207-algebra-and-geometry-in-the-high-school",
+      "title": "MAT 207 - Algebra and Geometry in the High School",
+      "text": "Algebra and geometry topics relevant to high school mathematics teaching. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-208-discrete-mathematics-for-secondary-educati",
+      "title": "MAT 208 - Discrete Mathematics for Secondary Education",
+      "text": "Discrete mathematics topics designed for secondary education majors. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-210-brief-calculus",
+      "title": "MAT 210 - Brief Calculus",
+      "text": "Differential and integral calculus of elementary functions with applications. Prerequisites: MAT 117, 119, 170, or 171 with a grade of C or better, OR ALEKS score of 61 or higher. Credit is allowed for only MAT 210 or MAT 251. 3 credit hours. Course coordinators: Neha Joshi; Chandrani Banerjee (online).",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat210",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-211-mathematics-for-business-analysis",
+      "title": "MAT 211 - Mathematics for Business Analysis",
+      "text": "Calculus of single- and multivariable functions with applications to marginal analysis, optimization, and business modeling. Prerequisites: MAT 210, MAT 251, MAT 265, or MAT 270 with a grade of C or better. 3 credit hours. Course coordinators: Frank Arthur, Daniel Korytowski; Chandrani Banerjee, Daniel Korytowski (online).",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat211",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-242-elementary-linear-algebra",
+      "title": "MAT 242 - Elementary Linear Algebra",
+      "text": "Introduces matrices, systems of linear equations, determinants, vector spaces, linear transformations, and eigenvalues. Emphasizes development of computational skills. Prerequisites: MAT 210, MAT 251, MAT 265, or MAT 270 with a grade of C or better. 2 credit hours. Course coordinator: Oleksandr Lytvak.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat242",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-243-discrete-mathematical-structures",
+      "title": "MAT 243 - Discrete Mathematical Structures",
+      "text": "Logic, sets, functions, elementary number theory and combinatorics, recursive algorithms, and mathematical reasoning, including induction. Emphasizes connections to computer science. Prerequisites: MAT 210, 251, 265, or 270 with a grade of C or better; minimum sophomore standing. 3 credit hours. Course coordinators: Ileana Ionascu, Hedvig Mohacsy, Neha Joshi; Hedvig Mohacsy and Rochus Boerner (online).",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat243",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-251-calculus-for-life-sciences",
+      "title": "MAT 251 - Calculus for Life Sciences",
+      "text": "Differential and integral calculus of elementary functions. Introduces differential and difference equations. Emphasizes applications to the life sciences. Prerequisites: MAT 170 or 171 with a grade of C or better, OR Mathematics Placement Test score of 56% or higher, OR ALEKS score of 61 or higher. Credit is allowed for only MAT 210 or MAT 251. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat251",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-265-calculus-for-engineers-i",
+      "title": "MAT 265 - Calculus for Engineers I",
+      "text": "Limits and continuity, differential calculus of functions of one variable, introduction to integration. Not open to students with credit in MAT 270. Prerequisites: MAT 170 or 171 with a grade of C or better, OR Mathematics Placement Test score of 60% or higher, OR Advanced Math Placement Test score of 38 or higher, OR ALEKS score of 76 or higher. Credit is allowed for only MAT 265 or MAT 270. 3 credit hours. Course coordinators: David Polletta, Zia Mahmood; Jay Abramson and David Polletta (online).",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat265",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-266-calculus-for-engineers-ii",
+      "title": "MAT 266 - Calculus for Engineers II",
+      "text": "Methods of integration, applications of calculus, elements of analytic geometry, improper integrals, Taylor series. Not open to students with credit in MAT 271. Prerequisites: MAT 265 or MAT 270 with a grade of C or better. Credit is allowed for only MAT 266 or MAT 271. 3 credit hours. Course coordinators: Julia Inozemsteva, Max Mercer; Katie Kolossa and Max Mercer (online).",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat266",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-267-calculus-for-engineers-iii",
+      "title": "MAT 267 - Calculus for Engineers III",
+      "text": "Vector-valued functions of several variables, partial derivatives, multiple integration. Not open to students with credit in MAT 272. Prerequisites: MAT 266 or MAT 271 with a grade of C or better. Credit is allowed for only MAT 267 or MAT 272. 3 credit hours. Course coordinators: Jeremiah Jones; Behshid Kasmaie and Christopher Heckman (online).",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat267",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-270-calculus-with-analytic-geometry-i",
+      "title": "MAT 270 - Calculus with Analytic Geometry I",
+      "text": "Real numbers, limits and continuity, and differential and integral calculus of functions of one variable. Prerequisites: MAT 170 or 171 with a grade of C or higher, OR Mathematics Placement Test scoring 60% or above AND Advanced Math Placement Test scoring 38 or higher, OR ALEKS assessment score of 76 or higher. Credit is allowed for only MAT 265 or MAT 270. The two-course sequence of MAT 270 and MAT 271 may substitute for MAT 290 to fulfill curriculum requirements. 4 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat270",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-271-calculus-with-analytic-geometry-ii",
+      "title": "MAT 271 - Calculus with Analytic Geometry II",
+      "text": "Methods of integration; applies calculus, elements of analytic geometry, improper integrals, sequences, and series. Prerequisites: MAT 265 or 270 with a grade of C or better. Credit is allowed for only MAT 266 or MAT 271. The three-course sequence MAT 270, 271, 272 may be substituted to satisfy requirements for MAT 290 and 291. 4 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat271",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-272-calculus-with-analytic-geometry-iii",
+      "title": "MAT 272 - Calculus with Analytic Geometry III",
+      "text": "Vector-valued functions of several variables, multiple integration, and introduction to vector analysis. Prerequisites: MAT 266 or MAT 271 with a grade of C or better. Credit is allowed for only MAT 267 or MAT 272. 4 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat272",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-274-elementary-differential-equations",
+      "title": "MAT 274 - Elementary Differential Equations",
+      "text": "Elementary differential equations course. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-275-modern-differential-equations",
+      "title": "MAT 275 - Modern Differential Equations",
+      "text": "Introduces differential equations, theoretical and practical solution techniques. Applications. Problem solving using MATLAB. Prerequisites: MAT 266 or MAT 271 with a grade of C or better. Credit is allowed for only MAT 274 or MAT 275. 3 credit hours. Course coordinators: Richard Reynolds, Sukitha Adappa; Rochus Boerner (online).",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/mat275",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-294-special-topics",
+      "title": "MAT 294 - Special Topics",
+      "text": "Special topics course in mathematics at the 200-level. 1 credit hour.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-300-mathematical-structures",
+      "title": "MAT 300 - Mathematical Structures",
+      "text": "Logic and set theory, induction, functions, order and equivalence relations, cardinality. Emphasizes writing proofs. Prerequisites: MAT 210, 251, 265, or 270 with a grade of C or better. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.la.asu.edu/~quigg/teach/courses/300/2019fall/MAT%20300%20Syllabus.pdf",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-310-introduction-to-geometry",
+      "title": "MAT 310 - Introduction to Geometry",
+      "text": "Introduction to geometry course covering geometric concepts and proofs. Prerequisites: MAT 267 or 272 with a grade of C or better. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-340-theory-of-interest",
+      "title": "MAT 340 - Theory of Interest",
+      "text": "Mathematical theory of interest, covering topics relevant to actuarial science including compound interest, annuities, amortization, bonds, and related financial mathematics. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-342-linear-algebra",
+      "title": "MAT 342 - Linear Algebra",
+      "text": "Linear equations, matrices, determinants, vector spaces, bases, linear transformations and similarity, inner product spaces, eigenvectors, orthonormal bases, diagonalization, and principal axes. Prerequisites: MAT 267 or 272 with a grade of C or better. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-343-applied-linear-algebra",
+      "title": "MAT 343 - Applied Linear Algebra",
+      "text": "Solving linear systems, matrices, determinants, vector spaces, bases, linear transformations, eigenvectors, norms, inner products, decompositions, applications. Problem solving using MATLAB. Prerequisites: MAT 266 or 271 with a grade of C or better. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-350-technical-applications-of-applied-mathemat",
+      "title": "MAT 350 - Technical Applications of Applied Mathematics",
+      "text": "Technical and applied mathematics course covering practical applications of mathematical methods. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-351-mathematical-methods-in-genetic-analysis",
+      "title": "MAT 351 - Mathematical Methods in Genetic Analysis",
+      "text": "Mathematical methods applied to genetic analysis, covering quantitative approaches in genetics and biological sciences. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-355-introduction-to-computational-molecular-bi",
+      "title": "MAT 355 - Introduction to Computational Molecular Biology",
+      "text": "Introduction to computational methods in molecular biology, covering algorithms and mathematical approaches for biological data analysis. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-362-advanced-mathematics-for-engineers-and-sci",
+      "title": "MAT 362 - Advanced Mathematics for Engineers and Scientists",
+      "text": "Advanced mathematical methods for engineering and science applications. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-370-intermediate-calculus",
+      "title": "MAT 370 - Intermediate Calculus",
+      "text": "Intermediate calculus course bridging standard calculus and advanced analysis. Serves as an alternative pathway to MAT 371. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-371-advanced-calculus-i",
+      "title": "MAT 371 - Advanced Calculus I",
+      "text": "Real numbers, completeness, sequences and series, continuity, uniform theorems, derivative, Riemann integral, pointwise and uniform convergence, Taylor's theorem. Prerequisites: MAT 272 (or MAT 267) and MAT 300 with a grade of C or better. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.la.asu.edu/~kawski/classes/mat371/19sprg/general.html",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-372-advanced-calculus-ii",
+      "title": "MAT 372 - Advanced Calculus II",
+      "text": "Continuation of MAT 371. Further topics in advanced calculus and real analysis. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-394-special-topics",
+      "title": "MAT 394 - Special Topics",
+      "text": "Special topics course in mathematics at the 300-level. 1 credit hour.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-410-introduction-to-general-topology",
+      "title": "MAT 410 - Introduction to General Topology",
+      "text": "Introduction to general topology, covering topological spaces, continuity, connectedness, compactness, and related concepts. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-411-history-and-philosophy-of-mathematics",
+      "title": "MAT 411 - History and Philosophy of Mathematics",
+      "text": "Survey of the history and philosophical foundations of mathematics. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-412-differential-geometry",
+      "title": "MAT 412 - Differential Geometry",
+      "text": "Introduction to differential geometry covering curves, surfaces, and related geometric concepts. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-415-introduction-to-combinatorics",
+      "title": "MAT 415 - Introduction to Combinatorics",
+      "text": "Introduction to combinatorial mathematics, covering counting techniques, generating functions, and combinatorial structures. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-416-graph-theory",
+      "title": "MAT 416 - Graph Theory",
+      "text": "Introduction to graph theory covering fundamental concepts of graphs, trees, networks, and related algorithms. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-419-introduction-to-linear-optimization",
+      "title": "MAT 419 - Introduction to Linear Optimization",
+      "text": "Introduction to linear optimization (linear programming) including simplex method, duality, and applications. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-420-scientific-computing",
+      "title": "MAT 420 - Scientific Computing",
+      "text": "Surveys and applies programming languages, libraries, and scientific visualization tools for scientific computing. Programming assignments emphasize software development skills. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://plato.asu.edu/MAT420/",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-421-probability",
+      "title": "MAT 421 - Probability",
+      "text": "Probability theory course covering probability spaces, random variables, distributions, expectation, and related topics. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-423-modern-computer-architecture",
+      "title": "MAT 423 - Modern Computer Architecture",
+      "text": "Modern computer architecture from a mathematical and computational perspective. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-425-numerical-analysis-ii",
+      "title": "MAT 425 - Numerical Analysis II",
+      "text": "Advanced numerical analysis covering numerical methods for solving mathematical problems computationally. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-429-optimization",
+      "title": "MAT 429 - Optimization",
+      "text": "Optimization theory and methods including constrained and unconstrained optimization techniques. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-440-group-theory",
+      "title": "MAT 440 - Group Theory",
+      "text": "Introduction to group theory covering group axioms, subgroups, homomorphisms, quotient groups, and related algebraic structures. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-441-ring-theory",
+      "title": "MAT 441 - Ring Theory",
+      "text": "Introduction to ring theory covering rings, ideals, ring homomorphisms, polynomial rings, and related algebraic structures. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-442-advanced-linear-algebra",
+      "title": "MAT 442 - Advanced Linear Algebra",
+      "text": "Advanced topics in linear algebra beyond the introductory level, covering abstract vector spaces, canonical forms, and advanced matrix theory. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-443-abstract-algebra",
+      "title": "MAT 443 - Abstract Algebra",
+      "text": "Introduction to abstract algebra covering groups, rings, fields, and fundamental algebraic structures. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-444-intermediate-abstract-algebra",
+      "title": "MAT 444 - Intermediate Abstract Algebra",
+      "text": "Continuation of abstract algebra covering more advanced topics in group theory, ring theory, and field theory. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-445-theory-of-numbers",
+      "title": "MAT 445 - Theory of Numbers",
+      "text": "Number theory course covering divisibility, congruences, prime numbers, quadratic residues, and related topics. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-447-cryptography-i",
+      "title": "MAT 447 - Cryptography I",
+      "text": "Introduction to cryptography covering classical and modern cryptographic systems, including mathematical foundations of encryption and decryption. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-450-mathematical-models-in-biology",
+      "title": "MAT 450 - Mathematical Models in Biology",
+      "text": "Mathematical modeling applied to biological systems, covering differential equations, dynamical systems, and computational approaches to biological problems. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-451-mathematical-modeling",
+      "title": "MAT 451 - Mathematical Modeling",
+      "text": "Introduction to mathematical modeling covering techniques for formulating, analyzing, and solving mathematical models of real-world problems. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-452-introduction-to-chaos-and-nonlinear-dynami",
+      "title": "MAT 452 - Introduction to Chaos and Nonlinear Dynamics",
+      "text": "Introduction to chaotic systems and nonlinear dynamics, covering attractors, bifurcations, fractals, and related dynamical systems concepts. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-460-vector-calculus",
+      "title": "MAT 460 - Vector Calculus",
+      "text": "Advanced vector calculus covering line integrals, surface integrals, Green's theorem, Stokes' theorem, and the divergence theorem. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-461-applied-complex-analysis",
+      "title": "MAT 461 - Applied Complex Analysis",
+      "text": "Applied complex analysis covering complex functions, analytic functions, contour integration, residues, and applications. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-462-applied-partial-differential-equations",
+      "title": "MAT 462 - Applied Partial Differential Equations",
+      "text": "Applied partial differential equations covering classification of PDEs, separation of variables, Fourier series, boundary value problems, and applications. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-472-intermediate-real-analysis-i",
+      "title": "MAT 472 - Intermediate Real Analysis I",
+      "text": "Introduces analysis in metric spaces with emphasis on the real line. Appropriate as preparation for MAT 570 (graduate-level real analysis). Prerequisites: MAT 300 and MAT 342 (or 343) with a grade of C or better. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.la.asu.edu/~suslov/classes/mat472f08/mat472f08.htm",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-473-intermediate-real-analysis-ii",
+      "title": "MAT 473 - Intermediate Real Analysis II",
+      "text": "Continuation of MAT 472. Analysis in n-dimensional Euclidean space, including differentiation and Lebesgue integration. Prerequisites: MAT 472 with a grade of C or better, or consent of instructor. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://math.asu.edu/sites/g/files/litvpz216/files/2024-10/473s25-spielberg.pdf",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-475-differential-equations",
+      "title": "MAT 475 - Differential Equations",
+      "text": "Advanced differential equations course covering theory and methods beyond the introductory level. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-476-partial-differential-equations",
+      "title": "MAT 476 - Partial Differential Equations",
+      "text": "Theory and methods for partial differential equations at an advanced undergraduate level. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-484-internship",
+      "title": "MAT 484 - Internship",
+      "text": "Mathematics internship course providing practical experience in a professional setting. 1 credit hour.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-mat-485-history-of-mathematics",
+      "title": "MAT 485 - History of Mathematics",
+      "text": "Survey of the history of mathematics from ancient civilizations through modern times, covering major developments and mathematicians. 3 credit hours.",
+      "source": "ASU Math - Mat Courses",
+      "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+      "category": "mat-courses"
+    },
+    {
+      "id": "mat-aleks-math-placement-assessment",
+      "title": "ALEKS Math Placement Assessment",
+      "text": "ASU requires all incoming first-year students and transfer students to take the ALEKS Placement, Preparation and Learning (ALEKS PPL) Assessment to determine readiness for mathematics courses. The assessment consists of up to 30 questions and generally takes 60-90 minutes to complete, with a 2-hour time limit. Students cannot save progress or take breaks. Requirements: LockDown Browser and working webcam required. Valid photo ID needed (school ID, state ID, driver's license, or passport). No calculators, notes, or outside assistance permitted. Assessment password: ARIZONASTATE1. Score Ranges and Course Placement: 0-60: MAT 114 or MAT 117; 61-75: MAT 119, 170, 171, 210, 251, STP 226, or STP 231; 76-100: MAT 265 or MAT 270. Students receive 3 total attempts: 24-hour waiting period before attempt 2; must complete 3+ hours of ALEKS prep module work before attempt 3. Scores are valid for one year only. Allow 24-48 hours after taking the assessment for the score to be usable for registration. Contact: placement.math@asu.edu. Disabilities: Student Accessibility and Inclusive Learning Services at 480-965-1234. Technical issues: ALEKS support at 800-258-2374.",
+      "source": "ASU Math - Math Placement",
+      "sourceUrl": "https://students.asu.edu/math",
+      "category": "math-placement"
+    },
+    {
+      "id": "mat-asu-math-tutoring-center",
+      "title": "ASU Math Tutoring Center",
+      "text": "The Math Tutoring Centers on the Tempe campus offer free, in-person tutoring on a walk-in basis for mathematics and statistics courses through MAT 275. Locations and Hours: Wexler Hall (WXLR 116): Monday-Thursday 10:00am-5:00pm, Friday 10:00am-3:00pm; Hayden Library (Concourse Level): Monday-Thursday 10:00am-6:00pm, Friday 10:00am-3:00pm; W.P. Carey Tutoring Center (BA 201): Monday-Friday 11:00am-3:00pm; Hassayampa Evening Center (Mesquite Hall, F101): Monday-Thursday 5:00pm-10:00pm. Online Zoom tutoring available with extended hours through Sunday. Students must bring ASU Sun Card for check-in, class materials, and calculator if needed. Service is free and walk-in basis. Tutors are undergraduate and graduate students with professional certification. Contact: Academic Support Network at 480-965-9072 or 480-965-7795.",
+      "source": "ASU Math - Math Tutoring",
+      "sourceUrl": "https://math.asu.edu/resources/math-tutoring-center",
+      "category": "math-tutoring"
+    },
+    {
+      "id": "mat-asu-math-community-center-mc2-",
+      "title": "ASU Math Community Center (MC2)",
+      "text": "The Math Community Center (MC2) is located in WXLR A303 on the Tempe campus. It provides free in-person peer mentoring and structured course assistance from graduate student tutors. Hours (Fall 2025): Monday-Thursday 9:30am-5:00pm, Friday 9:30am-4:00pm. The MC2 is described as far more than a tutoring center - it is a space where students, graduates, and teachers create a culture centered around genuinely helping one another. Supported courses: MAT 114, 117, 119, 170, 171, 210, 211, 242, 243, 251, 265-267, 270-272, 275, MTE 180, 181, STP 220, 226, 231, DAT 250, 301. Students enrolled in MAT 117 or 114 can access additional resources through Math Central.",
+      "source": "ASU Math - Math Tutoring",
+      "sourceUrl": "https://math.asu.edu/resources/math-community-center",
+      "category": "math-tutoring"
+    },
+    {
+      "id": "mat-asu-tutoring-options-for-math-students",
+      "title": "ASU Tutoring Options for Math Students",
+      "text": "ASU provides multiple free tutoring resources for math students: 1) Math Tutoring Center (WXLR A116) - free in-person walk-in tutoring for mathematics and statistics courses, tutors are certified undergraduate and graduate students, contact 480-965-7795; 2) Math Community Center (WXLR A303) - peer mentoring and structured course assistance from graduate student tutors; 3) University Academic Success Programs - available both in-person and online for currently enrolled ASU students, contact 480-965-9072; 4) Engineering tutoring services for engineering students; 5) W.P. Carey School of Business tutoring center for business students taking math courses. Online tutoring is available via Zoom with extended hours.",
+      "source": "ASU Math - Math Tutoring",
+      "sourceUrl": "https://math.asu.edu/tutoring",
+      "category": "math-tutoring"
+    },
+    {
+      "id": "mat-asu-mathematics-bs-degree-requirements",
+      "title": "ASU Mathematics BS Degree Requirements",
+      "text": "The Bachelor of Science in Mathematics at ASU provides a deep grounding in both theoretical and applied mathematical concepts. Located on the Tempe campus. Minimum 120 credit hours required with 45 upper-division minimum credit hours. Initial math course: MAT 270 (Calculus with Analytic Geometry I). Math intensity level: Substantial. No second language requirement. Curriculum covers a broad spectrum of advanced mathematical topics including differential equations, modeling, numerical analysis, number theory, topology, cryptography, and real analysis. The degree pairs well with computer science, physics, astrophysics, engineering, economics, business, music, and art. Accelerated Bachelor's/Master's options available including Mathematics (MA) or Public Administration (MPA). Concurrent degree options also available. Career paths include research, computer science, cybersecurity, law, finance, biotechnology, government, engineering, health care, and education. Contact: mathadvising@asu.edu or 480-965-7195.",
+      "source": "ASU Math - Math Degree",
+      "sourceUrl": "https://math.asu.edu/degree/undergraduate/mathematics-bs",
+      "category": "math-degree"
+    },
+    {
+      "id": "mat-asu-math-placement-and-testing",
+      "title": "ASU Math Placement and Testing",
+      "text": "Placement and testing information for mathematics courses at ASU. All incoming first-year students are required to take ASU's mathematics placement assessment, including those that have received AP math credit. Transfer students are also required unless they are transferring an equivalent math prerequisite. The ALEKS PPL Assessment determines which mathematics courses a student is eligible to enroll in. Students can improve their placement score by using the ALEKS Prep and Learning modules. For engineering students, improving math placement is especially important as it determines the starting point in the calculus sequence. Additional resources available at the School of Mathematical and Statistical Sciences placement page.",
+      "source": "ASU Math - Math Placement",
+      "sourceUrl": "https://math.asu.edu/admission/undergraduate-admission/placement-testing",
+      "category": "math-placement"
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+[
+  {
+    "title": "MAT 106 - Intermediate Algebra",
+    "content": "Intermediate algebra course. Covers algebraic concepts as preparation for college-level mathematics. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 110 - Enhanced Freshman Mathematics",
+    "content": "Enhanced freshman mathematics course designed to prepare students for college-level math courses. Completion with a Y grade satisfies prerequisites for MAT 114 and MAT 117.",
+    "sourceUrl": "https://math.asu.edu/resources/math-courses",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 114 - College Mathematics",
+    "content": "Applies basic college-level mathematics to real-life problems. Appropriate for students whose major does not require MAT 117 or 170. Prerequisites: MAT 110 with a Y grade, OR Mathematics Placement Test score of 0-39.9% or higher, OR ALEKS score of 0-60 or higher. 3 credit hours. Course coordinators: Beth Schlenker, Sharmin Karim (online).",
+    "sourceUrl": "https://math.asu.edu/mat114",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 117 - College Algebra",
+    "content": "Linear and quadratic functions, systems of linear equations, logarithmic and exponential functions, sequences, series, and combinatorics. Prerequisites: MAT 110 with a Y grade, OR Mathematics Placement Test score of 0-49.9% or higher, OR ALEKS score of 0-60 or higher. 3 credit hours. Course coordinators: Chandrani Banerjee, David Fishman; Leslie Loy and Sue McClure (online).",
+    "sourceUrl": "https://math.asu.edu/mat117",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 118 - Precalculus",
+    "content": "Precalculus course covering fundamental mathematical concepts in preparation for calculus. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 119 - Finite Mathematics",
+    "content": "Topics from linear algebra, linear programming, combinatorics, probability, and mathematics of finance. Prerequisites: MAT 117, 170, 210, or 270 with a grade of C or higher, OR ALEKS Math Placement Test score of 61 or higher, OR Visiting University Student status. 3 credit hours.",
+    "sourceUrl": "https://math.asu.edu/mat119",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 142 - College Mathematics (Math Analysis)",
+    "content": "College-level mathematics course covering mathematical analysis topics. Also listed as Math Analysis in some catalog versions. 3 credit hours.",
+    "sourceUrl": "https://math.asu.edu/mat142",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 170 - Precalculus",
+    "content": "Intensive preparation for calculus (MAT 260, 270, and 290). Topics include functions (including trigonometric), matrices, polar coordinates, vectors, complex numbers, and mathematical induction. Prerequisites: MAT 117 with a grade of C or better, OR Mathematics Placement Test score of 50% or higher, OR ALEKS score of 61 or higher. Credit is allowed for only MAT 170 or MAT 171. 3 credit hours. Course coordinators: Steve Brownstein; Michael Little Crow and Jonathan Perinetti (online).",
+    "sourceUrl": "https://math.asu.edu/mat170",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 171 - Precalculus: Science, Technology, Engineering and Mathematics (STEM)",
+    "content": "Robust treatment of advanced algebraic skills and trigonometry that are vital in calculus. Algebra topics include functions, compositions, inverses, transformations, complex numbers, roots of polynomial functions, rational functions, exponential and logarithmic functions and their properties. Also covers trigonometry through the unit circle and right triangle approaches, including trigonometric functions, their graphs and identities, inverse trigonometry, and the laws of sine and cosine. Prerequisites: MAT 117 with a grade of C or better, OR Mathematics Placement Test score of 50% or higher, OR ALEKS score of 61 or higher. Credit is allowed for only MAT 170 or MAT 171. 4 credit hours.",
+    "sourceUrl": "https://math.asu.edu/mat171",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 191 - First-Year Seminar",
+    "content": "First-year seminar course for mathematics students. 1 credit hour.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 194 - Special Topics",
+    "content": "Special topics course in mathematics. 1 credit hour.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 207 - Algebra and Geometry in the High School",
+    "content": "Algebra and geometry topics relevant to high school mathematics teaching. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 208 - Discrete Mathematics for Secondary Education",
+    "content": "Discrete mathematics topics designed for secondary education majors. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 210 - Brief Calculus",
+    "content": "Differential and integral calculus of elementary functions with applications. Prerequisites: MAT 117, 119, 170, or 171 with a grade of C or better, OR ALEKS score of 61 or higher. Credit is allowed for only MAT 210 or MAT 251. 3 credit hours. Course coordinators: Neha Joshi; Chandrani Banerjee (online).",
+    "sourceUrl": "https://math.asu.edu/mat210",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 211 - Mathematics for Business Analysis",
+    "content": "Calculus of single- and multivariable functions with applications to marginal analysis, optimization, and business modeling. Prerequisites: MAT 210, MAT 251, MAT 265, or MAT 270 with a grade of C or better. 3 credit hours. Course coordinators: Frank Arthur, Daniel Korytowski; Chandrani Banerjee, Daniel Korytowski (online).",
+    "sourceUrl": "https://math.asu.edu/mat211",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 242 - Elementary Linear Algebra",
+    "content": "Introduces matrices, systems of linear equations, determinants, vector spaces, linear transformations, and eigenvalues. Emphasizes development of computational skills. Prerequisites: MAT 210, MAT 251, MAT 265, or MAT 270 with a grade of C or better. 2 credit hours. Course coordinator: Oleksandr Lytvak.",
+    "sourceUrl": "https://math.asu.edu/mat242",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 243 - Discrete Mathematical Structures",
+    "content": "Logic, sets, functions, elementary number theory and combinatorics, recursive algorithms, and mathematical reasoning, including induction. Emphasizes connections to computer science. Prerequisites: MAT 210, 251, 265, or 270 with a grade of C or better; minimum sophomore standing. 3 credit hours. Course coordinators: Ileana Ionascu, Hedvig Mohacsy, Neha Joshi; Hedvig Mohacsy and Rochus Boerner (online).",
+    "sourceUrl": "https://math.asu.edu/mat243",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 251 - Calculus for Life Sciences",
+    "content": "Differential and integral calculus of elementary functions. Introduces differential and difference equations. Emphasizes applications to the life sciences. Prerequisites: MAT 170 or 171 with a grade of C or better, OR Mathematics Placement Test score of 56% or higher, OR ALEKS score of 61 or higher. Credit is allowed for only MAT 210 or MAT 251. 3 credit hours.",
+    "sourceUrl": "https://math.asu.edu/mat251",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 265 - Calculus for Engineers I",
+    "content": "Limits and continuity, differential calculus of functions of one variable, introduction to integration. Not open to students with credit in MAT 270. Prerequisites: MAT 170 or 171 with a grade of C or better, OR Mathematics Placement Test score of 60% or higher, OR Advanced Math Placement Test score of 38 or higher, OR ALEKS score of 76 or higher. Credit is allowed for only MAT 265 or MAT 270. 3 credit hours. Course coordinators: David Polletta, Zia Mahmood; Jay Abramson and David Polletta (online).",
+    "sourceUrl": "https://math.asu.edu/mat265",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 266 - Calculus for Engineers II",
+    "content": "Methods of integration, applications of calculus, elements of analytic geometry, improper integrals, Taylor series. Not open to students with credit in MAT 271. Prerequisites: MAT 265 or MAT 270 with a grade of C or better. Credit is allowed for only MAT 266 or MAT 271. 3 credit hours. Course coordinators: Julia Inozemsteva, Max Mercer; Katie Kolossa and Max Mercer (online).",
+    "sourceUrl": "https://math.asu.edu/mat266",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 267 - Calculus for Engineers III",
+    "content": "Vector-valued functions of several variables, partial derivatives, multiple integration. Not open to students with credit in MAT 272. Prerequisites: MAT 266 or MAT 271 with a grade of C or better. Credit is allowed for only MAT 267 or MAT 272. 3 credit hours. Course coordinators: Jeremiah Jones; Behshid Kasmaie and Christopher Heckman (online).",
+    "sourceUrl": "https://math.asu.edu/mat267",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 270 - Calculus with Analytic Geometry I",
+    "content": "Real numbers, limits and continuity, and differential and integral calculus of functions of one variable. Prerequisites: MAT 170 or 171 with a grade of C or higher, OR Mathematics Placement Test scoring 60% or above AND Advanced Math Placement Test scoring 38 or higher, OR ALEKS assessment score of 76 or higher. Credit is allowed for only MAT 265 or MAT 270. The two-course sequence of MAT 270 and MAT 271 may substitute for MAT 290 to fulfill curriculum requirements. 4 credit hours.",
+    "sourceUrl": "https://math.asu.edu/mat270",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 271 - Calculus with Analytic Geometry II",
+    "content": "Methods of integration; applies calculus, elements of analytic geometry, improper integrals, sequences, and series. Prerequisites: MAT 265 or 270 with a grade of C or better. Credit is allowed for only MAT 266 or MAT 271. The three-course sequence MAT 270, 271, 272 may be substituted to satisfy requirements for MAT 290 and 291. 4 credit hours.",
+    "sourceUrl": "https://math.asu.edu/mat271",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 272 - Calculus with Analytic Geometry III",
+    "content": "Vector-valued functions of several variables, multiple integration, and introduction to vector analysis. Prerequisites: MAT 266 or MAT 271 with a grade of C or better. Credit is allowed for only MAT 267 or MAT 272. 4 credit hours.",
+    "sourceUrl": "https://math.asu.edu/mat272",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 274 - Elementary Differential Equations",
+    "content": "Elementary differential equations course. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 275 - Modern Differential Equations",
+    "content": "Introduces differential equations, theoretical and practical solution techniques. Applications. Problem solving using MATLAB. Prerequisites: MAT 266 or MAT 271 with a grade of C or better. Credit is allowed for only MAT 274 or MAT 275. 3 credit hours. Course coordinators: Richard Reynolds, Sukitha Adappa; Rochus Boerner (online).",
+    "sourceUrl": "https://math.asu.edu/mat275",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 294 - Special Topics",
+    "content": "Special topics course in mathematics at the 200-level. 1 credit hour.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 300 - Mathematical Structures",
+    "content": "Logic and set theory, induction, functions, order and equivalence relations, cardinality. Emphasizes writing proofs. Prerequisites: MAT 210, 251, 265, or 270 with a grade of C or better. 3 credit hours.",
+    "sourceUrl": "https://math.la.asu.edu/~quigg/teach/courses/300/2019fall/MAT%20300%20Syllabus.pdf",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 310 - Introduction to Geometry",
+    "content": "Introduction to geometry course covering geometric concepts and proofs. Prerequisites: MAT 267 or 272 with a grade of C or better. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 340 - Theory of Interest",
+    "content": "Mathematical theory of interest, covering topics relevant to actuarial science including compound interest, annuities, amortization, bonds, and related financial mathematics. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 342 - Linear Algebra",
+    "content": "Linear equations, matrices, determinants, vector spaces, bases, linear transformations and similarity, inner product spaces, eigenvectors, orthonormal bases, diagonalization, and principal axes. Prerequisites: MAT 267 or 272 with a grade of C or better. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 343 - Applied Linear Algebra",
+    "content": "Solving linear systems, matrices, determinants, vector spaces, bases, linear transformations, eigenvectors, norms, inner products, decompositions, applications. Problem solving using MATLAB. Prerequisites: MAT 266 or 271 with a grade of C or better. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 350 - Technical Applications of Applied Mathematics",
+    "content": "Technical and applied mathematics course covering practical applications of mathematical methods. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 351 - Mathematical Methods in Genetic Analysis",
+    "content": "Mathematical methods applied to genetic analysis, covering quantitative approaches in genetics and biological sciences. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 355 - Introduction to Computational Molecular Biology",
+    "content": "Introduction to computational methods in molecular biology, covering algorithms and mathematical approaches for biological data analysis. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 362 - Advanced Mathematics for Engineers and Scientists",
+    "content": "Advanced mathematical methods for engineering and science applications. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 370 - Intermediate Calculus",
+    "content": "Intermediate calculus course bridging standard calculus and advanced analysis. Serves as an alternative pathway to MAT 371. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 371 - Advanced Calculus I",
+    "content": "Real numbers, completeness, sequences and series, continuity, uniform theorems, derivative, Riemann integral, pointwise and uniform convergence, Taylor's theorem. Prerequisites: MAT 272 (or MAT 267) and MAT 300 with a grade of C or better. 3 credit hours.",
+    "sourceUrl": "https://math.la.asu.edu/~kawski/classes/mat371/19sprg/general.html",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 372 - Advanced Calculus II",
+    "content": "Continuation of MAT 371. Further topics in advanced calculus and real analysis. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 394 - Special Topics",
+    "content": "Special topics course in mathematics at the 300-level. 1 credit hour.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 410 - Introduction to General Topology",
+    "content": "Introduction to general topology, covering topological spaces, continuity, connectedness, compactness, and related concepts. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 411 - History and Philosophy of Mathematics",
+    "content": "Survey of the history and philosophical foundations of mathematics. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 412 - Differential Geometry",
+    "content": "Introduction to differential geometry covering curves, surfaces, and related geometric concepts. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 415 - Introduction to Combinatorics",
+    "content": "Introduction to combinatorial mathematics, covering counting techniques, generating functions, and combinatorial structures. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 416 - Graph Theory",
+    "content": "Introduction to graph theory covering fundamental concepts of graphs, trees, networks, and related algorithms. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 419 - Introduction to Linear Optimization",
+    "content": "Introduction to linear optimization (linear programming) including simplex method, duality, and applications. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 420 - Scientific Computing",
+    "content": "Surveys and applies programming languages, libraries, and scientific visualization tools for scientific computing. Programming assignments emphasize software development skills. 3 credit hours.",
+    "sourceUrl": "https://plato.asu.edu/MAT420/",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 421 - Probability",
+    "content": "Probability theory course covering probability spaces, random variables, distributions, expectation, and related topics. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 423 - Modern Computer Architecture",
+    "content": "Modern computer architecture from a mathematical and computational perspective. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 425 - Numerical Analysis II",
+    "content": "Advanced numerical analysis covering numerical methods for solving mathematical problems computationally. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 429 - Optimization",
+    "content": "Optimization theory and methods including constrained and unconstrained optimization techniques. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 440 - Group Theory",
+    "content": "Introduction to group theory covering group axioms, subgroups, homomorphisms, quotient groups, and related algebraic structures. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 441 - Ring Theory",
+    "content": "Introduction to ring theory covering rings, ideals, ring homomorphisms, polynomial rings, and related algebraic structures. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 442 - Advanced Linear Algebra",
+    "content": "Advanced topics in linear algebra beyond the introductory level, covering abstract vector spaces, canonical forms, and advanced matrix theory. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 443 - Abstract Algebra",
+    "content": "Introduction to abstract algebra covering groups, rings, fields, and fundamental algebraic structures. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 444 - Intermediate Abstract Algebra",
+    "content": "Continuation of abstract algebra covering more advanced topics in group theory, ring theory, and field theory. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 445 - Theory of Numbers",
+    "content": "Number theory course covering divisibility, congruences, prime numbers, quadratic residues, and related topics. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 447 - Cryptography I",
+    "content": "Introduction to cryptography covering classical and modern cryptographic systems, including mathematical foundations of encryption and decryption. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 450 - Mathematical Models in Biology",
+    "content": "Mathematical modeling applied to biological systems, covering differential equations, dynamical systems, and computational approaches to biological problems. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 451 - Mathematical Modeling",
+    "content": "Introduction to mathematical modeling covering techniques for formulating, analyzing, and solving mathematical models of real-world problems. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 452 - Introduction to Chaos and Nonlinear Dynamics",
+    "content": "Introduction to chaotic systems and nonlinear dynamics, covering attractors, bifurcations, fractals, and related dynamical systems concepts. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 460 - Vector Calculus",
+    "content": "Advanced vector calculus covering line integrals, surface integrals, Green's theorem, Stokes' theorem, and the divergence theorem. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 461 - Applied Complex Analysis",
+    "content": "Applied complex analysis covering complex functions, analytic functions, contour integration, residues, and applications. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 462 - Applied Partial Differential Equations",
+    "content": "Applied partial differential equations covering classification of PDEs, separation of variables, Fourier series, boundary value problems, and applications. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 472 - Intermediate Real Analysis I",
+    "content": "Introduces analysis in metric spaces with emphasis on the real line. Appropriate as preparation for MAT 570 (graduate-level real analysis). Prerequisites: MAT 300 and MAT 342 (or 343) with a grade of C or better. 3 credit hours.",
+    "sourceUrl": "https://math.la.asu.edu/~suslov/classes/mat472f08/mat472f08.htm",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 473 - Intermediate Real Analysis II",
+    "content": "Continuation of MAT 472. Analysis in n-dimensional Euclidean space, including differentiation and Lebesgue integration. Prerequisites: MAT 472 with a grade of C or better, or consent of instructor. 3 credit hours.",
+    "sourceUrl": "https://math.asu.edu/sites/g/files/litvpz216/files/2024-10/473s25-spielberg.pdf",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 475 - Differential Equations",
+    "content": "Advanced differential equations course covering theory and methods beyond the introductory level. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 476 - Partial Differential Equations",
+    "content": "Theory and methods for partial differential equations at an advanced undergraduate level. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 484 - Internship",
+    "content": "Mathematics internship course providing practical experience in a professional setting. 1 credit hour.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "MAT 485 - History of Mathematics",
+    "content": "Survey of the history of mathematics from ancient civilizations through modern times, covering major developments and mathematicians. 3 credit hours.",
+    "sourceUrl": "https://aztransmac2.asu.edu/cgi-bin/WebObjects/CEG.woa/wa/ByInstDept?abbrev=ASU&dept=MAT",
+    "category": "mat-courses"
+  },
+  {
+    "title": "ALEKS Math Placement Assessment",
+    "content": "ASU requires all incoming first-year students and transfer students to take the ALEKS Placement, Preparation and Learning (ALEKS PPL) Assessment to determine readiness for mathematics courses. The assessment consists of up to 30 questions and generally takes 60-90 minutes to complete, with a 2-hour time limit. Students cannot save progress or take breaks. Requirements: LockDown Browser and working webcam required. Valid photo ID needed (school ID, state ID, driver's license, or passport). No calculators, notes, or outside assistance permitted. Assessment password: ARIZONASTATE1. Score Ranges and Course Placement: 0-60: MAT 114 or MAT 117; 61-75: MAT 119, 170, 171, 210, 251, STP 226, or STP 231; 76-100: MAT 265 or MAT 270. Students receive 3 total attempts: 24-hour waiting period before attempt 2; must complete 3+ hours of ALEKS prep module work before attempt 3. Scores are valid for one year only. Allow 24-48 hours after taking the assessment for the score to be usable for registration. Contact: placement.math@asu.edu. Disabilities: Student Accessibility and Inclusive Learning Services at 480-965-1234. Technical issues: ALEKS support at 800-258-2374.",
+    "sourceUrl": "https://students.asu.edu/math",
+    "category": "math-placement"
+  },
+  {
+    "title": "ASU Math Tutoring Center",
+    "content": "The Math Tutoring Centers on the Tempe campus offer free, in-person tutoring on a walk-in basis for mathematics and statistics courses through MAT 275. Locations and Hours: Wexler Hall (WXLR 116): Monday-Thursday 10:00am-5:00pm, Friday 10:00am-3:00pm; Hayden Library (Concourse Level): Monday-Thursday 10:00am-6:00pm, Friday 10:00am-3:00pm; W.P. Carey Tutoring Center (BA 201): Monday-Friday 11:00am-3:00pm; Hassayampa Evening Center (Mesquite Hall, F101): Monday-Thursday 5:00pm-10:00pm. Online Zoom tutoring available with extended hours through Sunday. Students must bring ASU Sun Card for check-in, class materials, and calculator if needed. Service is free and walk-in basis. Tutors are undergraduate and graduate students with professional certification. Contact: Academic Support Network at 480-965-9072 or 480-965-7795.",
+    "sourceUrl": "https://math.asu.edu/resources/math-tutoring-center",
+    "category": "math-tutoring"
+  },
+  {
+    "title": "ASU Math Community Center (MC2)",
+    "content": "The Math Community Center (MC2) is located in WXLR A303 on the Tempe campus. It provides free in-person peer mentoring and structured course assistance from graduate student tutors. Hours (Fall 2025): Monday-Thursday 9:30am-5:00pm, Friday 9:30am-4:00pm. The MC2 is described as far more than a tutoring center - it is a space where students, graduates, and teachers create a culture centered around genuinely helping one another. Supported courses: MAT 114, 117, 119, 170, 171, 210, 211, 242, 243, 251, 265-267, 270-272, 275, MTE 180, 181, STP 220, 226, 231, DAT 250, 301. Students enrolled in MAT 117 or 114 can access additional resources through Math Central.",
+    "sourceUrl": "https://math.asu.edu/resources/math-community-center",
+    "category": "math-tutoring"
+  },
+  {
+    "title": "ASU Tutoring Options for Math Students",
+    "content": "ASU provides multiple free tutoring resources for math students: 1) Math Tutoring Center (WXLR A116) - free in-person walk-in tutoring for mathematics and statistics courses, tutors are certified undergraduate and graduate students, contact 480-965-7795; 2) Math Community Center (WXLR A303) - peer mentoring and structured course assistance from graduate student tutors; 3) University Academic Success Programs - available both in-person and online for currently enrolled ASU students, contact 480-965-9072; 4) Engineering tutoring services for engineering students; 5) W.P. Carey School of Business tutoring center for business students taking math courses. Online tutoring is available via Zoom with extended hours.",
+    "sourceUrl": "https://math.asu.edu/tutoring",
+    "category": "math-tutoring"
+  },
+  {
+    "title": "ASU Mathematics BS Degree Requirements",
+    "content": "The Bachelor of Science in Mathematics at ASU provides a deep grounding in both theoretical and applied mathematical concepts. Located on the Tempe campus. Minimum 120 credit hours required with 45 upper-division minimum credit hours. Initial math course: MAT 270 (Calculus with Analytic Geometry I). Math intensity level: Substantial. No second language requirement. Curriculum covers a broad spectrum of advanced mathematical topics including differential equations, modeling, numerical analysis, number theory, topology, cryptography, and real analysis. The degree pairs well with computer science, physics, astrophysics, engineering, economics, business, music, and art. Accelerated Bachelor's/Master's options available including Mathematics (MA) or Public Administration (MPA). Concurrent degree options also available. Career paths include research, computer science, cybersecurity, law, finance, biotechnology, government, engineering, health care, and education. Contact: mathadvising@asu.edu or 480-965-7195.",
+    "sourceUrl": "https://math.asu.edu/degree/undergraduate/mathematics-bs",
+    "category": "math-degree"
+  },
+  {
+    "title": "ASU Math Placement and Testing",
+    "content": "Placement and testing information for mathematics courses at ASU. All incoming first-year students are required to take ASU's mathematics placement assessment, including those that have received AP math credit. Transfer students are also required unless they are transferring an equivalent math prerequisite. The ALEKS PPL Assessment determines which mathematics courses a student is eligible to enroll in. Students can improve their placement score by using the ALEKS Prep and Learning modules. For engineering students, improving math placement is especially important as it determines the starting point in the calculus sequence. Additional resources available at the School of Mathematical and Statistical Sciences placement page.",
+    "sourceUrl": "https://math.asu.edu/admission/undergraduate-admission/placement-testing",
+    "category": "math-placement"
+  }
+]
