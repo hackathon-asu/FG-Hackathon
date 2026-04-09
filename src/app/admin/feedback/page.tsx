@@ -101,9 +101,9 @@ export default function AdminFeedbackPage() {
     <AppLayout>
       <div className="flex flex-col gap-6">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight">Feedback Review</h1>
+          <h1 className="text-2xl font-bold tracking-tight">Feedback & Feature Requests</h1>
           <p className="mt-1 text-sm text-muted-foreground">
-            Review and manage feedback from students and alumni
+            Review feedback, feature requests, and bug reports from students and alumni
           </p>
         </div>
 

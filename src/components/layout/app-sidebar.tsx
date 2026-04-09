@@ -106,21 +106,19 @@ function ThemeToggle({ compact = false }: { compact?: boolean }) {
   const isDark = theme === "dark";
 
   return (
-    <Button
-      variant="ghost"
-      size={compact ? "icon" : "default"}
+    <button
       onClick={() => setTheme(isDark ? "light" : "dark")}
       className={cn(
-        "text-muted-foreground hover:text-foreground",
-        compact ? "mx-auto size-10" : "w-full justify-start gap-3 px-3"
+        "flex items-center gap-3 rounded-lg text-sm font-medium text-sidebar-foreground/60 transition-colors hover:bg-sidebar-accent hover:text-sidebar-foreground",
+        compact ? "px-3 py-2.5" : "w-full px-3 py-2.5"
       )}
       title={isDark ? "Switch to light mode" : "Switch to dark mode"}
     >
       {isDark ? <Sun className="size-5 shrink-0" /> : <Moon className="size-5 shrink-0" />}
       {!compact && (
-        <span className="text-sm font-medium">{isDark ? "Light Mode" : "Dark Mode"}</span>
+        <span className="truncate">{isDark ? "Light Mode" : "Dark Mode"}</span>
       )}
-    </Button>
+    </button>
   );
 }
 
@@ -153,7 +151,7 @@ function RoleSelector({ compact = false }: { compact?: boolean }) {
       <div className="relative px-2">
         <button
           onClick={() => setOpen(!open)}
-          className="mx-auto flex size-10 items-center justify-center rounded-lg text-muted-foreground hover:bg-muted hover:text-foreground"
+          className="mx-auto flex size-10 items-center justify-center rounded-lg text-sidebar-foreground/60 hover:bg-sidebar-accent hover:text-sidebar-foreground"
           title={`Role: ${roleLabels[role]}`}
         >
           <span className="text-xs font-bold uppercase">{role[0]}</span>
@@ -182,7 +180,7 @@ function RoleSelector({ compact = false }: { compact?: boolean }) {
     <div className="relative px-2">
       <button
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center gap-2 rounded-lg px-3 py-2 text-xs font-medium text-muted-foreground hover:bg-muted hover:text-foreground"
+        className="flex w-full items-center gap-2 rounded-lg px-3 py-2 text-xs font-medium text-sidebar-foreground/60 hover:bg-sidebar-accent hover:text-sidebar-foreground"
       >
         <span className="flex-1 text-left">Role: {roleLabels[role]}</span>
         <ChevronDown className={cn("size-3.5 transition-transform", open && "rotate-180")} />
@@ -249,8 +247,8 @@ function DesktopNav({ pathname, expanded }: { pathname: string; expanded: boolea
             className={cn(
               "flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
               isActive
-                ? "bg-primary/10 text-primary"
-                : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                ? "bg-sidebar-accent text-sidebar-primary"
+                : "text-sidebar-foreground/60 hover:bg-sidebar-accent hover:text-sidebar-foreground"
             )}
           >
             <item.icon className="size-5 shrink-0" />
@@ -314,37 +312,33 @@ export function AppSidebar() {
       {/* Desktop sidebar */}
       <aside
         className={cn(
-          "fixed inset-y-0 left-0 z-40 hidden flex-col border-r border-border bg-sidebar transition-all duration-300 md:flex",
+          "fixed inset-y-0 left-0 z-40 hidden flex-col border-r border-sidebar-border bg-sidebar text-sidebar-foreground transition-all duration-300 md:flex",
           expanded ? "w-60" : "w-16"
         )}
       >
-        <div className="flex items-center border-b border-border px-3 py-4">
+        <div className="flex items-center border-b border-sidebar-border px-3 py-4">
           {expanded ? (
             <>
-              <GraduationCap className="size-6 shrink-0 text-primary" />
-              <span className="ml-2 flex-1 truncate text-base font-semibold">
+              <GraduationCap className="size-6 shrink-0 text-sidebar-primary" />
+              <span className="ml-2 flex-1 truncate text-base font-semibold text-sidebar-foreground">
                 FirstGen Connect
               </span>
-              <Button
-                variant="ghost"
-                size="icon"
+              <button
                 onClick={() => setExpanded(false)}
-                className="size-8 shrink-0 text-muted-foreground hover:text-foreground"
+                className="flex size-8 shrink-0 items-center justify-center rounded-lg text-sidebar-foreground/60 hover:bg-sidebar-accent hover:text-sidebar-foreground"
               >
                 <PanelLeftClose className="size-4" />
                 <span className="sr-only">Collapse sidebar</span>
-              </Button>
+              </button>
             </>
           ) : (
-            <Button
-              variant="ghost"
-              size="icon"
+            <button
               onClick={() => setExpanded(true)}
-              className="mx-auto size-10 text-muted-foreground hover:text-foreground"
+              className="mx-auto flex size-10 items-center justify-center rounded-lg text-sidebar-foreground/60 hover:bg-sidebar-accent hover:text-sidebar-foreground"
             >
               <PanelLeft className="size-5" />
               <span className="sr-only">Expand sidebar</span>
-            </Button>
+            </button>
           )}
         </div>
 
@@ -352,10 +346,10 @@ export function AppSidebar() {
           <DesktopNav pathname={pathname} expanded={expanded} />
         </div>
 
-        <div className="border-t border-border py-2">
+        <div className="border-t border-sidebar-border py-2">
           {expanded ? <RoleSelector /> : <RoleSelector compact />}
         </div>
-        <div className="border-t border-border px-2 py-2">
+        <div className="border-t border-sidebar-border px-2 py-2">
           {expanded ? (
             <ThemeToggle />
           ) : (
@@ -364,7 +358,7 @@ export function AppSidebar() {
         </div>
         <div
           className={cn(
-            "border-t border-border px-4 py-3 text-center text-xs text-muted-foreground transition-all duration-300",
+            "border-t border-sidebar-border px-4 py-3 text-center text-xs text-sidebar-foreground/50 transition-all duration-300",
             expanded ? "opacity-100" : "opacity-0"
           )}
         >
