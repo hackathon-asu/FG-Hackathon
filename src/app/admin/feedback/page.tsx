@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { AppLayout } from '@/components/layout/app-layout'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -84,6 +84,26 @@ export default function AdminFeedbackPage() {
   const [items, setItems] = useState(feedbackItems)
   const [expandedId, setExpandedId] = useState<string | null>(null)
   const [filterStatus, setFilterStatus] = useState<FeedbackStatus | 'all'>('all')
+
+  // Load user-submitted feedback from localStorage and merge with mock data
+  useEffect(() => {
+    const raw = localStorage.getItem('fg-feedback')
+    if (raw) {
+      const userFeedback = JSON.parse(raw) as Array<{
+        id: string; category: string; rating: number; message: string; name: string; createdAt: string
+      }>
+      const mapped: FeedbackItem[] = userFeedback.map((f) => ({
+        id: f.id,
+        from: f.name || 'Anonymous',
+        role: 'Student',
+        message: f.message,
+        date: f.createdAt.slice(0, 10),
+        status: 'new' as FeedbackStatus,
+        category: f.category === 'bug' ? 'Bug Report' : f.category === 'feature' ? 'Feature Request' : f.category === 'ai-advisor' ? 'AI Accuracy' : 'General',
+      }))
+      setItems([...mapped, ...feedbackItems])
+    }
+  }, [])
 
   const filtered = filterStatus === 'all' ? items : items.filter((i) => i.status === filterStatus)
   const counts = {

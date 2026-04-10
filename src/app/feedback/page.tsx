@@ -45,6 +45,19 @@ export default function FeedbackPage() {
 
   function handleSubmit() {
     if (!category || !rating || !message.trim()) return
+    // Persist feedback to localStorage
+    if (typeof window !== 'undefined') {
+      const { saveFeedback } = require('@/lib/storage')
+      saveFeedback({
+        id: `fb-${Date.now()}`,
+        category,
+        rating,
+        message: message.trim(),
+        name: name.trim() || 'Anonymous',
+        aiHelpful,
+        createdAt: new Date().toISOString(),
+      })
+    }
     setSubmitted(true)
   }
 
