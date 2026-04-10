@@ -25,14 +25,29 @@ export async function POST(req: Request) {
     )
     const query = lastUserMessage?.content || ''
 
+    // Check for user profile from cookie
+    const profileCookie = req.headers.get('cookie')?.split(';').find(c => c.trim().startsWith('fg-profile='))
+    let profileContext = ''
+    if (profileCookie) {
+      try {
+        const profile = JSON.parse(decodeURIComponent(profileCookie.split('=').slice(1).join('=')))
+        const parts = []
+        if (profile.name) parts.push(`Name: ${profile.name}`)
+        if (profile.major) parts.push(`Major: ${profile.major}`)
+        if (profile.year) parts.push(`Year: ${profile.year}`)
+        if (profile.interests?.length) parts.push(`Interests: ${profile.interests.join(', ')}`)
+        if (parts.length > 0) profileContext = `\n\nSTUDENT PROFILE:\n${parts.join('\n')}\nUse this to personalize your advice.`
+      } catch { /* ignore parse errors */ }
+    }
+
     // Search knowledge base for relevant context
     const results = searchKnowledge(query, 5)
     const context = formatContext(results)
     const sources = getSourceCitations(results)
 
     const systemPrompt = sources.length > 0
-      ? `${BASE_SYSTEM_PROMPT}${context}\n\nWhen citing sources in your response, use these URLs:\n${sources.map((s, i) => `${i + 1}. ${s}`).join('\n')}`
-      : BASE_SYSTEM_PROMPT
+      ? `${BASE_SYSTEM_PROMPT}${profileContext}${context}\n\nWhen citing sources in your response, use these URLs:\n${sources.map((s, i) => `${i + 1}. ${s}`).join('\n')}`
+      : `${BASE_SYSTEM_PROMPT}${profileContext}`
 
     const result = streamText({
       model: google('gemini-2.5-flash-preview-04-17'),
