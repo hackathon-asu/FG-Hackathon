@@ -385,7 +385,15 @@ export default function AlumniSignupPage() {
             </div>
 
             <Button
-              onClick={() => setSubmitted(true)}
+              onClick={() => {
+                // Persist alumni signup to localStorage
+                if (typeof window !== 'undefined') {
+                  const existing = JSON.parse(localStorage.getItem('fg-alumni-signups') || '[]')
+                  existing.unshift({ id: `alumni-${Date.now()}`, createdAt: new Date().toISOString() })
+                  localStorage.setItem('fg-alumni-signups', JSON.stringify(existing))
+                }
+                setSubmitted(true)
+              }}
               className="mt-4 bg-primary text-primary-foreground hover:bg-primary/90"
             >
               <GraduationCap className="mr-2 size-4" />
