@@ -21,6 +21,8 @@ export function login(user: AuthUser): void {
   // Also set cookie for server-side API routes
   const profile = { name: user.name, email: user.email, role: user.role }
   document.cookie = `fg-auth=${encodeURIComponent(JSON.stringify(profile))};path=/;max-age=31536000`
+  // Notify same-tab listeners (storage event only fires cross-tab)
+  window.dispatchEvent(new Event('fg-auth-change'))
 }
 
 export function getAuthUser(): AuthUser | null {
@@ -69,4 +71,22 @@ export const ROLE_DASHBOARDS: Record<UserRole, string> = {
   student: '/',
   alumni: '/alumni/dashboard',
   admin: '/admin',
+}
+
+/**
+ * Map between alumni data IDs and auth IDs so cross-account messaging works.
+ * Key = alumni data ID (from alumni.ts), Value = auth user ID (from DEMO_ACCOUNTS).
+ */
+export const ALUMNI_ID_MAP: Record<string, string> = {
+  a1: 'demo-alumni', // Sofia Herrera
+}
+
+/** Reverse map: auth ID → alumni data ID */
+export const AUTH_TO_ALUMNI_MAP: Record<string, string> = Object.fromEntries(
+  Object.entries(ALUMNI_ID_MAP).map(([k, v]) => [v, k])
+)
+
+/** Resolve an alumni data ID to the auth ID if a mapping exists, otherwise return as-is */
+export function resolveRecipientId(id: string): string {
+  return ALUMNI_ID_MAP[id] || id
 }
