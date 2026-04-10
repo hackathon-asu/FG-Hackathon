@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
+import { Switch } from '@/components/ui/switch'
 import { useAuth } from '@/components/auth/auth-provider'
 import { DEMO_ACCOUNTS, ROLE_DASHBOARDS } from '@/lib/auth'
 import type { AuthUser, UserRole } from '@/lib/auth'
@@ -18,39 +19,57 @@ import {
   Award,
   Shield,
   Zap,
-  Users,
   Sparkles,
 } from 'lucide-react'
 
-const roles: { role: UserRole; label: string; icon: typeof BookOpen; description: string; color: string }[] = [
+const roleCards: {
+  role: UserRole
+  label: string
+  icon: typeof BookOpen
+  description: string
+  demoName: string
+  demoDetail: string
+  color: string
+  bgColor: string
+}[] = [
   {
     role: 'student',
     label: 'Student',
     icon: BookOpen,
     description: 'First-gen student looking for support, mentors, and community',
+    demoName: 'Jordan Rivera',
+    demoDetail: 'CS Junior @ ASU',
     color: 'text-blue-400',
+    bgColor: 'bg-blue-500/10',
   },
   {
     role: 'alumni',
     label: 'Alumni',
     icon: Award,
     description: 'Graduate ready to mentor and give back to the next generation',
+    demoName: 'Sofia Herrera',
+    demoDetail: 'Sr. SWE @ Google',
     color: 'text-amber-400',
+    bgColor: 'bg-amber-500/10',
   },
   {
     role: 'admin',
     label: 'Admin',
     icon: Shield,
     description: 'University staff managing the platform and student support',
+    demoName: 'Dr. Sarah Chen',
+    demoDetail: 'ASU Advising Director',
     color: 'text-emerald-400',
+    bgColor: 'bg-emerald-500/10',
   },
 ]
 
 export default function LoginPage() {
+  const [demoMode, setDemoMode] = useState(true)
   const [selectedRole, setSelectedRole] = useState<UserRole>('student')
   const [email, setEmail] = useState('')
   const [name, setName] = useState('')
-  const [mode, setMode] = useState<'select' | 'signin'>('select')
+  const [showForm, setShowForm] = useState(false)
   const { login, user } = useAuth()
   const router = useRouter()
 
@@ -66,6 +85,14 @@ export default function LoginPage() {
     router.push(ROLE_DASHBOARDS[role])
   }
 
+  function handleCardClick(role: UserRole) {
+    if (demoMode) {
+      handleDemoLogin(role)
+    } else {
+      setSelectedRole(role)
+    }
+  }
+
   function handleSignIn() {
     if (!email.trim()) return
     const user: AuthUser = {
@@ -76,7 +103,6 @@ export default function LoginPage() {
       createdAt: new Date().toISOString(),
     }
     login(user)
-    // New users go to onboarding, existing go to dashboard
     if (selectedRole === 'student') {
       router.push('/onboarding')
     } else if (selectedRole === 'alumni') {
@@ -90,7 +116,7 @@ export default function LoginPage() {
     <div className="flex min-h-screen items-center justify-center bg-background px-4 py-12">
       <div className="w-full max-w-lg">
         {/* Logo */}
-        <div className="mb-8 flex flex-col items-center gap-3 text-center">
+        <div className="mb-6 flex flex-col items-center gap-3 text-center">
           <div className="flex size-14 items-center justify-center rounded-2xl bg-primary/10">
             <GraduationCap className="size-7 text-primary" />
           </div>
@@ -99,88 +125,97 @@ export default function LoginPage() {
               FirstGen Connect
             </h1>
             <p className="mt-1 text-sm text-muted-foreground">
-              {mode === 'select'
-                ? 'Choose how you want to join'
-                : `Sign in as ${roles.find((r) => r.role === selectedRole)?.label}`}
+              {showForm
+                ? `Sign in as ${roleCards.find((r) => r.role === selectedRole)?.label}`
+                : demoMode
+                  ? 'Tap a role to jump right in'
+                  : 'Choose how you want to join'}
             </p>
           </div>
         </div>
 
-        {mode === 'select' ? (
+        {/* Demo Mode Toggle */}
+        <div className="mb-5 flex items-center justify-center gap-3 rounded-xl border border-primary/20 bg-primary/5 px-4 py-2.5">
+          <Zap className="size-4 text-primary" />
+          <span className="text-sm font-medium text-foreground">Demo Mode</span>
+          <Switch
+            checked={demoMode}
+            onCheckedChange={(v) => {
+              setDemoMode(v)
+              setShowForm(false)
+            }}
+          />
+          <span className="text-xs text-muted-foreground">
+            {demoMode ? 'ON — instant login' : 'OFF — enter your info'}
+          </span>
+        </div>
+
+        {!showForm ? (
           <>
             {/* Role Cards */}
             <div className="flex flex-col gap-3">
-              {roles.map((r) => (
+              {roleCards.map((r) => (
                 <Card
                   key={r.role}
                   className={cn(
                     'cursor-pointer border transition-all hover:ring-2 hover:ring-primary/20',
-                    selectedRole === r.role && 'ring-2 ring-primary border-primary/30'
+                    !demoMode && selectedRole === r.role && 'ring-2 ring-primary border-primary/30'
                   )}
-                  onClick={() => setSelectedRole(r.role)}
+                  onClick={() => handleCardClick(r.role)}
                 >
                   <CardContent className="flex items-center gap-4 py-4">
-                    <div className={cn('flex size-11 shrink-0 items-center justify-center rounded-xl bg-muted')}>
+                    <div className={cn('flex size-11 shrink-0 items-center justify-center rounded-xl', r.bgColor)}>
                       <r.icon className={cn('size-5', r.color)} />
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-sm font-semibold text-foreground">{r.label}</h3>
-                      <p className="mt-0.5 text-xs text-muted-foreground">{r.description}</p>
+                      <div className="flex items-center gap-2">
+                        <h3 className="text-sm font-semibold text-foreground">{r.label}</h3>
+                        {demoMode && (
+                          <span className="rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-medium text-primary">
+                            {r.demoName}
+                          </span>
+                        )}
+                      </div>
+                      <p className="mt-0.5 text-xs text-muted-foreground">
+                        {demoMode ? r.demoDetail : r.description}
+                      </p>
                     </div>
-                    <div className={cn(
-                      'size-5 rounded-full border-2 transition-colors',
-                      selectedRole === r.role
-                        ? 'border-primary bg-primary'
-                        : 'border-muted-foreground/30'
-                    )} />
+                    {demoMode ? (
+                      <ArrowRight className="size-4 text-primary" />
+                    ) : (
+                      <div className={cn(
+                        'size-5 rounded-full border-2 transition-colors',
+                        selectedRole === r.role
+                          ? 'border-primary bg-primary'
+                          : 'border-muted-foreground/30'
+                      )} />
+                    )}
                   </CardContent>
                 </Card>
               ))}
             </div>
 
-            {/* Actions */}
-            <div className="mt-6 flex flex-col gap-3">
-              <Button
-                className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
-                onClick={() => setMode('signin')}
-              >
-                Continue as {roles.find((r) => r.role === selectedRole)?.label}
-                <ArrowRight className="size-4" />
-              </Button>
-
-              <div className="relative my-2">
-                <div className="absolute inset-0 flex items-center">
-                  <div className="w-full border-t border-border" />
-                </div>
-                <div className="relative flex justify-center text-xs">
-                  <span className="bg-background px-3 text-muted-foreground">or try a demo account</span>
-                </div>
+            {/* Non-demo continue button */}
+            {!demoMode && (
+              <div className="mt-5">
+                <Button
+                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
+                  onClick={() => setShowForm(true)}
+                >
+                  Continue as {roleCards.find((r) => r.role === selectedRole)?.label}
+                  <ArrowRight className="size-4" />
+                </Button>
               </div>
+            )}
 
-              {/* Quick Demo Logins */}
-              <div className="grid grid-cols-3 gap-2">
-                {DEMO_ACCOUNTS.map((account) => (
-                  <button
-                    key={account.id}
-                    onClick={() => handleDemoLogin(account.role)}
-                    className="flex flex-col items-center gap-1.5 rounded-lg border border-border bg-muted/30 px-3 py-3 text-center transition-colors hover:bg-muted/60 hover:border-primary/30"
-                  >
-                    <Zap className="size-4 text-primary" />
-                    <span className="text-[11px] font-medium text-foreground">
-                      {account.name.split(' ')[0]}
-                    </span>
-                    <span className="text-[10px] text-muted-foreground capitalize">
-                      {account.role}
-                    </span>
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Demo badge */}
+            {/* Footer */}
             <div className="mt-6 flex items-center justify-center gap-2 text-xs text-muted-foreground">
               <Sparkles className="size-3 text-primary" />
-              <span>Hackathon demo — instant logins, no passwords needed</span>
+              <span>
+                {demoMode
+                  ? 'Tap any role to log in instantly — no signup required'
+                  : 'Create an account or toggle Demo Mode for instant access'}
+              </span>
             </div>
           </>
         ) : (
@@ -227,7 +262,7 @@ export default function LoginPage() {
             </Card>
 
             <button
-              onClick={() => setMode('select')}
+              onClick={() => setShowForm(false)}
               className="mt-4 block w-full text-center text-xs text-muted-foreground hover:text-foreground"
             >
               &larr; Back to role selection
