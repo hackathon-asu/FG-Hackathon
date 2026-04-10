@@ -10,6 +10,7 @@ import { Badge } from '@/components/ui/badge'
 import { Input } from '@/components/ui/input'
 import { cn } from '@/lib/utils'
 import { isActionableAdvice, createSalesforceTicket } from '@/lib/salesforce'
+import { saveTicket } from '@/lib/storage'
 import type { SalesforceTicket } from '@/lib/types'
 import {
   Send,
@@ -149,6 +150,7 @@ export const ChatInterface = forwardRef<ChatInterfaceHandle, ChatInterfaceProps>
 
       if (userText && isActionableAdvice(responseText)) {
         const ticket = createSalesforceTicket(userText, responseText)
+        saveTicket(ticket)
         setTickets((prev) => ({ ...prev, [lastMsg.id]: ticket }))
       }
     }, [messages, status, tickets])

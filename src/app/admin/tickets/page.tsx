@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { AppLayout } from '@/components/layout/app-layout'
 import { mockTickets } from '@/lib/data/tickets'
 import { Badge } from '@/components/ui/badge'
@@ -124,6 +124,18 @@ const aiConversationLogs = [
 export default function AITicketsPage() {
   const [tickets, setTickets] = useState(mockTickets)
   const [statusFilter, setStatusFilter] = useState('all')
+
+  // Load real tickets from localStorage and merge with mock data
+  useEffect(() => {
+    const raw = localStorage.getItem('fg-tickets')
+    if (raw) {
+      const liveTickets = JSON.parse(raw) as typeof mockTickets
+      // Dedupe by id, live tickets first
+      const ids = new Set(liveTickets.map((t: { id: string }) => t.id))
+      const merged = [...liveTickets, ...mockTickets.filter(t => !ids.has(t.id))]
+      setTickets(merged)
+    }
+  }, [])
   const [categoryFilter, setCategoryFilter] = useState('all')
   const [dialogOpen, setDialogOpen] = useState(false)
   const [dialogAction, setDialogAction] = useState<'approve' | 'deny'>('approve')
