@@ -45,14 +45,18 @@ export default function EventsPage() {
   >('all')
   const [searchQuery, setSearchQuery] = useState('')
   const [dialogOpen, setDialogOpen] = useState(false)
+  const [userEvents, setUserEvents] = useState<Event[]>([])
+  const [newEvent, setNewEvent] = useState({ title: '', date: '', time: '', category: '' as string, location: '', description: '' })
+
+  const allEvents = useMemo(() => [...userEvents, ...events], [userEvents])
 
   const recommendedEvents = useMemo(
-    () => events.filter((e) => e.category === 'first-gen').slice(0, 2),
-    []
+    () => allEvents.filter((e) => e.category === 'first-gen').slice(0, 2),
+    [allEvents]
   )
 
   const filteredEvents = useMemo(() => {
-    return events.filter((e) => {
+    return allEvents.filter((e) => {
       const matchesCategory =
         activeCategory === 'all' || e.category === activeCategory
       const matchesSearch =
@@ -61,7 +65,25 @@ export default function EventsPage() {
         e.description.toLowerCase().includes(searchQuery.toLowerCase())
       return matchesCategory && matchesSearch
     })
-  }, [activeCategory, searchQuery])
+  }, [activeCategory, searchQuery, allEvents])
+
+  function handleShareEvent() {
+    if (!newEvent.title.trim()) return
+    const evt: Event = {
+      id: `user-event-${Date.now()}`,
+      title: newEvent.title.trim(),
+      date: newEvent.date || new Date().toISOString().split('T')[0],
+      time: newEvent.time || '12:00 PM',
+      location: newEvent.location.trim() || 'TBD',
+      category: (newEvent.category as Event['category']) || 'social',
+      description: newEvent.description.trim() || '',
+      organizer: 'You',
+      rsvpCount: 0,
+    }
+    setUserEvents((prev) => [evt, ...prev])
+    setNewEvent({ title: '', date: '', time: '', category: '', location: '', description: '' })
+    setDialogOpen(false)
+  }
 
   return (
     <AppLayout>
@@ -93,21 +115,21 @@ export default function EventsPage() {
               <div className="space-y-4">
                 <div className="space-y-2">
                   <Label htmlFor="event-title">Title</Label>
-                  <Input id="event-title" placeholder="Event name" />
+                  <Input id="event-title" placeholder="Event name" value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })} />
                 </div>
                 <div className="grid grid-cols-2 gap-3">
                   <div className="space-y-2">
                     <Label htmlFor="event-date">Date</Label>
-                    <Input id="event-date" type="date" />
+                    <Input id="event-date" type="date" value={newEvent.date} onChange={(e) => setNewEvent({ ...newEvent, date: e.target.value })} />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="event-time">Time</Label>
-                    <Input id="event-time" type="time" />
+                    <Input id="event-time" type="time" value={newEvent.time} onChange={(e) => setNewEvent({ ...newEvent, time: e.target.value })} />
                   </div>
                 </div>
                 <div className="space-y-2">
                   <Label>Category</Label>
-                  <Select>
+                  <Select value={newEvent.category} onValueChange={(v) => setNewEvent({ ...newEvent, category: v })}>
                     <SelectTrigger className="w-full">
                       <SelectValue placeholder="Select category" />
                     </SelectTrigger>
@@ -124,13 +146,15 @@ export default function EventsPage() {
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="event-location">Location</Label>
-                  <Input id="event-location" placeholder="Where is it?" />
+                  <Input id="event-location" placeholder="Where is it?" value={newEvent.location} onChange={(e) => setNewEvent({ ...newEvent, location: e.target.value })} />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="event-desc">Description</Label>
                   <Textarea
                     id="event-desc"
                     placeholder="Tell people what to expect..."
+                    value={newEvent.description}
+                    onChange={(e) => setNewEvent({ ...newEvent, description: e.target.value })}
                   />
                 </div>
               </div>
@@ -141,7 +165,7 @@ export default function EventsPage() {
                 >
                   Cancel
                 </Button>
-                <Button onClick={() => setDialogOpen(false)}>
+                <Button onClick={handleShareEvent} disabled={!newEvent.title.trim()}>
                   Share Event
                 </Button>
               </DialogFooter>
