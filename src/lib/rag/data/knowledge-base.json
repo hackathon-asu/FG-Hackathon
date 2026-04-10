@@ -1479,6 +1479,222 @@
       "source": "ASU Math - Math Placement",
       "sourceUrl": "https://math.asu.edu/admission/undergraduate-admission/placement-testing",
       "category": "math-placement"
+    },
+    {
+      "id": "career-services-overview",
+      "title": "ASU Career and Professional Development Services - Overview",
+      "text": "ASU Career and Professional Development Services (formerly Career Services) helps students explore career paths, find jobs and internships, build professional skills, and connect with employers. Services include career coaching, resume and cover letter reviews, mock interviews, career fairs, employer networking events, and online job search tools. Located in the Student Services Building (SSV) on Tempe campus. Contact: 480-965-2350. Website: career.eoss.asu.edu. Open Monday-Friday 8am-5pm during the academic year.",
+      "source": "ASU Career Services",
+      "sourceUrl": "https://career.eoss.asu.edu/",
+      "category": "career-services"
+    },
+    {
+      "id": "career-handshake",
+      "title": "Handshake - ASU Online Career Platform",
+      "text": "Handshake is ASU's primary online career platform where students can: schedule career advising appointments, view upcoming career events, apply for jobs and internships, find mentors in their career interest area, and connect with employers. The platform has over 5 million active student users, 900+ college and university partners, and 500,000+ employers including 100% of Fortune 500 companies. Activate your profile with your ASURITE ID at asu.joinhandshake.com. Alumni also have access to Handshake for job postings at all professional levels.",
+      "source": "ASU Handshake",
+      "sourceUrl": "https://career.eoss.asu.edu/resources/handshake/",
+      "category": "career-services"
+    },
+    {
+      "id": "career-fulton-center",
+      "title": "Fulton Schools of Engineering Career Center",
+      "text": "The Ira A. Fulton Schools of Engineering Career Center is a dedicated career center for all engineering students (including Computer Science). Services include: career path planning, technical resume and cover letter preparation, career fair strategies, job search techniques, interview skills coaching, salary negotiation guidance, and peer career coaching. Career Development Specialists hold advanced degrees in Career Counseling or engineering degrees with industry experience. Peer career coaches are trained Fulton students. Tempe location: Centerpoint (CTRPT), 660 S. Mill Ave, Suite 104, Tempe, AZ 85281. Polytechnic location: Technology Center (TECH), 6075 S. Innovation Way West, Suite 104, Mesa, AZ 85212. Phone: 480-965-2966. Email: engineering.careers@asu.edu. Website: career.engineering.asu.edu.",
+      "source": "Fulton Engineering Career Center",
+      "sourceUrl": "https://career.engineering.asu.edu/",
+      "category": "career-services"
+    },
+    {
+      "id": "career-fairs",
+      "title": "ASU Career Fairs and Employer Events",
+      "text": "ASU hosts multiple career fairs throughout the year. The Fulton Schools of Engineering Career Fair is one of the largest in the Southwest, connecting thousands of engineering and CS students with top employers like Intel, Amazon, Google, Microsoft, Boeing, Honeywell, and more. Career fairs are held in Fall and Spring semesters. Tips for career fair success: research attending companies in advance, prepare a 30-second elevator pitch, bring multiple copies of your resume, dress in business professional attire, follow up with recruiters within 24-48 hours via email or LinkedIn. Check Handshake for upcoming career fair dates and registered employers.",
+      "source": "ASU Career Fairs",
+      "sourceUrl": "https://career.engineering.asu.edu/",
+      "category": "career-services"
+    },
+    {
+      "id": "career-resume-help",
+      "title": "ASU Resume and Cover Letter Help",
+      "text": "ASU offers extensive resume help through multiple channels: 1) Drop-in resume reviews at the Career Center (no appointment needed during posted hours). 2) One-on-one appointments with career counselors for in-depth resume feedback. 3) Peer career coaches at the Fulton Engineering Career Center who review technical resumes. 4) Online resources and templates on career.eoss.asu.edu. Resume tips for first-gen students: include relevant coursework if you lack work experience, highlight leadership in student organizations, quantify achievements with numbers, tailor your resume to each job posting, use action verbs, and keep it to one page as an undergraduate. The Career Center also reviews LinkedIn profiles and cover letters.",
+      "source": "ASU Career Services - Resume Help",
+      "sourceUrl": "https://career.eoss.asu.edu/",
+      "category": "resume-interview"
+    },
+    {
+      "id": "career-mock-interviews",
+      "title": "ASU Mock Interview and Interview Prep",
+      "text": "ASU Career Services offers mock interviews to help students practice before real interviews. Services include: one-on-one mock interviews with career counselors, Big Interview (an online practice platform available free to ASU students), behavioral interview preparation, technical interview coaching for CS and engineering students, and group interview workshops. Tips for first-gen students: research the company thoroughly, prepare STAR method stories (Situation, Task, Action, Result) for behavioral questions, practice coding problems on LeetCode/HackerRank for technical roles, prepare thoughtful questions to ask the interviewer, and send a thank-you email within 24 hours.",
+      "source": "ASU Interview Preparation",
+      "sourceUrl": "https://career.eoss.asu.edu/",
+      "category": "resume-interview"
+    },
+    {
+      "id": "career-salary-negotiation",
+      "title": "ASU Salary Negotiation Resources",
+      "text": "ASU offers salary negotiation workshops through multiple programs: 1) College to Career Workshop Series — expert-led virtual workshops covering salary negotiation, including how to research market value, discuss compensation confidently, and secure the salary and benefits you deserve. 2) Association for Women in Mathematics Workshop — free virtual event teaching how to articulate your value, be confident during negotiation, take control of career opportunities, and be empowered to ask for what you want. 3) Graduate salary negotiation sessions through GradConnect Canvas hub. 4) Fulton Engineering Career Center workshops on understanding salary negotiations. Key tips: research salary ranges on Glassdoor, Levels.fyi, and Payscale before interviews; never give the first number; consider the full compensation package (base, bonus, equity, benefits, PTO); practice negotiation with a friend or career counselor.",
+      "source": "ASU Salary Negotiation Workshops",
+      "sourceUrl": "https://career.eoss.asu.edu/collegetocareer/",
+      "category": "career-services"
+    },
+    {
+      "id": "career-college-to-career",
+      "title": "College to Career Workshop Series",
+      "text": "The College to Career Program is a series of expert-led virtual workshops designed to help graduating students and alumni transition successfully into the professional world. Workshop topics include: Career Exploration and Planning, Job Search Strategies and Networking, Resume and Cover Letter Writing, Interview Skills and Preparation, Salary Negotiation, Professional Communication and Workplace Etiquette, Personal Branding and LinkedIn Optimization. These workshops are available to current students and recent graduates. Check career.eoss.asu.edu/collegetocareer for the current schedule.",
+      "source": "ASU College to Career Program",
+      "sourceUrl": "https://career.eoss.asu.edu/collegetocareer/",
+      "category": "career-services"
+    },
+    {
+      "id": "career-internships",
+      "title": "Finding Internships at ASU",
+      "text": "ASU students can find internships through multiple channels: 1) Handshake (asu.joinhandshake.com) — the primary platform with thousands of internship postings. 2) Fulton Engineering Career Center — dedicated support for CS and engineering internships. 3) Career fairs — many companies recruit interns at ASU's Fall and Spring career fairs. 4) Faculty connections — professors often have industry contacts and research opportunities. 5) ASU student organizations — tech clubs like Software Developers Association (SoDA), Google Developer Student Club, etc. For CS students, top internship employers include: Amazon, Google, Microsoft, Intel, Apple, Meta, Uber, Deloitte, Accenture, and many Phoenix-area companies like GoDaddy, Axon, and Carvana. Start applying early — many tech companies open internship applications in August-October for the following summer.",
+      "source": "ASU Internship Resources",
+      "sourceUrl": "https://career.engineering.asu.edu/",
+      "category": "internships"
+    },
+    {
+      "id": "career-coop",
+      "title": "ASU Cooperative Education (Co-op) Programs",
+      "text": "A cooperative educational experience (co-op) is generally a longer full-time work experience spanning a fall and/or spring semester plus summer, which may be for academic credit, and is almost always paid. W.P. Carey School of Business Co-op Program: Connects undergraduate students with paid, full-time professional experiences at partner companies over a 6-month period. Eligibility requires completion of sophomore year with a 3.5+ GPA. The Fulton Schools of Engineering does not currently have a formal cooperative education class, but students should speak with their academic advisor about co-op opportunities. International students (F-1 visa): Co-op participation may require Curricular Practical Training (CPT) authorization — contact the International Students and Scholars Center (ISSC) for guidance.",
+      "source": "ASU Co-op Programs",
+      "sourceUrl": "https://career.engineering.asu.edu/resumesandresources/internship-job-search/co-op-internship-considerations/",
+      "category": "internships"
+    },
+    {
+      "id": "career-first-gen-resources",
+      "title": "First-Generation Student Career Resources at ASU",
+      "text": "ASU offers specific support for first-generation college students navigating careers: 1) First-Year Success Center (EOSS) — provides academic coaching, mentoring, and connection to campus resources for new students. 2) TRIO Student Support Services — federally funded program providing academic tutoring, advising, mentoring, financial literacy, and career guidance specifically for first-gen, low-income, and students with disabilities. 3) Career mentoring programs connecting first-gen students with industry professionals. 4) Financial literacy workshops covering student loans, budgeting, and understanding compensation. Tips for first-gen students entering the workforce: start building your professional network early through clubs and events, don't be afraid to ask for help — career counselors are there for you, utilize free professional clothing resources for interviews, and remember that not having connections is temporary — every professional was once a beginner.",
+      "source": "ASU First-Gen Resources",
+      "sourceUrl": "https://eoss.asu.edu/first-year-success",
+      "category": "first-gen-resources"
+    },
+    {
+      "id": "career-trio-programs",
+      "title": "ASU TRIO Programs for First-Generation Students",
+      "text": "TRIO Student Support Services at ASU is a federally funded program designed to help first-generation college students, low-income students, and students with disabilities succeed. Services include: academic tutoring and study skills workshops, academic and career advising, mentoring from faculty and peer mentors, financial literacy education, graduate school preparation, cultural enrichment activities, and technology support. TRIO serves approximately 200 students per year at ASU. Eligibility: must be a first-generation student (neither parent completed a 4-year degree), low-income (family income below 150% of federal poverty level), or have a documented disability. Apply through the EOSS office.",
+      "source": "ASU TRIO Programs",
+      "sourceUrl": "https://eoss.asu.edu/",
+      "category": "first-gen-resources"
+    },
+    {
+      "id": "career-networking-tips",
+      "title": "Networking Tips for First-Gen Students",
+      "text": "Networking can feel intimidating when you're the first in your family to go to college, but it's one of the most important career skills. Here's how to start: 1) Join student organizations related to your major — ASU has 1,000+ clubs including SoDA (Software Developers Association), AISES (American Indian Science and Engineering Society), SHPE (Society of Hispanic Professional Engineers), NSBE (National Society of Black Engineers). 2) Attend career fairs and employer info sessions. 3) Use LinkedIn — connect with ASU alumni, professors, and professionals in your field. 4) Schedule informational interviews — most professionals are happy to chat for 15-20 minutes about their career. 5) Attend ASU alumni events. 6) Participate in hackathons and tech meetups in the Phoenix area. Remember: networking is about building genuine relationships, not asking for favors.",
+      "source": "Career Networking Guide",
+      "sourceUrl": "https://career.eoss.asu.edu/",
+      "category": "networking"
+    },
+    {
+      "id": "career-alumni-services",
+      "title": "ASU Alumni Career Services",
+      "text": "ASU alumni have continued access to career resources after graduation: Handshake access for job searching, career coaching appointments, resume review services, and alumni networking events. The ASU Alumni Association connects graduates with mentoring opportunities, professional development events, and a network of 600,000+ Sun Devil alumni worldwide. Alumni can also post job opportunities to help current students and fellow graduates. Access alumni career services at alumni.asu.edu/services/alumni-career-services.",
+      "source": "ASU Alumni Career Services",
+      "sourceUrl": "https://alumni.asu.edu/services/alumni-career-services",
+      "category": "networking"
+    },
+    {
+      "id": "career-cs-paths",
+      "title": "Computer Science Career Paths for ASU Graduates",
+      "text": "Common career paths for ASU Computer Science graduates: Software Engineer/Developer (median entry-level salary: $85,000-$115,000), Data Scientist/Analyst ($75,000-$100,000), Web Developer ($65,000-$90,000), Systems/DevOps Engineer ($80,000-$110,000), Cybersecurity Analyst ($70,000-$95,000), Mobile App Developer ($75,000-$100,000), Machine Learning Engineer ($95,000-$130,000), Product Manager ($85,000-$120,000), UX/UI Designer ($65,000-$90,000), Technical Consultant ($70,000-$95,000). Top employers of ASU CS graduates include Amazon, Intel, Google, Microsoft, Apple, Deloitte, Raytheon, Honeywell, and many Phoenix-area tech companies. The Phoenix metro area has a growing tech scene with lower cost of living compared to Bay Area or NYC. Consider internships starting sophomore year to build experience for full-time roles.",
+      "source": "CS Career Paths Guide",
+      "sourceUrl": "https://career.engineering.asu.edu/",
+      "category": "career-paths"
+    },
+    {
+      "id": "career-resume-no-experience",
+      "title": "Resume Tips When You Have No Experience",
+      "text": "If you're a first-gen student with limited work experience, here's how to build a strong resume: 1) Lead with Education — include your GPA (if 3.0+), relevant coursework (e.g., Data Structures, Algorithms, Database Management), and academic honors. 2) Highlight Projects — class projects, personal projects, and hackathon entries count! Describe what you built, technologies used, and impact. 3) Include Technical Skills — list programming languages, frameworks, tools, and platforms you know. 4) Volunteer Work — any volunteer experience shows initiative and soft skills. 5) Student Organizations — leadership roles in clubs demonstrate responsibility. 6) Part-time Jobs — even non-technical jobs teach transferable skills like teamwork, communication, time management. Use the STAR method to describe experiences. Format: clean, single-page, consistent font, no typos. Save as PDF when submitting. Get it reviewed at the Career Center before applying.",
+      "source": "Resume Guide for Students",
+      "sourceUrl": "https://career.eoss.asu.edu/",
+      "category": "resume-interview"
+    },
+    {
+      "id": "career-scai-internship",
+      "title": "ASU SCAI Computer Science Internship Program",
+      "text": "The School of Computing and Augmented Intelligence (SCAI) internship program provides undergraduate students with relevant industry experience. Course Options: CSE 294 (1 credit, general elective only, max 2 enrollments) and 484 courses (3+ credits toward degree). Eligibility for CSE 294: cumulative GPA 2.50+ (ASU + transfer), at least 24 ASU hours applicable to major with 2.75 major GPA, completion of CSE 110, 205, MAT 265/210 with C or better, hired in internship position. Eligibility for 484 courses: cumulative GPA 2.50+, 21+ hours in major courses with 3.0 major GPA. Position Requirements: must relate directly to major, be advertised as internship (not permanent), minimum 280 hours per term (20 hrs/week for 14 weeks or 35 hrs/week for 8 weeks), include designated supervisor. Application materials: completed application form, unofficial transcripts, position posting, employer verification letter. Completion: pass/fail grade upon submitting semester report, midterm supervisor feedback, end-of-semester supervisor feedback. International students require CPT approval. Coordinators: Dr. Xuerong (Sherry) Feng (CSE/CPI), Dr. Srividya Bansal (SER), Dr. Dan McCarville (IEE). Website: scai.engineering.asu.edu/uginternships/.",
+      "source": "SCAI Internship Program",
+      "sourceUrl": "https://scai.engineering.asu.edu/uginternships/",
+      "category": "internships"
+    },
+    {
+      "id": "career-sun-devil-prep",
+      "title": "ASU Sun Devil Career Prep AI Platform",
+      "text": "Sun Devil Career Prep is ASU's AI-powered career preparation platform available to all students. Features include: (1) Resume and Cover Letter Creation — AI-guided tools to build professional application materials from scratch or improve existing documents. (2) Resume Review — automated analysis providing feedback on content, formatting, and keyword optimization. (3) Mock Interviews — simulated interview practice with AI-generated questions relevant to your target industry, available 24/7. (4) Job Tracking — organize your job search with application tracking features. (5) Salary Negotiation Prep — practice salary conversations and learn negotiation strategies. The platform complements one-on-one career advising through Handshake appointments. Students should use both AI tools for convenience and human advisors for personalized guidance.",
+      "source": "ASU Sun Devil Career Prep",
+      "sourceUrl": "https://career.asu.edu/",
+      "category": "career-services"
+    },
+    {
+      "id": "career-game-changers",
+      "title": "ASU Game Changers - First-Gen Success Coaching",
+      "text": "Game Changers is a success coaching program within ASU's First-Year Success Center designed specifically for first-generation college students. Features: matched success coach with personalized support, exclusive event invitations, guidance growing your network, and connections with staff and faculty who are also first-generation. Coaching available in person, via email, and over video. The program helps first-gen students navigate university life, academics, career planning, and building professional connections. Access through the Student Success Center at success.asu.edu.",
+      "source": "ASU Game Changers",
+      "sourceUrl": "https://success.asu.edu/",
+      "category": "first-gen-resources"
+    },
+    {
+      "id": "career-elevate",
+      "title": "ASU Elevate Experiential Learning Platform",
+      "text": "ASU Elevate is the university's experiential learning portal connecting students with internships, research opportunities, service learning, and other hands-on experiences. The platform aggregates opportunities across all ASU colleges and programs. For CS/Engineering students, Elevate features STEM-focused internships, research positions, and industry partnerships. Students can filter by experience type (internships, research, service learning, co-ops), college, location, and compensation. Elevate complements Handshake by focusing specifically on experiential and applied learning opportunities rather than general job postings. Website: elevate.asu.edu/experience-type/internships.",
+      "source": "ASU Elevate",
+      "sourceUrl": "https://elevate.asu.edu/experience-type/internships",
+      "category": "internships"
+    },
+    {
+      "id": "career-global-firstgen",
+      "title": "ASU Global Education for First-Generation Students",
+      "text": "ASU's Global Education Office provides specific resources for first-generation students interested in study abroad and global experiences. The Institute for Study Abroad offers a First-Generation Scholarship designed to give first-gen students a chance to benefit from studying abroad. Study abroad enhances career prospects by developing cross-cultural communication skills, adaptability, independence, and global perspective — all qualities valued by employers. Financial support available through scholarships, financial aid that transfers to study abroad programs, and the Gilman Scholarship (specifically for Pell Grant recipients). Website: goglobal.asu.edu/students/first-generation-students.",
+      "source": "ASU Global Education",
+      "sourceUrl": "https://goglobal.asu.edu/students/first-generation-students",
+      "category": "first-gen-resources"
+    },
+    {
+      "id": "career-interest-communities",
+      "title": "ASU Career Interest Communities",
+      "text": "ASU Career Services organizes resources into Career Interest Communities: Arts & Design, Business, Communications & Media, Education, Entrepreneurship, Health & Wellness, Public/Social/Human Services, STEM, and Technology & Computer Sciences. Each community provides: industry-specific job and internship listings on Handshake, targeted career fairs and networking events, relevant workshops and skill-building sessions, connections to alumni and professionals in the field, and resources tailored to industry expectations. The Technology and Computer Sciences community specifically serves CS and engineering students. Career assessments are available to help students identify interests and strengths. Resources for specific populations: first-generation, international, LGBTQ+, students with disabilities, veterans, and online students. Website: career.eoss.asu.edu.",
+      "source": "ASU Career Interest Communities",
+      "sourceUrl": "https://career.eoss.asu.edu/",
+      "category": "career-services"
+    },
+    {
+      "id": "career-library-firstgen-guide",
+      "title": "ASU Library First-Generation Resource Guide",
+      "text": "The ASU Library maintains a comprehensive First-Generation Resource Guide with support categories: Financial & Food Support — Financial Aid (tuition.asu.edu), Arizona Food Banks, Pitchfork Pantry (student-run club offering emergency food and toiletries to all ASU students). Student Experience & Involvement — Devils 4 Devils peer mentoring, TRIO at ASU, student organizations, Inclusion at ASU. Support Services — Counseling Services (mental health), Health Services (medical care), Support Circles (peer support groups). Professional Development — ASU Career Services, ASU Scholarship Resources, SPARKS Ambassador Program (leadership and community engagement), free test prep for GRE, GMAT, MCAT, LSAT. Research Opportunities — ENERGIZE Initiative connecting undergraduates with research lab experience. External Networks — I'm First and FirstGen Forward national communities. Contact: Allinston Saulsberry (allinston.saulsberry@asu.edu). Website: libguides.asu.edu/first-gen_resources/asufirstgen.",
+      "source": "ASU Library First-Gen Guide",
+      "sourceUrl": "https://libguides.asu.edu/first-gen_resources/asufirstgen",
+      "category": "first-gen-resources"
+    },
+    {
+      "id": "career-edge-program",
+      "title": "ASU Career EDGE Program",
+      "text": "ASU offers the Career EDGE program for professional development. EDGE stands for Explore, Develop, Grow, Evolve — representing the stages of career development. The program helps participants explore career options, develop key skills, grow their professional network, and evolve their career trajectory. This complements Handshake, Sun Devil Career Prep, career advising, and the College to Career workshop series.",
+      "source": "ASU Career EDGE",
+      "sourceUrl": "https://cfo.asu.edu/career-edge",
+      "category": "career-services"
+    },
+    {
+      "id": "career-micro-internships",
+      "title": "ASU Micro-Internships and Alternative Experience",
+      "text": "ASU provides multiple alternative pathways to gain experience: (1) Micro-internships — paid, short-term virtual work experiences where students learn directly from companies and gain valuable career skills. (2) College Recruiter — external site for part-time, seasonal, internship, or entry-level jobs. (3) Getting Hired — helps explore companies committed to bias-free job opportunities. (4) ASU Elevate — experiential learning portal at elevate.asu.edu. Tips for finding internships: start early (freshman/sophomore year), attend career fairs, network with professors and alumni, join student organizations related to your field, and use your career center's one-on-one advising.",
+      "source": "ASU Internship Resources",
+      "sourceUrl": "https://career.eoss.asu.edu/internship-resources/",
+      "category": "internships"
+    },
+    {
+      "id": "career-student-success-center",
+      "title": "ASU Student Success Center and Peer Coaching",
+      "text": "The ASU Student Success Center provides peer coaching services. Key programs: (1) VIP2 Peer Coaching Program — connects new students with designated coaches experienced in navigating university life, providing support in academics, transitional issues, personal matters, and connecting to tutoring, office hours, financial aid, and counseling. (2) Peer Tutoring — assistance with course concepts or writing available in real-time with peer tutors who have successfully completed the same classes. (3) Eight dimensions of wellness framework. Coaching emphasizes clarifying academic terminology and institutional jargon that may be unfamiliar to first-gen students. Use the \"Find a Coach\" link at success.asu.edu.",
+      "source": "ASU Student Success Center",
+      "sourceUrl": "https://success.asu.edu/",
+      "category": "first-gen-resources"
+    },
+    {
+      "id": "career-fulton-fair-prep",
+      "title": "ASU Fulton Engineering Career Fair Preparation Guide",
+      "text": "The Fulton Schools of Engineering hosts major career fairs each semester with 100+ employers. Preparation steps: (1) Research attending companies through the employer list posted on Handshake. (2) Prepare a 30-60 second elevator pitch about yourself, your major, and what you're looking for. (3) Update and print multiple copies of your resume — get it reviewed at the Career Center beforehand. (4) Dress professionally (business professional or business casual). (5) Prepare questions to ask employers about company culture, internship programs, and hiring timeline. (6) Follow up within 24-48 hours with a thank-you email. (7) Log into Handshake after the fair to apply to positions. The Career Center offers \"Get Ready for the Career Fairs\" workshops before each fair. Website: career.engineering.asu.edu/students/career-fair/.",
+      "source": "Fulton Career Fair Guide",
+      "sourceUrl": "https://career.engineering.asu.edu/students/career-fair/",
+      "category": "career-services"
     }
   ]
 }
