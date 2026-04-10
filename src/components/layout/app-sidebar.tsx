@@ -31,7 +31,8 @@ import {
 } from "@/components/ui/sheet";
 import { useState, createContext, useContext, useEffect } from "react";
 import { useTheme } from "next-themes";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, LogOut } from "lucide-react";
+import { useAuth } from "@/components/auth/auth-provider";
 
 export type UserRole = "student" | "alumni" | "admin";
 
@@ -46,6 +47,18 @@ export function useRole() {
 
 export function RoleProvider({ children }: { children: React.ReactNode }) {
   const [role, setRole] = useState<UserRole>("student");
+
+  // Sync role from auth on mount
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem('fg-auth')
+      if (raw) {
+        const user = JSON.parse(raw)
+        if (user.role) setRole(user.role)
+      }
+    } catch { /* ignore */ }
+  }, [])
+
   return (
     <RoleContext.Provider value={{ role, setRole }}>
       {children}
@@ -119,6 +132,67 @@ function ThemeToggle({ compact = false }: { compact?: boolean }) {
         <span className="truncate">{isDark ? "Light Mode" : "Dark Mode"}</span>
       )}
     </button>
+  );
+}
+
+function UserFooter({ compact, expanded }: { compact?: boolean; expanded?: boolean }) {
+  const { user, logout } = useAuth();
+  if (!user) return null;
+
+  // Mobile sidebar variant (no expanded prop)
+  if (expanded === undefined) {
+    return (
+      <div className="border-t border-border px-3 py-2">
+        <div className="flex items-center gap-2">
+          <div className="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">
+            {user.name.charAt(0).toUpperCase()}
+          </div>
+          <div className="flex-1 min-w-0">
+            <p className="truncate text-xs font-medium text-foreground">{user.name}</p>
+            <p className="truncate text-[10px] text-muted-foreground">{user.email}</p>
+          </div>
+          <button
+            onClick={logout}
+            className="flex size-8 shrink-0 items-center justify-center rounded-lg text-muted-foreground hover:bg-muted hover:text-foreground"
+            title="Sign out"
+          >
+            <LogOut className="size-4" />
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  // Desktop sidebar variant
+  return (
+    <div className="border-t border-sidebar-border px-2 py-2">
+      {expanded ? (
+        <div className="flex items-center gap-2 px-1">
+          <div className="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-bold text-primary">
+            {user.name.charAt(0).toUpperCase()}
+          </div>
+          <div className="flex-1 min-w-0">
+            <p className="truncate text-xs font-medium text-sidebar-foreground">{user.name}</p>
+            <p className="truncate text-[10px] text-sidebar-foreground/50">{user.email}</p>
+          </div>
+          <button
+            onClick={logout}
+            className="flex size-7 shrink-0 items-center justify-center rounded-lg text-sidebar-foreground/50 hover:bg-sidebar-accent hover:text-sidebar-foreground"
+            title="Sign out"
+          >
+            <LogOut className="size-3.5" />
+          </button>
+        </div>
+      ) : (
+        <button
+          onClick={logout}
+          className="mx-auto flex size-10 items-center justify-center rounded-lg text-sidebar-foreground/60 hover:bg-sidebar-accent hover:text-sidebar-foreground"
+          title="Sign out"
+        >
+          <LogOut className="size-5" />
+        </button>
+      )}
+    </div>
   );
 }
 
@@ -301,6 +375,7 @@ export function AppSidebar() {
               <div className="border-t border-border px-2 py-2">
                 <ThemeToggle />
               </div>
+              <UserFooter />
               <div className="border-t border-border px-4 py-3 text-center text-xs text-muted-foreground">
                 You belong here.
               </div>
@@ -356,6 +431,7 @@ export function AppSidebar() {
             <ThemeToggle compact />
           )}
         </div>
+        <UserFooter expanded={expanded} />
         <div
           className={cn(
             "border-t border-sidebar-border px-4 py-3 text-center text-xs text-sidebar-foreground/50 transition-all duration-300",
