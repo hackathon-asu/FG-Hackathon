@@ -39,6 +39,11 @@ const interestOptions = [
 export default function OnboardingPage() {
   const [selectedInterests, setSelectedInterests] = useState<string[]>([])
   const [firstGen, setFirstGen] = useState<boolean | null>(null)
+  const [fullName, setFullName] = useState('')
+  const [email, setEmail] = useState('')
+  const [major, setMajor] = useState('')
+  const [year, setYear] = useState('')
+  const [careerGoals, setCareerGoals] = useState('')
 
   function toggleInterest(interest: string) {
     setSelectedInterests((prev) =>
@@ -71,25 +76,25 @@ export default function OnboardingPage() {
             {/* Full Name */}
             <div className="flex flex-col gap-1.5">
               <Label htmlFor="fullName">Full Name</Label>
-              <Input id="fullName" placeholder="Your full name" />
+              <Input id="fullName" placeholder="Your full name" value={fullName} onChange={(e) => setFullName(e.target.value)} />
             </div>
 
             {/* Email */}
             <div className="flex flex-col gap-1.5">
               <Label htmlFor="email">Email</Label>
-              <Input id="email" type="email" placeholder="you@university.edu" />
+              <Input id="email" type="email" placeholder="you@university.edu" value={email} onChange={(e) => setEmail(e.target.value)} />
             </div>
 
             {/* Major */}
             <div className="flex flex-col gap-1.5">
               <Label htmlFor="major">Major</Label>
-              <Input id="major" placeholder="e.g. Computer Science" />
+              <Input id="major" placeholder="e.g. Computer Science" value={major} onChange={(e) => setMajor(e.target.value)} />
             </div>
 
             {/* Year */}
             <div className="flex flex-col gap-1.5">
               <Label>Year</Label>
-              <Select>
+              <Select value={year} onValueChange={setYear}>
                 <SelectTrigger>
                   <SelectValue placeholder="Select your year" />
                 </SelectTrigger>
@@ -168,11 +173,34 @@ export default function OnboardingPage() {
                 id="careerGoals"
                 placeholder="What do you dream of doing after graduation? No wrong answers here."
                 rows={3}
+                value={careerGoals}
+                onChange={(e) => setCareerGoals(e.target.value)}
               />
             </div>
 
             {/* Submit */}
-            <Button className="mt-2 w-full bg-primary text-primary-foreground hover:bg-primary/90">
+            <Button
+              className="mt-2 w-full bg-primary text-primary-foreground hover:bg-primary/90"
+              onClick={() => {
+                if (typeof window !== 'undefined') {
+                  const { saveProfile } = require('@/lib/storage')
+                  const profile = {
+                    name: fullName.trim() || 'Student',
+                    email: email.trim(),
+                    major: major.trim(),
+                    year,
+                    interests: selectedInterests,
+                    firstGen,
+                    careerGoals: careerGoals.trim(),
+                    createdAt: new Date().toISOString(),
+                  }
+                  saveProfile(profile)
+                  // Set cookie so server-side chat routes can read profile
+                  document.cookie = `fg-profile=${encodeURIComponent(JSON.stringify({ name: profile.name, major: profile.major, year: profile.year, interests: profile.interests }))};path=/;max-age=31536000`
+                }
+                window.location.href = '/'
+              }}
+            >
               Create My Profile
               <ArrowRight className="size-4" />
             </Button>

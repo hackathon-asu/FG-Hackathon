@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { AppLayout } from '@/components/layout/app-layout'
 import { events } from '@/lib/data/events'
@@ -35,7 +35,16 @@ const resources = [
 
 export default function DashboardPage() {
   const [expandedEvent, setExpandedEvent] = useState<string | null>(null)
+  const [userName, setUserName] = useState('Jordan')
   const upcomingEvents = events.slice(0, 3)
+
+  useEffect(() => {
+    const raw = localStorage.getItem('fg-profile')
+    if (raw) {
+      const profile = JSON.parse(raw)
+      if (profile.name) setUserName(profile.name.split(' ')[0])
+    }
+  }, [])
 
   return (
     <AppLayout>
@@ -43,7 +52,7 @@ export default function DashboardPage() {
         {/* Welcome Section */}
         <div>
           <h1 className="text-2xl font-bold tracking-tight text-foreground">
-            Welcome back, Jordan! <span aria-hidden="true">&#128075;</span>
+            Welcome back, {userName}! <span aria-hidden="true">&#128075;</span>
           </h1>
           <p className="mt-1 text-sm text-muted-foreground">
             You&apos;re making great progress. Here&apos;s what&apos;s happening today.
