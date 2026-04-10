@@ -74,19 +74,16 @@ export const ROLE_DASHBOARDS: Record<UserRole, string> = {
 }
 
 /**
- * Map between alumni data IDs and auth IDs so cross-account messaging works.
- * Key = alumni data ID (from alumni.ts), Value = auth user ID (from DEMO_ACCOUNTS).
+ * Map between data IDs (from alumni.ts / students.ts) and auth IDs (from DEMO_ACCOUNTS).
+ * Ensures cross-account messaging works — both sides see the same conversation.
  */
-export const ALUMNI_ID_MAP: Record<string, string> = {
-  a1: 'demo-alumni', // Sofia Herrera
+export const DATA_TO_AUTH_MAP: Record<string, string> = {
+  a1: 'demo-alumni',   // Sofia Herrera (alumni data → auth)
+  s1: 'demo-student',  // Jordan Rivera approximation — but Jordan's student data may not be s1
+  // Add more mappings as needed
 }
 
-/** Reverse map: auth ID → alumni data ID */
-export const AUTH_TO_ALUMNI_MAP: Record<string, string> = Object.fromEntries(
-  Object.entries(ALUMNI_ID_MAP).map(([k, v]) => [v, k])
-)
-
-/** Resolve an alumni data ID to the auth ID if a mapping exists, otherwise return as-is */
+/** Resolve a data ID to the auth ID if a mapping exists, otherwise return as-is */
 export function resolveRecipientId(id: string): string {
-  return ALUMNI_ID_MAP[id] || id
+  return DATA_TO_AUTH_MAP[id] || id
 }
