@@ -2,6 +2,8 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
+import { useAuth } from '@/components/auth/auth-provider'
 import { Button } from '@/components/ui/button'
 import {
   Card,
@@ -69,6 +71,10 @@ export default function AlumniSignupPage() {
   const [selectedAvailable, setSelectedAvailable] = useState<string[]>([])
   const [selectedSkills, setSelectedSkills] = useState<string[]>([])
   const [firstGen, setFirstGen] = useState<boolean | null>(null)
+  const [alumniName, setAlumniName] = useState('')
+  const [alumniEmail, setAlumniEmail] = useState('')
+  const { login, user } = useAuth()
+  const router = useRouter()
 
   function toggleAvailable(value: string) {
     setSelectedAvailable((prev) =>
@@ -153,11 +159,11 @@ export default function AlumniSignupPage() {
               <div className="grid gap-4 sm:grid-cols-2">
                 <div className="flex flex-col gap-2">
                   <Label>Full Name *</Label>
-                  <Input placeholder="Your full name" />
+                  <Input placeholder="Your full name" value={alumniName} onChange={(e) => setAlumniName(e.target.value)} />
                 </div>
                 <div className="flex flex-col gap-2">
                   <Label>Email *</Label>
-                  <Input type="email" placeholder="your.email@company.com" />
+                  <Input type="email" placeholder="your.email@company.com" value={alumniEmail} onChange={(e) => setAlumniEmail(e.target.value)} />
                 </div>
               </div>
               <div className="flex flex-col gap-2">
@@ -389,8 +395,16 @@ export default function AlumniSignupPage() {
                 // Persist alumni signup to localStorage
                 if (typeof window !== 'undefined') {
                   const existing = JSON.parse(localStorage.getItem('fg-alumni-signups') || '[]')
-                  existing.unshift({ id: `alumni-${Date.now()}`, createdAt: new Date().toISOString() })
+                  existing.unshift({ id: `alumni-${Date.now()}`, name: alumniName.trim(), email: alumniEmail.trim(), createdAt: new Date().toISOString() })
                   localStorage.setItem('fg-alumni-signups', JSON.stringify(existing))
+                  // Create auth session as alumni
+                  login({
+                    id: user?.id || `alumni-${Date.now()}`,
+                    name: alumniName.trim() || 'Alumni',
+                    email: alumniEmail.trim(),
+                    role: 'alumni',
+                    createdAt: new Date().toISOString(),
+                  })
                 }
                 setSubmitted(true)
               }}

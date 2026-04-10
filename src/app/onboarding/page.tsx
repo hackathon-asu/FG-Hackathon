@@ -2,7 +2,9 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { GraduationCap, ArrowRight } from 'lucide-react'
+import { useAuth } from '@/components/auth/auth-provider'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
@@ -44,6 +46,16 @@ export default function OnboardingPage() {
   const [major, setMajor] = useState('')
   const [year, setYear] = useState('')
   const [careerGoals, setCareerGoals] = useState('')
+  const { login, user } = useAuth()
+  const router = useRouter()
+
+  // Pre-fill from auth if coming from login page
+  useState(() => {
+    if (user) {
+      if (user.name && user.name !== user.email.split('@')[0]) setFullName(user.name)
+      if (user.email) setEmail(user.email)
+    }
+  })
 
   function toggleInterest(interest: string) {
     setSelectedInterests((prev) =>
@@ -197,8 +209,16 @@ export default function OnboardingPage() {
                   saveProfile(profile)
                   // Set cookie so server-side chat routes can read profile
                   document.cookie = `fg-profile=${encodeURIComponent(JSON.stringify({ name: profile.name, major: profile.major, year: profile.year, interests: profile.interests }))};path=/;max-age=31536000`
+                  // Create/update auth session
+                  login({
+                    id: user?.id || `student-${Date.now()}`,
+                    name: profile.name,
+                    email: profile.email,
+                    role: 'student',
+                    createdAt: profile.createdAt,
+                  })
                 }
-                window.location.href = '/'
+                router.push('/')
               }}
             >
               Create My Profile
