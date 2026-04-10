@@ -48,15 +48,24 @@ export function useRole() {
 export function RoleProvider({ children }: { children: React.ReactNode }) {
   const [role, setRole] = useState<UserRole>("student");
 
-  // Sync role from auth on mount
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem('fg-auth')
-      if (raw) {
-        const user = JSON.parse(raw)
-        if (user.role) setRole(user.role)
-      }
-    } catch { /* ignore */ }
+    function syncRole() {
+      try {
+        const raw = localStorage.getItem('fg-auth')
+        if (raw) {
+          const user = JSON.parse(raw)
+          if (user.role) setRole(user.role)
+        }
+      } catch { /* ignore */ }
+    }
+    syncRole()
+    // Same-tab auth changes + cross-tab storage events
+    window.addEventListener('fg-auth-change', syncRole)
+    window.addEventListener('storage', syncRole)
+    return () => {
+      window.removeEventListener('fg-auth-change', syncRole)
+      window.removeEventListener('storage', syncRole)
+    }
   }, [])
 
   return (
@@ -77,12 +86,10 @@ const navItems: {
   { href: "/social", label: "Social", icon: Users, roles: ["student"] },
   { href: "/alumni", label: "Alumni", icon: Award, roles: ["student"] },
   { href: "/advising", label: "AI Advisor", icon: BookOpen, roles: ["student"] },
-  { href: "/decisions", label: "Career Guide", icon: Compass, roles: ["student"] },
-  { href: "/feedback", label: "Feedback", icon: MessageSquare, roles: ["student"] },
   // Alumni
   { href: "/alumni/dashboard", label: "Alumni Dashboard", icon: LayoutDashboard, roles: ["alumni"] },
+  { href: "/alumni/messages", label: "Messages", icon: MessageSquare, roles: ["alumni"] },
   { href: "/alumni/impact", label: "Your Impact", icon: Award, roles: ["alumni"] },
-  { href: "/feedback", label: "Feedback", icon: MessageSquare, roles: ["alumni"] },
   // Admin
   { href: "/admin", label: "Admin Dashboard", icon: LayoutDashboard, roles: ["admin"] },
   { href: "/admin/tickets", label: "AI Tickets", icon: Bot, roles: ["admin"] },
