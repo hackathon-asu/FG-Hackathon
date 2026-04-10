@@ -1,6 +1,9 @@
 'use client'
 
 import { useState } from 'react'
+import { useAuth } from '@/components/auth/auth-provider'
+import { sendMessage as persistMessage, getConversationId } from '@/lib/storage'
+import { resolveRecipientId } from '@/lib/auth'
 import type { Alumni } from '@/lib/types'
 import { cn } from '@/lib/utils'
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
@@ -67,6 +70,7 @@ export function MentorCard({ alumni }: { alumni: Alumni }) {
   const [message, setMessage] = useState('')
   const [selectedHelp, setSelectedHelp] = useState<string[]>([])
   const [sent, setSent] = useState(false)
+  const { user } = useAuth()
 
   function toggleHelp(option: string) {
     setSelectedHelp((prev) =>
@@ -75,6 +79,25 @@ export function MentorCard({ alumni }: { alumni: Alumni }) {
   }
 
   function handleSend() {
+    if (user) {
+      const recipientId = resolveRecipientId(alumni.id)
+      const text = [
+        selectedHelp.length > 0 ? `Looking for help with: ${selectedHelp.join(', ')}` : '',
+        message.trim(),
+      ].filter(Boolean).join('\n\n')
+      if (text) {
+        persistMessage({
+          id: `msg-${Date.now()}`,
+          conversationId: getConversationId(user.id, recipientId),
+          senderId: user.id,
+          senderName: user.name,
+          recipientId,
+          recipientName: alumni.name,
+          text,
+          createdAt: new Date().toISOString(),
+        })
+      }
+    }
     setSent(true)
     setTimeout(() => {
       setDialogOpen(false)

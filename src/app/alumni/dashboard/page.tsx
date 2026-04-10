@@ -2,6 +2,8 @@
 
 import { useState, useMemo } from 'react'
 import { AppLayout } from '@/components/layout/app-layout'
+import { ChatDialog } from '@/components/messaging/chat-dialog'
+import { useAuth } from '@/components/auth/auth-provider'
 import { menteeConnections } from '@/lib/data/mentee-connections'
 import { students } from '@/lib/data/students'
 import { Badge } from '@/components/ui/badge'
@@ -60,6 +62,14 @@ export default function AlumniDashboardPage() {
   const [studentSearch, setStudentSearch] = useState('')
   const [yearFilter, setYearFilter] = useState('all')
   const [majorFilter, setMajorFilter] = useState('all')
+  const [chatOpen, setChatOpen] = useState(false)
+  const [chatTarget, setChatTarget] = useState<{ id: string; name: string; avatar: string } | null>(null)
+  const { user } = useAuth()
+
+  function openChat(target: { id: string; name: string; avatar: string }) {
+    setChatTarget(target)
+    setChatOpen(true)
+  }
 
   const activeCount = connections.filter((c) => c.status === 'active').length
   const pendingCount = connections.filter((c) => c.status === 'pending').length
@@ -101,7 +111,7 @@ export default function AlumniDashboardPage() {
                 Alumni Dashboard
               </h1>
               <p className="text-sm text-muted-foreground">
-                Welcome back, Sofia! Your mentorship makes a difference.
+                Welcome back, {user?.name?.split(' ')[0] || 'Sofia'}! Your mentorship makes a difference.
               </p>
             </div>
           </div>
@@ -223,6 +233,11 @@ export default function AlumniDashboardPage() {
                             size="sm"
                             variant={conn.status === 'pending' ? 'default' : 'outline'}
                             className={conn.status === 'pending' ? 'bg-primary text-primary-foreground' : ''}
+                            onClick={() => {
+                              if (conn.status !== 'pending') {
+                                openChat({ id: conn.student.id, name: conn.student.name, avatar: conn.student.avatar })
+                              }
+                            }}
                           >
                             {conn.status === 'pending' ? 'Accept' : 'Message'}
                             <ArrowUpRight className="ml-1 size-3" />
@@ -439,6 +454,17 @@ export default function AlumniDashboardPage() {
           Every conversation you have with a student can change their trajectory. Thank you for being here.
         </div>
       </div>
+
+      {/* Chat Dialog */}
+      {chatTarget && (
+        <ChatDialog
+          open={chatOpen}
+          onOpenChange={setChatOpen}
+          recipientId={chatTarget.id}
+          recipientName={chatTarget.name}
+          recipientAvatar={chatTarget.avatar}
+        />
+      )}
     </AppLayout>
   )
 }
