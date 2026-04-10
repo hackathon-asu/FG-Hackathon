@@ -381,11 +381,31 @@ export default function SocialPage() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [searchQuery, setSearchQuery] = useState('')
   const [yearFilter, setYearFilter] = useState('All')
-  const [joinedGroups, setJoinedGroups] = useState<string[]>([])
+  const [joinedGroups, setJoinedGroups] = useState<string[]>(() => {
+    if (typeof window === 'undefined') return []
+    try {
+      const raw = localStorage.getItem('fg-joined-groups')
+      return raw ? JSON.parse(raw) : []
+    } catch { return [] }
+  })
   const [activeTab, setActiveTab] = useState('discover')
-  const [connectedIds, setConnectedIds] = useState<string[]>([])
+  const [connectedIds, setConnectedIds] = useState<string[]>(() => {
+    if (typeof window === 'undefined') return []
+    try {
+      const raw = localStorage.getItem('fg-matches')
+      return raw ? JSON.parse(raw) : []
+    } catch { return [] }
+  })
   const [chatTarget, setChatTarget] = useState<{ id: string; name: string; avatar: string } | null>(null)
   const [openGroupChat, setOpenGroupChat] = useState<string | null>(null)
+
+  // Persist matches + joined groups to localStorage
+  useEffect(() => {
+    localStorage.setItem('fg-matches', JSON.stringify(connectedIds))
+  }, [connectedIds])
+  useEffect(() => {
+    localStorage.setItem('fg-joined-groups', JSON.stringify(joinedGroups))
+  }, [joinedGroups])
 
   function openChat(student: { id: string; name: string; avatar: string }) {
     setChatTarget(student)
@@ -594,40 +614,44 @@ export default function SocialPage() {
                 <GroupChatPanel groupName={openGroupChat} onBack={() => setOpenGroupChat(null)} />
               ) : (
                 <div className="flex flex-col gap-2">
-                  {/* Section: Group Chats */}
-                  <h3 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-                    <Users className="size-3" />
-                    Group Chats
-                  </h3>
-                  {communityGroups.map((group) => {
-                    const msgs = GROUP_CHAT_DATA[group.name] || []
-                    const lastMsg = msgs[msgs.length - 1]
-                    return (
-                      <Card
-                        key={group.name}
-                        className="cursor-pointer transition-all hover:ring-2 hover:ring-primary/20"
-                        onClick={() => setOpenGroupChat(group.name)}
-                      >
-                        <CardContent className="flex items-center gap-3 py-3">
-                          <div className={cn('flex size-10 shrink-0 items-center justify-center rounded-lg bg-muted', group.color)}>
-                            <group.icon className="size-5" />
-                          </div>
-                          <div className="min-w-0 flex-1">
-                            <div className="flex items-center justify-between gap-2">
-                              <p className="truncate text-sm font-semibold">{group.name}</p>
-                              <Badge variant="secondary" className="shrink-0 text-[9px]">{group.members}</Badge>
-                            </div>
-                            {lastMsg && (
-                              <p className="mt-0.5 truncate text-xs text-muted-foreground">
-                                <span className="font-medium">{lastMsg.sender}:</span> {lastMsg.text}
-                              </p>
-                            )}
-                          </div>
-                          <ArrowRight className="size-4 shrink-0 text-muted-foreground" />
-                        </CardContent>
-                      </Card>
-                    )
-                  })}
+                  {/* Section: Group Chats (only joined groups) */}
+                  {joinedGroups.length > 0 && (
+                    <>
+                      <h3 className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                        <Users className="size-3" />
+                        Group Chats
+                      </h3>
+                      {communityGroups.filter((g) => joinedGroups.includes(g.name)).map((group) => {
+                        const msgs = GROUP_CHAT_DATA[group.name] || []
+                        const lastMsg = msgs[msgs.length - 1]
+                        return (
+                          <Card
+                            key={group.name}
+                            className="cursor-pointer transition-all hover:ring-2 hover:ring-primary/20"
+                            onClick={() => setOpenGroupChat(group.name)}
+                          >
+                            <CardContent className="flex items-center gap-3 py-3">
+                              <div className={cn('flex size-10 shrink-0 items-center justify-center rounded-lg bg-muted', group.color)}>
+                                <group.icon className="size-5" />
+                              </div>
+                              <div className="min-w-0 flex-1">
+                                <div className="flex items-center justify-between gap-2">
+                                  <p className="truncate text-sm font-semibold">{group.name}</p>
+                                  <Badge variant="secondary" className="shrink-0 text-[9px]">{group.members}</Badge>
+                                </div>
+                                {lastMsg && (
+                                  <p className="mt-0.5 truncate text-xs text-muted-foreground">
+                                    <span className="font-medium">{lastMsg.sender}:</span> {lastMsg.text}
+                                  </p>
+                                )}
+                              </div>
+                              <ArrowRight className="size-4 shrink-0 text-muted-foreground" />
+                            </CardContent>
+                          </Card>
+                        )
+                      })}
+                    </>
+                  )}
 
                   {/* Section: Match Chats */}
                   {matchedStudents.length > 0 && (
@@ -671,10 +695,16 @@ export default function SocialPage() {
                     </>
                   )}
 
-                  {matchedStudents.length === 0 && (
-                    <p className="mt-4 text-center text-xs text-muted-foreground">
-                      Swipe right in Discover to start match conversations
-                    </p>
+                  {matchedStudents.length === 0 && joinedGroups.length === 0 && (
+                    <Card>
+                      <CardContent className="flex flex-col items-center gap-2 py-12 text-center">
+                        <MessagesSquare className="size-8 text-muted-foreground/30" />
+                        <p className="font-semibold">No chats yet</p>
+                        <p className="max-w-xs text-sm text-muted-foreground">
+                          Swipe right in Discover or join a Community group to start chatting.
+                        </p>
+                      </CardContent>
+                    </Card>
                   )}
                 </div>
               )}

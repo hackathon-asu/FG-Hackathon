@@ -127,46 +127,46 @@ export default function AlumniDashboardPage() {
         {/* Impact Stats */}
         <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
           <Card>
-            <CardContent className="flex items-center gap-3 pt-6">
-              <div className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-green-500/10">
-                <Users className="size-5 text-green-500" />
+            <CardContent className="flex items-center gap-4 py-5">
+              <div className="flex size-14 shrink-0 items-center justify-center rounded-xl bg-green-500/10">
+                <Users className="size-7 text-green-500" />
               </div>
               <div>
-                <p className="text-2xl font-bold">{activeCount}</p>
-                <p className="text-xs text-muted-foreground">Active Mentees</p>
+                <p className="text-3xl font-bold">{activeCount}</p>
+                <p className="text-sm text-muted-foreground">Active Mentees</p>
               </div>
             </CardContent>
           </Card>
           <Card>
-            <CardContent className="flex items-center gap-3 pt-6">
-              <div className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-yellow-500/10">
-                <AlertCircle className="size-5 text-yellow-500" />
+            <CardContent className="flex items-center gap-4 py-5">
+              <div className="flex size-14 shrink-0 items-center justify-center rounded-xl bg-yellow-500/10">
+                <AlertCircle className="size-7 text-yellow-500" />
               </div>
               <div>
-                <p className="text-2xl font-bold">{pendingCount}</p>
-                <p className="text-xs text-muted-foreground">Pending Requests</p>
+                <p className="text-3xl font-bold">{pendingCount}</p>
+                <p className="text-sm text-muted-foreground">Pending Requests</p>
               </div>
             </CardContent>
           </Card>
           <Card>
-            <CardContent className="flex items-center gap-3 pt-6">
-              <div className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-blue-500/10">
-                <MessageSquare className="size-5 text-blue-500" />
+            <CardContent className="flex items-center gap-4 py-5">
+              <div className="flex size-14 shrink-0 items-center justify-center rounded-xl bg-blue-500/10">
+                <MessageSquare className="size-7 text-blue-500" />
               </div>
               <div>
-                <p className="text-2xl font-bold">{totalMessages}</p>
-                <p className="text-xs text-muted-foreground">Total Messages</p>
+                <p className="text-3xl font-bold">{totalMessages}</p>
+                <p className="text-sm text-muted-foreground">Total Messages</p>
               </div>
             </CardContent>
           </Card>
           <Card>
-            <CardContent className="flex items-center gap-3 pt-6">
-              <div className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-primary/10">
-                <TrendingUp className="size-5 text-primary" />
+            <CardContent className="flex items-center gap-4 py-5">
+              <div className="flex size-14 shrink-0 items-center justify-center rounded-xl bg-primary/10">
+                <TrendingUp className="size-7 text-primary" />
               </div>
               <div>
-                <p className="text-2xl font-bold">92%</p>
-                <p className="text-xs text-muted-foreground">Response Rate</p>
+                <p className="text-3xl font-bold">92%</p>
+                <p className="text-sm text-muted-foreground">Response Rate</p>
               </div>
             </CardContent>
           </Card>
@@ -364,94 +364,57 @@ export default function AlumniDashboardPage() {
           </TabsContent>
         </Tabs>
 
-        {/* Upcoming Commitments & Impact */}
-        <div className="grid gap-6 lg:grid-cols-2">
+        {/* Upcoming Sessions & Impact — compact row */}
+        <div className="grid gap-4 lg:grid-cols-2">
           <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-lg">
-                <Calendar className="size-5 text-primary" />
+            <CardContent className="py-4">
+              <h3 className="mb-3 flex items-center gap-2 text-sm font-semibold">
+                <Calendar className="size-4 text-primary" />
                 Upcoming Sessions
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="flex flex-col gap-3">
-              <div className="flex items-center justify-between rounded-lg border border-border/50 bg-muted/30 p-3">
-                <div>
-                  <p className="text-sm font-medium">1:1 with Maria Santos</p>
-                  <p className="text-xs text-muted-foreground">Career transition chat</p>
+              </h3>
+              <div className="flex flex-col gap-2">
+                <div className="flex items-center justify-between rounded-lg border border-border/50 px-3 py-2">
+                  <div>
+                    <p className="text-sm font-medium">1:1 with Jordan Rivera</p>
+                    <p className="text-[11px] text-muted-foreground">Career guidance chat</p>
+                  </div>
+                  <span className="shrink-0 text-[11px] text-muted-foreground">Apr 12, 3:00 PM</span>
                 </div>
-                <Badge variant="outline" className="text-xs">Apr 5, 3:00 PM</Badge>
-              </div>
-              <div className="flex items-center justify-between rounded-lg border border-border/50 bg-muted/30 p-3">
-                <div>
-                  <p className="text-sm font-medium">Group Mentorship Hour</p>
-                  <p className="text-xs text-muted-foreground">Open Q&A for first-gen students</p>
+                <div className="flex items-center justify-between rounded-lg border border-border/50 px-3 py-2">
+                  <div>
+                    <p className="text-sm font-medium">Group Mentorship Hour</p>
+                    <p className="text-[11px] text-muted-foreground">Open Q&A for first-gen students</p>
+                  </div>
+                  <span className="shrink-0 text-[11px] text-muted-foreground">Apr 15, 5:00 PM</span>
                 </div>
-                <Badge variant="outline" className="text-xs">Apr 8, 5:00 PM</Badge>
-              </div>
-              <div className="flex items-center justify-between rounded-lg border border-border/50 bg-muted/30 p-3">
-                <div>
-                  <p className="text-sm font-medium">Resume Review with Aisha Patel</p>
-                  <p className="text-xs text-muted-foreground">Pre-career fair prep</p>
-                </div>
-                <Badge variant="outline" className="text-xs">Apr 12, 2:00 PM</Badge>
               </div>
             </CardContent>
           </Card>
 
           <Card>
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-lg">
-                <Star className="size-5 text-primary" />
+            <CardContent className="py-4">
+              <h3 className="mb-3 flex items-center gap-2 text-sm font-semibold">
+                <Star className="size-4 text-primary" />
                 Your Impact
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="flex flex-col gap-4">
-              <div className="rounded-lg border border-primary/20 bg-primary/5 p-4">
-                <p className="text-sm font-medium text-primary">
-                  &ldquo;Sofia helped me land my first internship at a tech company.
-                  I wouldn&apos;t have known where to start without her.&rdquo;
+              </h3>
+              <div className="rounded-lg border border-primary/20 bg-primary/5 px-3 py-2.5">
+                <p className="text-xs font-medium text-primary">
+                  &ldquo;Sofia helped me land my first internship. I wouldn&apos;t have known where to start without her.&rdquo;
                 </p>
-                <p className="mt-2 text-xs text-muted-foreground">— Maria Santos, CS Junior</p>
+                <p className="mt-1 text-[10px] text-muted-foreground">— Maria Gonzalez, CS Junior</p>
               </div>
-              <div className="grid grid-cols-2 gap-3">
-                <div className="rounded-lg bg-muted/30 p-3 text-center">
-                  <p className="text-xl font-bold">5</p>
-                  <p className="text-xs text-muted-foreground">Students mentored</p>
+              <div className="mt-3 grid grid-cols-2 gap-2">
+                <div className="rounded-lg bg-muted/30 px-3 py-2 text-center">
+                  <p className="text-lg font-bold">{connections.length}</p>
+                  <p className="text-[10px] text-muted-foreground">Students mentored</p>
                 </div>
-                <div className="rounded-lg bg-muted/30 p-3 text-center">
-                  <p className="text-xl font-bold">2</p>
-                  <p className="text-xs text-muted-foreground">Internship referrals</p>
+                <div className="rounded-lg bg-muted/30 px-3 py-2 text-center">
+                  <p className="text-lg font-bold">2</p>
+                  <p className="text-[10px] text-muted-foreground">Internship referrals</p>
                 </div>
               </div>
             </CardContent>
           </Card>
-        </div>
-
-        {/* Referral Encouragement */}
-        <Card className="border border-secondary/30 bg-secondary/5">
-          <CardContent className="flex flex-col items-center gap-4 py-6 text-center sm:flex-row sm:text-left">
-            <div className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-secondary/15">
-              <TrendingUp className="size-7 text-secondary" />
-            </div>
-            <div className="flex-1">
-              <h3 className="text-lg font-semibold text-foreground">
-                Did you know? Companies pay referral bonuses.
-              </h3>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Many companies offer $1,000–$10,000+ when you refer someone who gets hired.
-                Our students are bright, motivated, and ready to work. Refer a first-gen student
-                from our talent pool — you help them land a career <em>and</em> earn a bonus.
-                Everyone wins.
-              </p>
-              <p className="mt-2 text-xs font-medium text-secondary">
-                Use the Find Students tab above to browse talent and connect.
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-
-        <div className="text-center text-sm text-muted-foreground">
-          Every conversation you have with a student can change their trajectory. Thank you for being here.
         </div>
       </div>
 

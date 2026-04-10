@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { cn } from '@/lib/utils'
@@ -73,11 +73,14 @@ export default function LoginPage() {
   const { login, user } = useAuth()
   const router = useRouter()
 
-  // If already logged in, redirect
-  if (user) {
-    router.replace(ROLE_DASHBOARDS[user.role])
-    return null
-  }
+  // If already logged in, redirect (use useEffect to avoid setState-during-render)
+  useEffect(() => {
+    if (user) {
+      router.replace(ROLE_DASHBOARDS[user.role])
+    }
+  }, [user, router])
+
+  if (user) return null
 
   function handleDemoLogin(role: UserRole) {
     const account = DEMO_ACCOUNTS.find((a) => a.role === role)!

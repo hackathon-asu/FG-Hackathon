@@ -1,7 +1,31 @@
 import type { MenteeConnection } from '../types'
+import type { Student } from '../types'
 import { students } from './students'
 
+/** Jordan Rivera — the demo student account, shown as a mentee for Sofia */
+const jordanAsStudent: Student = {
+  id: 'demo-student',
+  name: 'Jordan Rivera',
+  avatar: 'https://api.dicebear.com/9.x/avataaars/svg?seed=Jordan',
+  major: 'Computer Science',
+  year: 'Sophomore',
+  interests: ['web development', 'first-gen support', 'AI'],
+  careerGoals: ['software engineer', 'startup founder'],
+  clubs: ['First-Gen Alliance', 'Hack Club'],
+  background: 'First-gen student navigating the tech world. Parents immigrated from Guatemala.',
+  challenges: ['imposter syndrome', 'networking', 'financial aid'],
+  matchPercentage: 97,
+}
+
 export const menteeConnections: MenteeConnection[] = [
+  {
+    id: 'mc0',
+    student: jordanAsStudent,
+    status: 'active',
+    lastContact: '2026-04-08',
+    messages: 5,
+    topic: 'First-gen CS student seeking career guidance',
+  },
   {
     id: 'mc1',
     student: students[0],
@@ -13,33 +37,9 @@ export const menteeConnections: MenteeConnection[] = [
   {
     id: 'mc2',
     student: students[2],
-    status: 'active',
-    lastContact: '2026-03-28',
-    messages: 8,
-    topic: 'Graduate school applications',
-  },
-  {
-    id: 'mc3',
-    student: students[4],
     status: 'pending',
-    lastContact: '2026-04-01',
-    messages: 2,
-    topic: 'Internship search in creative writing',
-  },
-  {
-    id: 'mc4',
-    student: students[6],
-    status: 'active',
-    lastContact: '2026-03-30',
-    messages: 15,
-    topic: 'Pre-law career path guidance',
-  },
-  {
-    id: 'mc5',
-    student: students[8],
-    status: 'completed',
-    lastContact: '2026-03-15',
-    messages: 22,
-    topic: 'Data science portfolio building',
+    lastContact: '2026-03-28',
+    messages: 3,
+    topic: 'Graduate school applications',
   },
 ]

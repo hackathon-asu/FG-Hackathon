@@ -107,7 +107,7 @@ export function useSidebarState() {
 }
 
 export function SidebarProvider({ children }: { children: React.ReactNode }) {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(true);
   return (
     <SidebarContext.Provider value={{ expanded, setExpanded }}>
       {children}
@@ -203,28 +203,17 @@ function UserFooter({ compact, expanded }: { compact?: boolean; expanded?: boole
   );
 }
 
-const roleLabels: Record<UserRole, string> = {
-  student: "Student",
-  alumni: "Alumni",
-  admin: "Admin",
-};
+import { DEMO_ACCOUNTS, ROLE_DASHBOARDS, login as authLoginDirect } from "@/lib/auth";
 
-const roleDashboards: Record<UserRole, string> = {
-  student: "/",
-  alumni: "/alumni/dashboard",
-  admin: "/admin",
-};
-
-function RoleSelector({ compact = false }: { compact?: boolean }) {
-  const { role, setRole } = useRole();
+function AccountSwitcher({ compact = false }: { compact?: boolean }) {
+  const { user, login } = useAuth();
   const router = useRouter();
   const [open, setOpen] = useState(false);
-  const roles: UserRole[] = ["student", "alumni", "admin"];
 
-  function switchRole(r: UserRole) {
-    setRole(r);
+  function switchAccount(account: typeof DEMO_ACCOUNTS[number]) {
+    login(account);
     setOpen(false);
-    router.push(roleDashboards[r]);
+    router.push(ROLE_DASHBOARDS[account.role]);
   }
 
   if (compact) {
@@ -233,24 +222,36 @@ function RoleSelector({ compact = false }: { compact?: boolean }) {
         <button
           onClick={() => setOpen(!open)}
           className="mx-auto flex size-10 items-center justify-center rounded-lg text-sidebar-foreground/60 hover:bg-sidebar-accent hover:text-sidebar-foreground"
-          title={`Role: ${roleLabels[role]}`}
+          title="Switch account"
         >
-          <span className="text-xs font-bold uppercase">{role[0]}</span>
+          <Users className="size-5" />
         </button>
         {open && (
-          <div className="absolute bottom-full left-1/2 mb-1 -translate-x-1/2 rounded-lg border border-border bg-popover p-1 shadow-lg">
-            {roles.map((r) => (
-              <button
-                key={r}
-                onClick={() => switchRole(r)}
-                className={cn(
-                  "block w-full rounded-md px-3 py-1.5 text-left text-xs font-medium transition-colors",
-                  r === role ? "bg-primary/10 text-primary" : "text-muted-foreground hover:bg-muted hover:text-foreground"
-                )}
-              >
-                {roleLabels[r]}
-              </button>
-            ))}
+          <div className="absolute bottom-full left-1/2 mb-1 -translate-x-1/2 w-48 rounded-lg border border-border bg-popover p-1 shadow-lg">
+            {DEMO_ACCOUNTS.map((account) => {
+              const isActive = user?.id === account.id;
+              return (
+                <button
+                  key={account.id}
+                  onClick={() => switchAccount(account)}
+                  className={cn(
+                    "flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-left transition-colors",
+                    isActive ? "bg-primary/10" : "hover:bg-muted"
+                  )}
+                >
+                  <div className={cn(
+                    "flex size-6 shrink-0 items-center justify-center rounded-full text-[10px] font-bold",
+                    isActive ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground"
+                  )}>
+                    {account.name.charAt(0)}
+                  </div>
+                  <div className="min-w-0">
+                    <p className={cn("truncate text-xs font-medium", isActive ? "text-primary" : "text-foreground")}>{account.name}</p>
+                    <p className="truncate text-[9px] text-muted-foreground capitalize">{account.role}</p>
+                  </div>
+                </button>
+              );
+            })}
           </div>
         )}
       </div>
@@ -263,23 +264,39 @@ function RoleSelector({ compact = false }: { compact?: boolean }) {
         onClick={() => setOpen(!open)}
         className="flex w-full items-center gap-2 rounded-lg px-3 py-2 text-xs font-medium text-sidebar-foreground/60 hover:bg-sidebar-accent hover:text-sidebar-foreground"
       >
-        <span className="flex-1 text-left">Role: {roleLabels[role]}</span>
+        <Users className="size-4 shrink-0" />
+        <span className="flex-1 text-left truncate">Switch Account</span>
         <ChevronDown className={cn("size-3.5 transition-transform", open && "rotate-180")} />
       </button>
       {open && (
-        <div className="mt-1 rounded-lg border border-border bg-popover p-1 shadow-lg">
-          {roles.map((r) => (
-            <button
-              key={r}
-              onClick={() => switchRole(r)}
-              className={cn(
-                "block w-full rounded-md px-3 py-1.5 text-left text-xs font-medium transition-colors",
-                r === role ? "bg-primary/10 text-primary" : "text-muted-foreground hover:bg-muted hover:text-foreground"
-              )}
-            >
-              {roleLabels[r]}
-            </button>
-          ))}
+        <div className="mt-1 rounded-lg border border-border bg-popover p-1.5 shadow-lg">
+          {DEMO_ACCOUNTS.map((account) => {
+            const isActive = user?.id === account.id;
+            return (
+              <button
+                key={account.id}
+                onClick={() => switchAccount(account)}
+                className={cn(
+                  "flex w-full items-center gap-2.5 rounded-md px-2.5 py-2 text-left transition-colors",
+                  isActive ? "bg-primary/10" : "hover:bg-muted"
+                )}
+              >
+                <div className={cn(
+                  "flex size-7 shrink-0 items-center justify-center rounded-full text-xs font-bold",
+                  isActive ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground"
+                )}>
+                  {account.name.charAt(0)}
+                </div>
+                <div className="min-w-0 flex-1">
+                  <p className={cn("truncate text-xs font-medium", isActive ? "text-primary" : "text-foreground")}>{account.name}</p>
+                  <p className="truncate text-[10px] text-muted-foreground">{account.email}</p>
+                </div>
+                {isActive && (
+                  <span className="size-1.5 shrink-0 rounded-full bg-emerald-400" />
+                )}
+              </button>
+            );
+          })}
         </div>
       )}
     </div>
@@ -377,7 +394,7 @@ export function AppSidebar() {
                 <SidebarContent pathname={pathname} />
               </div>
               <div className="border-t border-border py-2">
-                <RoleSelector />
+                <AccountSwitcher />
               </div>
               <div className="border-t border-border px-2 py-2">
                 <ThemeToggle />
@@ -429,7 +446,7 @@ export function AppSidebar() {
         </div>
 
         <div className="border-t border-sidebar-border py-2">
-          {expanded ? <RoleSelector /> : <RoleSelector compact />}
+          {expanded ? <AccountSwitcher /> : <AccountSwitcher compact />}
         </div>
         <div className="border-t border-sidebar-border px-2 py-2">
           {expanded ? (
