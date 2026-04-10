@@ -77,10 +77,13 @@ class KnowledgeStore {
       score: this.score(queryTokens, i),
     }));
 
+    // Minimum relevance threshold — weak matches cause hallucinations
+    const MIN_SCORE = 1.5;
+
     return results
       .sort((a, b) => b.score - a.score)
       .slice(0, topK)
-      .filter(r => r.score > 0);
+      .filter(r => r.score >= MIN_SCORE);
   }
 }
 
