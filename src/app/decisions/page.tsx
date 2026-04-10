@@ -6,7 +6,9 @@ import {
   ChatInterface,
   type ChatInterfaceHandle,
 } from '@/components/advising/chat-interface'
+import { ChatHistory } from '@/components/advising/chat-history'
 import { ResourcePanel } from '@/components/advising/resource-panel'
+import type { ChatSession } from '@/lib/storage'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
@@ -26,6 +28,7 @@ import {
   FileText,
   Presentation,
   TrendingUp,
+  History,
 } from 'lucide-react'
 
 const commonTopics = [
@@ -69,6 +72,8 @@ const commonTopics = [
 
 export default function DecisionsPage() {
   const [chatStarted, setChatStarted] = useState(false)
+  const [activeSessionId, setActiveSessionId] = useState<string | null>(null)
+  const [showHistory, setShowHistory] = useState(false)
   const chatRef = useRef<ChatInterfaceHandle>(null)
 
   function handleSelectTopic(question: string) {
@@ -76,6 +81,20 @@ export default function DecisionsPage() {
     setTimeout(() => {
       chatRef.current?.sendQuestion(question)
     }, 50)
+  }
+
+  function handleSelectSession(session: ChatSession) {
+    setChatStarted(true)
+    setActiveSessionId(session.id)
+    chatRef.current?.loadSession(session)
+    setShowHistory(false)
+  }
+
+  function handleNewChat() {
+    setChatStarted(false)
+    setActiveSessionId(null)
+    chatRef.current?.clearChat()
+    setShowHistory(false)
   }
 
   return (
@@ -94,29 +113,40 @@ export default function DecisionsPage() {
             </p>
           </div>
 
-          {/* Mobile resource toggle */}
-          <div className="md:hidden">
-            <Sheet>
-              <SheetTrigger asChild>
-                <Button variant="outline" size="sm" className="gap-1.5">
-                  <BookOpen className="size-4" />
-                  Resources
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="right" className="overflow-y-auto p-4">
-                <SheetHeader>
-                  <SheetTitle>Career Resources</SheetTitle>
-                </SheetHeader>
-                <div className="mt-4">
-                  <ResourcePanel />
-                </div>
-              </SheetContent>
-            </Sheet>
+          <div className="flex gap-2">
+            <Button
+              variant={showHistory ? 'default' : 'outline'}
+              size="sm"
+              className="gap-1.5"
+              onClick={() => setShowHistory(!showHistory)}
+            >
+              <History className="size-4" />
+              History
+            </Button>
+
+            <div className="md:hidden">
+              <Sheet>
+                <SheetTrigger asChild>
+                  <Button variant="outline" size="sm" className="gap-1.5">
+                    <BookOpen className="size-4" />
+                    Resources
+                  </Button>
+                </SheetTrigger>
+                <SheetContent side="right" className="overflow-y-auto p-4">
+                  <SheetHeader>
+                    <SheetTitle>Career Resources</SheetTitle>
+                  </SheetHeader>
+                  <div className="mt-4">
+                    <ResourcePanel />
+                  </div>
+                </SheetContent>
+              </Sheet>
+            </div>
           </div>
         </div>
 
         {/* Common Topics (before chat starts) */}
-        {!chatStarted && (
+        {!chatStarted && !showHistory && (
           <div className="space-y-5">
             <div className="space-y-3">
               <h3 className="text-sm font-medium text-muted-foreground">
@@ -139,19 +169,48 @@ export default function DecisionsPage() {
                 ))}
               </div>
             </div>
-
           </div>
         )}
 
         {/* Main Layout */}
-        <div className="flex gap-6">
+        <div className="flex gap-4">
+          {/* Chat History Panel */}
+          {showHistory && (
+            <Card className="hidden w-64 shrink-0 overflow-hidden sm:block" style={{ height: '70vh' }}>
+              <ChatHistory
+                chatType="decisions"
+                activeSessionId={activeSessionId}
+                onSelectSession={handleSelectSession}
+                onNewChat={handleNewChat}
+              />
+            </Card>
+          )}
+
+          {showHistory && (
+            <Sheet open={showHistory} onOpenChange={setShowHistory}>
+              <SheetContent side="left" className="w-72 p-0 sm:hidden">
+                <SheetHeader className="sr-only">
+                  <SheetTitle>Chat History</SheetTitle>
+                </SheetHeader>
+                <ChatHistory
+                  chatType="decisions"
+                  activeSessionId={activeSessionId}
+                  onSelectSession={handleSelectSession}
+                  onNewChat={handleNewChat}
+                />
+              </SheetContent>
+            </Sheet>
+          )}
+
           {/* Chat Area */}
           <Card className="flex-1 overflow-hidden" style={{ height: '70vh' }}>
             <ChatInterface
               ref={chatRef}
               api="/api/chat/decisions"
+              chatType="decisions"
               placeholder="Ask about internships, resumes, career fairs, networking..."
               onFirstMessage={() => setChatStarted(true)}
+              onSessionChange={(id) => setActiveSessionId(id)}
             />
           </Card>
 

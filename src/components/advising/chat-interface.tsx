@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect, useImperativeHandle, forwardRef } from 'react'
+import { useState, useRef, useEffect, useImperativeHandle, forwardRef, useCallback } from 'react'
 import { useChat } from '@ai-sdk/react'
 import { DefaultChatTransport } from 'ai'
 import { ScrollArea } from '@/components/ui/scroll-area'
@@ -10,8 +10,10 @@ import { Badge } from '@/components/ui/badge'
 import { Input } from '@/components/ui/input'
 import { cn } from '@/lib/utils'
 import { isActionableAdvice, createSalesforceTicket } from '@/lib/salesforce'
-import { saveTicket } from '@/lib/storage'
+import { saveTicket, saveChatSession } from '@/lib/storage'
+import { useAuth } from '@/components/auth/auth-provider'
 import type { SalesforceTicket } from '@/lib/types'
+import type { ChatSession } from '@/lib/storage'
 import {
   Send,
   Bot,
@@ -25,12 +27,16 @@ import {
 
 export interface ChatInterfaceHandle {
   sendQuestion: (text: string) => void
+  loadSession: (session: ChatSession) => void
+  clearChat: () => void
 }
 
 interface ChatInterfaceProps {
   api: string
+  chatType: string
   placeholder?: string
   onFirstMessage?: () => void
+  onSessionChange?: (sessionId: string) => void
 }
 
 function TicketCard({ ticket }: { ticket: SalesforceTicket }) {
@@ -87,38 +93,139 @@ function TicketCard({ ticket }: { ticket: SalesforceTicket }) {
   )
 }
 
+/** Read-only display of a previously saved session */
+function PreviousMessages({ session }: { session: ChatSession }) {
+  return (
+    <>
+      {session.messages.map((msg, i) => {
+        const isUser = msg.role === 'user'
+        return (
+          <div
+            key={`prev-${i}`}
+            className={cn(
+              'flex items-start gap-3',
+              isUser ? 'flex-row-reverse' : 'flex-row'
+            )}
+          >
+            <Avatar className="mt-0.5 size-8 shrink-0">
+              <AvatarFallback
+                className={cn(
+                  'text-xs font-medium',
+                  isUser
+                    ? 'bg-primary text-primary-foreground'
+                    : 'bg-muted text-muted-foreground'
+                )}
+              >
+                {isUser ? <User className="size-4" /> : <Bot className="size-4" />}
+              </AvatarFallback>
+            </Avatar>
+            <div
+              className={cn(
+                'max-w-[80%] rounded-2xl px-4 py-2.5 text-sm leading-relaxed',
+                isUser
+                  ? 'bg-primary text-primary-foreground'
+                  : 'bg-muted/70 text-foreground ring-1 ring-border/50'
+              )}
+            >
+              <p className="whitespace-pre-wrap">{msg.content}</p>
+            </div>
+          </div>
+        )
+      })}
+    </>
+  )
+}
+
 export const ChatInterface = forwardRef<ChatInterfaceHandle, ChatInterfaceProps>(
   function ChatInterface(
     {
       api,
+      chatType,
       placeholder = 'Ask about classes, majors, schedules...',
       onFirstMessage,
+      onSessionChange,
     },
     ref
   ) {
     const scrollRef = useRef<HTMLDivElement>(null)
     const firstMessageFired = useRef(false)
+    const { user } = useAuth()
 
     const [input, setInput] = useState('')
     const [tickets, setTickets] = useState<Record<string, SalesforceTicket>>({})
+    const [sessionId, setSessionId] = useState<string>(`session-${Date.now()}`)
+    const [loadedSession, setLoadedSession] = useState<ChatSession | null>(null)
 
-    const { messages, sendMessage, status } = useChat({
+    const { messages, sendMessage, status, setMessages: setChatMessages } = useChat({
       transport: new DefaultChatTransport({ api }),
     })
 
     const isLoading = status === 'submitted' || status === 'streaming'
 
+    // Persist session to localStorage when messages change
+    useEffect(() => {
+      if (!user || messages.length === 0) return
+      // Don't persist while still streaming
+      if (status !== 'ready') return
+
+      const flatMessages = messages.map((m) => ({
+        role: m.role as 'user' | 'assistant',
+        content: m.parts
+          ?.filter((p) => p.type === 'text')
+          .map((p) => (p as { text: string }).text)
+          .join('') ?? '',
+      })).filter((m) => m.content)
+
+      if (flatMessages.length === 0) return
+
+      // Use first user message as title
+      const firstUserMsg = flatMessages.find((m) => m.role === 'user')
+      const title = firstUserMsg?.content.slice(0, 80) || 'New chat'
+
+      saveChatSession({
+        id: sessionId,
+        chatType,
+        userId: user.id,
+        title,
+        messages: flatMessages,
+        createdAt: loadedSession?.createdAt || new Date().toISOString(),
+        updatedAt: new Date().toISOString(),
+      })
+    }, [messages, status, user, sessionId, chatType, loadedSession])
+
+    const clearChat = useCallback(() => {
+      const newId = `session-${Date.now()}`
+      setSessionId(newId)
+      setLoadedSession(null)
+      setChatMessages([])
+      setTickets({})
+      firstMessageFired.current = false
+      onSessionChange?.(newId)
+    }, [setChatMessages, onSessionChange])
+
+    const loadSession = useCallback((session: ChatSession) => {
+      setSessionId(session.id)
+      setLoadedSession(session)
+      setChatMessages([])
+      setTickets({})
+      firstMessageFired.current = true
+      onFirstMessage?.()
+      onSessionChange?.(session.id)
+    }, [setChatMessages, onFirstMessage, onSessionChange])
+
     useImperativeHandle(ref, () => ({
       sendQuestion(text: string) {
         sendMessage({ text })
       },
+      loadSession,
+      clearChat,
     }))
 
     useEffect(() => {
       if (scrollRef.current) {
         scrollRef.current.scrollTop = scrollRef.current.scrollHeight
       }
-    }, [messages, status, tickets])
+    }, [messages, status, tickets, loadedSession])
 
     useEffect(() => {
       if (messages.length > 0 && !firstMessageFired.current) {
@@ -141,7 +248,6 @@ export const ChatInterface = forwardRef<ChatInterfaceHandle, ChatInterfaceProps>
 
       if (!responseText) return
 
-      // Find the user message that triggered this response
       const userMsg = messages[messages.length - 2]
       const userText = userMsg?.parts
         ?.filter((p) => p.type === 'text')
@@ -168,7 +274,7 @@ export const ChatInterface = forwardRef<ChatInterfaceHandle, ChatInterfaceProps>
       }
     }
 
-    const hasMessages = messages.length > 0
+    const hasMessages = messages.length > 0 || loadedSession !== null
 
     return (
       <div className="flex h-full flex-col">
@@ -189,6 +295,10 @@ export const ChatInterface = forwardRef<ChatInterfaceHandle, ChatInterfaceProps>
               </div>
             )}
 
+            {/* Show loaded session messages first */}
+            {loadedSession && <PreviousMessages session={loadedSession} />}
+
+            {/* Then show new messages from this session */}
             {messages.map((message) => {
               const isUser = message.role === 'user'
               return (
