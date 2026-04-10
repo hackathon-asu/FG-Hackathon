@@ -70,9 +70,7 @@ export default function OnboardingPage() {
       <div className="w-full max-w-lg">
         {/* Logo */}
         <div className="mb-8 flex flex-col items-center gap-3 text-center">
-          <div className="flex size-12 items-center justify-center rounded-2xl bg-primary/10">
-            <img src="/favicon.svg" alt="NavigateASU" className="size-6" />
-          </div>
+          <img src="/favicon.svg" alt="NavigateASU" className="size-12 rounded-2xl" />
           <div>
             <h1 className="text-2xl font-bold tracking-tight text-foreground">
               Join NavigateASU

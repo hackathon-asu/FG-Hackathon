@@ -120,9 +120,7 @@ export default function LoginPage() {
       <div className="w-full max-w-lg">
         {/* Logo */}
         <div className="mb-6 flex flex-col items-center gap-3 text-center">
-          <div className="flex size-14 items-center justify-center rounded-2xl bg-primary/10">
-            <img src="/favicon.svg" alt="NavigateASU" className="size-7" />
-          </div>
+          <img src="/favicon.svg" alt="NavigateASU" className="size-14 rounded-2xl" />
           <div>
             <h1 className="text-2xl font-bold tracking-tight text-foreground">
               NavigateASU

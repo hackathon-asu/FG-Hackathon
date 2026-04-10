@@ -103,9 +103,7 @@ export default function AlumniDashboardPage() {
         {/* Header */}
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
-            <div className="flex size-12 items-center justify-center rounded-xl bg-primary/10">
-              <img src="/favicon.svg" alt="NavigateASU" className="size-6" />
-            </div>
+            <img src="/favicon.svg" alt="NavigateASU" className="size-12 rounded-xl" />
             <div>
               <h1 className="text-2xl font-bold tracking-tight">
                 Alumni Dashboard
