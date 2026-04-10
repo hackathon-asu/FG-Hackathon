@@ -70,7 +70,7 @@ export default function FeedbackPage() {
           </div>
           <h2 className="text-2xl font-bold">Thank you for your feedback!</h2>
           <p className="max-w-md text-sm text-muted-foreground">
-            Your input helps us make FirstGen Connect better for every student.
+            Your input helps us make NavigateASU better for every student.
             We read every piece of feedback and use it to improve the platform.
           </p>
           <Button onClick={() => { setSubmitted(false); setCategory(''); setRating(0); setMessage(''); setName(''); setAiHelpful(null) }}>
@@ -236,7 +236,7 @@ export default function FeedbackPage() {
                 <Sparkles className="size-8 text-primary" />
                 <h3 className="mt-3 font-semibold">Your voice matters</h3>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  FirstGen Connect was built for students like you.
+                  NavigateASU was built for students like you.
                   Every piece of feedback helps us make it better.
                 </p>
               </CardContent>

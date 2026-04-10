@@ -17,9 +17,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FirstGen Connect",
+  title: "NavigateASU",
   description:
-    "A supportive platform for first-generation college students — find mentors, build community, and navigate your college journey with confidence.",
+    "A supportive platform for first-generation college students at ASU — find mentors, build community, and navigate your college journey with confidence.",
+  icons: { icon: "/favicon.svg" },
 };
 
 export default function RootLayout({

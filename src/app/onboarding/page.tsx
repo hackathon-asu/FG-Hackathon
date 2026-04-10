@@ -71,11 +71,11 @@ export default function OnboardingPage() {
         {/* Logo */}
         <div className="mb-8 flex flex-col items-center gap-3 text-center">
           <div className="flex size-12 items-center justify-center rounded-2xl bg-primary/10">
-            <GraduationCap className="size-6 text-primary" />
+            <img src="/favicon.svg" alt="NavigateASU" className="size-6" />
           </div>
           <div>
             <h1 className="text-2xl font-bold tracking-tight text-foreground">
-              Join FirstGen Connect
+              Join NavigateASU
             </h1>
             <p className="mt-1 text-sm text-muted-foreground">
               Tell us about yourself so we can connect you with the right people

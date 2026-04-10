@@ -121,11 +121,11 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="mb-6 flex flex-col items-center gap-3 text-center">
           <div className="flex size-14 items-center justify-center rounded-2xl bg-primary/10">
-            <GraduationCap className="size-7 text-primary" />
+            <img src="/favicon.svg" alt="NavigateASU" className="size-7" />
           </div>
           <div>
             <h1 className="text-2xl font-bold tracking-tight text-foreground">
-              FirstGen Connect
+              NavigateASU
             </h1>
             <p className="mt-1 text-sm text-muted-foreground">
               {showForm
@@ -277,7 +277,7 @@ export default function LoginPage() {
         <p className="mt-6 text-center text-xs text-muted-foreground">
           Learn more about{' '}
           <Link href="/demo" className="font-medium text-primary hover:underline">
-            FirstGen Connect
+            NavigateASU
           </Link>
         </p>
       </div>

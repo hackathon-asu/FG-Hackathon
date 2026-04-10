@@ -104,7 +104,7 @@ export default function AlumniDashboardPage() {
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
             <div className="flex size-12 items-center justify-center rounded-xl bg-primary/10">
-              <GraduationCap className="size-6 text-primary" />
+              <img src="/favicon.svg" alt="NavigateASU" className="size-6" />
             </div>
             <div>
               <h1 className="text-2xl font-bold tracking-tight">

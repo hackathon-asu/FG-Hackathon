@@ -95,7 +95,7 @@ export default function AlumniSignupPage() {
           <div className="flex size-20 items-center justify-center rounded-full bg-green-500/10">
             <CheckCircle2 className="size-10 text-green-500" />
           </div>
-          <h2 className="text-2xl font-bold">Welcome to FirstGen Connect!</h2>
+          <h2 className="text-2xl font-bold">Welcome to NavigateASU!</h2>
           <p className="text-sm text-muted-foreground">
             Thank you for signing up as an alumni mentor. Your profile is being reviewed
             and you&apos;ll be matched with students within 48 hours. Your experience
@@ -117,7 +117,7 @@ export default function AlumniSignupPage() {
       {/* Header */}
       <div className="border-b border-border bg-card/50">
         <div className="mx-auto flex max-w-2xl items-center gap-3 px-4 py-6">
-          <GraduationCap className="size-8 text-primary" />
+          <img src="/favicon.svg" alt="NavigateASU" className="size-8" />
           <div>
             <h1 className="text-xl font-bold">Join as an Alumni Mentor</h1>
             <p className="text-sm text-muted-foreground">

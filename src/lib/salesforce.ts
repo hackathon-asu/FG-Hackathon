@@ -88,7 +88,7 @@ export function createSalesforceTicket(
     id: `sf-${ticketCounter}`,
     caseNumber: `ASU-${ticketCounter}`,
     subject: studentQuestion.length > 80 ? studentQuestion.slice(0, 80) + '...' : studentQuestion,
-    description: `Student inquiry via FirstGen Connect AI:\n\nQuestion: ${studentQuestion}\n\nAI Guidance Provided: ${aiResponse.slice(0, 500)}${aiResponse.length > 500 ? '...' : ''}`,
+    description: `Student inquiry via NavigateASU AI:\n\nQuestion: ${studentQuestion}\n\nAI Guidance Provided: ${aiResponse.slice(0, 500)}${aiResponse.length > 500 ? '...' : ''}`,
     category,
     priority,
     status: 'new',

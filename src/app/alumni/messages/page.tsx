@@ -23,7 +23,7 @@ const ARCHIVED_CONVOS: ArchivedConvo[] = [
     recipientId: 's1',
     recipientName: 'Maria Gonzalez',
     messages: [
-      { from: 'student', text: "Hi Sofia! I got matched with you through FirstGen Connect. I'm a CS junior and I'm struggling with internship applications.", daysAgo: 45 },
+      { from: 'student', text: "Hi Sofia! I got matched with you through NavigateASU. I'm a CS junior and I'm struggling with internship applications.", daysAgo: 45 },
       { from: 'sofia', text: "Hey Maria! Welcome — I was in your exact shoes a few years ago. First thing: don't wait for \"perfect\" to apply. Most first-gen students under-apply because they think they need to check every box. You don't.", daysAgo: 45 },
       { from: 'student', text: "Really? I keep seeing listings that want 3+ years experience for entry-level roles and it's discouraging.", daysAgo: 44 },
       { from: 'sofia', text: "Those are wish lists, not requirements. If you match 50-60%, apply. Here's what actually matters: 1) A solid resume (I can review yours), 2) One or two projects that show you can build things, 3) Practicing LeetCode — even 1-2 problems a day adds up.", daysAgo: 44 },

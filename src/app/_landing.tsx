@@ -80,14 +80,14 @@ const testimonials = [
     year: "Class of 2026",
     initials: "MG",
     quote:
-      "I almost dropped out my freshman year because I didn't know how to navigate financial aid. My mentor on FirstGen Connect walked me through every form and deadline. She'd been through the same thing. That one connection changed everything for me.",
+      "I almost dropped out my freshman year because I didn't know how to navigate financial aid. My mentor on NavigateASU walked me through every form and deadline. She'd been through the same thing. That one connection changed everything for me.",
   },
   {
     name: "James Washington",
     year: "Class of 2025",
     initials: "JW",
     quote:
-      "When everyone else went home for Thanksgiving, I stayed on campus because I couldn't afford the flight. Through FirstGen Connect, I found a group of students in the same boat. We cooked together, studied together, and became family. I finally felt like I belonged.",
+      "When everyone else went home for Thanksgiving, I stayed on campus because I couldn't afford the flight. Through NavigateASU, I found a group of students in the same boat. We cooked together, studied together, and became family. I finally felt like I belonged.",
   },
   {
     name: "Priya Patel",
@@ -111,9 +111,9 @@ export default function LandingPage() {
       <header className="fixed inset-x-0 top-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-md">
         <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4 sm:px-6">
           <Link href="/" className="flex items-center gap-2">
-            <GraduationCap className="size-6 text-primary" />
+            <img src="/favicon.svg" alt="NavigateASU" className="size-6" />
             <span className="text-base font-semibold tracking-tight">
-              FirstGen Connect
+              NavigateASU
             </span>
           </Link>
           <div className="flex items-center gap-2">
@@ -300,7 +300,7 @@ export default function LandingPage() {
           </p>
           <Button size="lg" className="mt-8 h-12 px-10 text-base" asChild>
             <Link href="/onboarding">
-              Join FirstGen Connect
+              Join NavigateASU
               <ArrowRight className="ml-2 size-4" />
             </Link>
           </Button>
@@ -312,8 +312,8 @@ export default function LandingPage() {
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
           <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
             <div className="flex items-center gap-2">
-              <GraduationCap className="size-5 text-primary" />
-              <span className="text-sm font-semibold">FirstGen Connect</span>
+              <img src="/favicon.svg" alt="NavigateASU" className="size-5" />
+              <span className="text-sm font-semibold">NavigateASU</span>
             </div>
             <nav className="flex items-center gap-6 text-sm text-muted-foreground">
               <a href="#features" className="hover:text-foreground transition-colors">
@@ -344,7 +344,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="mt-8 text-center text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} FirstGen Connect. All rights
+            &copy; {new Date().getFullYear()} NavigateASU. All rights
             reserved.
           </div>
         </div>

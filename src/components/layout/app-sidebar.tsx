@@ -385,9 +385,9 @@ export function AppSidebar() {
             <SheetTitle className="sr-only">Navigation</SheetTitle>
             <div className="flex h-full flex-col">
               <div className="flex items-center gap-2 border-b border-border px-4 py-4">
-                <GraduationCap className="size-6 text-primary" />
+                <img src="/favicon.svg" alt="NavigateASU" className="size-6" />
                 <span className="text-base font-semibold">
-                  FirstGen Connect
+                  NavigateASU
                 </span>
               </div>
               <div className="flex-1 overflow-y-auto py-4">
@@ -418,9 +418,9 @@ export function AppSidebar() {
         <div className="flex items-center border-b border-sidebar-border px-3 py-4">
           {expanded ? (
             <>
-              <GraduationCap className="size-6 shrink-0 text-sidebar-primary" />
+              <img src="/favicon.svg" alt="NavigateASU" className="size-6 shrink-0" />
               <span className="ml-2 flex-1 truncate text-base font-semibold text-sidebar-foreground">
-                FirstGen Connect
+                NavigateASU
               </span>
               <button
                 onClick={() => setExpanded(false)}
