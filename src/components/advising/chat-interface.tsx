@@ -25,6 +25,28 @@ import {
   Building2,
 } from 'lucide-react'
 
+function renderFormattedText(text: string) {
+  // Support simple markdown-style bold formatting (**important text**).
+  const lines = text.split('\n')
+  return lines.map((line, lineIdx) => {
+    const parts = line.split(/(\*\*[^*]+\*\*)/g)
+    return (
+      <span key={`line-${lineIdx}`}>
+        {parts.map((part, partIdx) => {
+          const isBold = /^\*\*[^*]+\*\*$/.test(part)
+          if (!isBold) return <span key={`part-${lineIdx}-${partIdx}`}>{part}</span>
+          return (
+            <strong key={`part-${lineIdx}-${partIdx}`} className="font-semibold">
+              {part.slice(2, -2)}
+            </strong>
+          )
+        })}
+        {lineIdx < lines.length - 1 ? <br /> : null}
+      </span>
+    )
+  })
+}
+
 export interface ChatInterfaceHandle {
   sendQuestion: (text: string) => void
   loadSession: (session: ChatSession) => void
@@ -127,7 +149,7 @@ function PreviousMessages({ session }: { session: ChatSession }) {
                   : 'bg-muted/70 text-foreground ring-1 ring-border/50'
               )}
             >
-              <p className="whitespace-pre-wrap">{msg.content}</p>
+              <p className="whitespace-pre-wrap">{renderFormattedText(msg.content)}</p>
             </div>
           </div>
         )
@@ -141,7 +163,7 @@ export const ChatInterface = forwardRef<ChatInterfaceHandle, ChatInterfaceProps>
     {
       api,
       chatType,
-      placeholder = 'Ask about classes, majors, schedules...',
+      placeholder = 'Ask ASU academic questions or general study planning...',
       onFirstMessage,
       onSessionChange,
     },
@@ -290,7 +312,7 @@ export const ChatInterface = forwardRef<ChatInterfaceHandle, ChatInterfaceProps>
                   How can I help you today?
                 </h3>
                 <p className="mt-2 max-w-sm text-sm text-muted-foreground">
-                  No question is too basic. We are here to help you launch your career.
+                  Ask ASU-specific academic questions with source-grounded answers, or general questions for broader guidance.
                 </p>
               </div>
             )}
@@ -338,7 +360,7 @@ export const ChatInterface = forwardRef<ChatInterfaceHandle, ChatInterfaceProps>
                         if (part.type === 'text') {
                           return (
                             <p key={i} className="whitespace-pre-wrap">
-                              {part.text}
+                              {renderFormattedText(part.text)}
                             </p>
                           )
                         }
@@ -399,7 +421,7 @@ export const ChatInterface = forwardRef<ChatInterfaceHandle, ChatInterfaceProps>
             </Button>
           </div>
           <p className="mt-2 text-center text-[10px] text-muted-foreground/50">
-            Actionable advice is automatically shared with ASU support via Salesforce
+            ASU-specific replies are grounded in the knowledge base. General questions can use broader guidance.
           </p>
         </div>
       </div>
