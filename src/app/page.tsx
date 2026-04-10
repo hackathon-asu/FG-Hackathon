@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { AppLayout } from '@/components/layout/app-layout'
+import { useAuth } from '@/components/auth/auth-provider'
 import { events } from '@/lib/data/events'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -35,16 +36,10 @@ const resources = [
 
 export default function DashboardPage() {
   const [expandedEvent, setExpandedEvent] = useState<string | null>(null)
-  const [userName, setUserName] = useState('Jordan')
+  const { user } = useAuth()
   const upcomingEvents = events.slice(0, 3)
 
-  useEffect(() => {
-    const raw = localStorage.getItem('fg-profile')
-    if (raw) {
-      const profile = JSON.parse(raw)
-      if (profile.name) setUserName(profile.name.split(' ')[0])
-    }
-  }, [])
+  const userName = user?.name?.split(' ')[0] || 'Student'
 
   return (
     <AppLayout>
