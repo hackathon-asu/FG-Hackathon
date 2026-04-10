@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { SidebarProvider, RoleProvider } from "@/components/layout/app-sidebar";
 import { AuthProvider } from "@/components/auth/auth-provider";
+import { FloatingFeedback } from "@/components/feedback/floating-feedback";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -38,6 +39,7 @@ export default function RootLayout({
             <RoleProvider>
               <SidebarProvider>
                 {children}
+                <FloatingFeedback />
               </SidebarProvider>
             </RoleProvider>
           </AuthProvider>
