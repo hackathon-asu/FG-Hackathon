@@ -21,7 +21,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet'
-import { Sparkles, BookOpen, History } from 'lucide-react'
+import { BookOpen, History } from 'lucide-react'
 
 export default function AdvisingPage() {
   const [chatStarted, setChatStarted] = useState(false)
@@ -60,9 +60,12 @@ export default function AdvisingPage() {
               <h1 className="text-2xl font-bold tracking-tight">
                 AI Academic Advisor
               </h1>
+              <Badge variant="secondary" className="hidden sm:inline-flex">
+                RAG Grounded
+              </Badge>
             </div>
             <p className="mt-1 text-sm text-muted-foreground">
-              Get personalized guidance for your academic journey
+              ASU questions are answered from verified sources. General education questions can use broader guidance.
             </p>
           </div>
 
@@ -145,7 +148,7 @@ export default function AdvisingPage() {
               ref={chatRef}
               api="/api/chat/advising"
               chatType="advising"
-              placeholder="Ask about classes, majors, schedules..."
+              placeholder="Try: What does ASU say about repeating a course?"
               onFirstMessage={() => setChatStarted(true)}
               onSessionChange={(id) => setActiveSessionId(id)}
             />
