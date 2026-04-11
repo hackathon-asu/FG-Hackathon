@@ -1,48 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NavigateASU
+
+**AI-powered platform helping first-generation college students navigate ASU.**
+
+First-gen students don't fail because they lack ability — they fail because they lack access to information that other students get at the dinner table. NavigateASU closes that gap.
+
+## Three Pillars
+
+### 1. AI Academic Advisor
+An always-available advising assistant grounded in verified ASU data.
+
+- **RAG pipeline** over 212 verified ASU knowledge chunks (courses, degree requirements, policies, career services)
+- **Strict grounding** — every answer cites its source, AI flags uncertainty instead of guessing
+- **Low temperature (0.1)** — deterministic, fact-based responses with no hallucination
+- **BM25 search** with minimum relevance threshold to prevent weak-match false confidence
+- **Personalized** to student's major, year, and interests via profile context
+- **No PII stored** — student profile lives in browser cookie only
+
+### 2. Alumni Mentorship Network
+Matched with first-gen alumni by major, background, and challenge type.
+
+- Real stories of overcoming imposter syndrome and navigating ASU
+- Visible role models who walked the same path
+- Alumni dashboard with impact tracking and messaging
+
+### 3. Peer Community Hub
+Connect with students sharing similar challenges and experiences.
+
+- Community knowledge exchange, study groups, and shared resources
+- Events discovery with RSVP tracking
+- Normalizes difficulty — builds belonging from day one
+
+## Tech Stack
+
+| Layer | Tech |
+|-------|------|
+| Framework | Next.js 16 (App Router) |
+| UI | React 19, shadcn/ui, Radix, Tailwind CSS 4 |
+| AI | Vercel AI SDK, OpenAI, Google Gemini |
+| Search | BM25 (custom implementation) |
+| Knowledge | 212 curated ASU data chunks (JSON) |
+| Language | TypeScript 5 |
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── advising/        # AI academic advisor chat
+│   ├── alumni/           # Alumni mentorship (dashboard, messages, signup)
+│   ├── social/           # Peer community hub
+│   ├── events/           # Campus events discovery
+│   ├── decisions/        # Career guidance chat
+│   ├── onboarding/       # Student profile setup
+│   ├── feedback/         # User feedback collection
+│   ├── admin/            # Admin dashboard (feedback, tickets)
+│   ├── docs/
+│   │   ├── mermaid/      # Architecture diagrams
+│   │   └── data/         # Data privacy & CreateAI partnership
+│   └── api/chat/         # AI chat API routes
+├── components/           # UI components (advising, alumni, auth, etc.)
+├── lib/
+│   ├── rag/              # RAG search engine + knowledge base
+│   └── data/             # Alumni, events, courses, students data
+└── scripts/
+    └── claude-server.mjs # Local Claude Code API server (Ollama-style)
+```
 
 ## Getting Started
 
-Set your environment variables first:
-
 ```bash
-cp .env.example .env.local
-```
-
-Then add your OpenAI key in `.env.local`:
-
-```bash
-OPENAI_API_KEY=your_openai_api_key_here
-```
-
-First, run the development server:
-
-```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Architecture
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+See the full interactive architecture diagrams at [`/docs/mermaid`](http://localhost:3000/docs/mermaid).
 
-## Learn More
+**How a question flows:**
 
-To learn more about Next.js, take a look at the following resources:
+```
+Student asks question
+  → API route extracts message + loads profile
+  → Detects if ASU-specific
+  → BM25 searches 212 knowledge chunks (threshold ≥ 1.5)
+  → Assembles grounded prompt with strict rules
+  → LLM responds at temperature 0.1
+  → Student gets cited, verified answer
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Data Privacy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+All details at [`/docs/data`](http://localhost:3000/docs/data).
 
-## Deploy on Vercel
+- No student PII stored server-side
+- Future: all AI calls routed through ASU CreateAI data-protected servers
+- Future: fine-tuned advising model hosted on ASU infrastructure via CreateAI + Knowledge Enterprise partnership
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Team
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built for the ASU First-Generation Student Hackathon.
